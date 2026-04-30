@@ -86,8 +86,18 @@ public class TurnService
             };
         }
         
-        int count = _context.turns.Count() + 1;
-        string ticketCode = $"A-{count:D3}";
+        /*int count = _context.turns.Count() + 1;
+        string ticketCode = $"A-{count:D3}";*/
+        
+        var lastTurn = _context.turns
+            .OrderByDescending(t => t.Id)
+            .FirstOrDefault();
+        
+        int nextNumber = (lastTurn != null) 
+            ? int.Parse(lastTurn.TicketCode.Split('-')[1]) + 1 
+            : 1;
+        
+        string ticketCode = $"A-{nextNumber:D3}";
 
         var turn = new Turn
         {
@@ -184,4 +194,55 @@ public class TurnService
             Message = "Turn finished successfully."
         };
     }
+    
+    // add 1
+    public ServiceResponse<Turn> MarkAbsent(int id, string? comment)
+    {
+        var turn = _context.turns.Find(id);
+        if (turn == null)
+            return new ServiceResponse<Turn>()
+            {
+                Success = false,
+                Message = "Turno No Encontrado."
+            };
+        turn.Status = TurnStatus.Finished;
+        turn.Comment = comment ?? "Usuario Ausente";
+        _context.SaveChanges();
+        return new ServiceResponse<Turn>()
+        {
+            Success = true,
+            Data = turn,
+            Message = $"El Turno {turn.TicketCode} Marcado como ausente."
+        };
+    }
+    
+    // add 2
+
+    public ServiceResponse<Turn> MoveToWaiting(int id)
+    {
+       var turn = _context.turns.Find(id);
+
+       if (turn == null)
+       {
+           return new ServiceResponse<Turn>()
+           {
+               Success = false,
+               Message = "Turno No Encontrado."
+           };
+       }
+
+       if (turn.Status != TurnStatus.Pending)
+           return new ServiceResponse<Turn>()
+           {
+               Success = false,
+               Message = "olo los turnos pendientes pueden pasar a la fase de espera"
+
+           };
+       turn.Status = TurnStatus.Waiting;
+       _context.SaveChanges();
+       return new ServiceResponse<Turn>() { Success = true, Message = $"Turn {turn.TicketCode} moved to waiting." };
+    
+    }
+    
+    
 }

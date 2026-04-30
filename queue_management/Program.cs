@@ -4,40 +4,52 @@ using queue_management.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// ========================
+// SERVICES
+// ========================
+
+// MVC
 builder.Services.AddControllersWithViews();
 
+// DB CONTEXT
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
 builder.Services.AddDbContext<MySqlDbContext>(options =>
-    options.UseMySql(
-        builder.Configuration.GetConnectionString("Default"),
-        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("Default"))
-    )
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
 );
 
+// SERVICES
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<TurnService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// ========================
+// PIPELINE (ORDEN IMPORTA MUCHO)
+// ========================
+
+// Error handling
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
+// HTTPS + static files
 app.UseHttpsRedirection();
+app.UseStaticFiles(); // 🔥 ESTO ES CRÍTICO
+
+// Routing
 app.UseRouting();
 
+// Auth (aunque no lo uses aún, debe ir aquí)
 app.UseAuthorization();
 
-app.MapStaticAssets();
-
+// Routes
 app.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+);
 
-
+// Run app
 app.Run();

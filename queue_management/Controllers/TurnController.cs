@@ -1,3 +1,4 @@
+using System.Data;
 using Microsoft.AspNetCore.Mvc;
 using queue_management.Models;
 using queue_management.Services;
@@ -21,14 +22,20 @@ public class TurnController : Controller
     }
     
     [HttpPost]
-    public IActionResult RequestTurn(string documentNumber)
+    public IActionResult RequestTurn(string fullName, string documentNumber)
     {
         var userResult = _userService.GetUserByDocument(documentNumber);
-
+        
         if (!userResult.Success)
         {
-            TempData["message"] = "User not found. Please register first";
-            return RedirectToAction("Kiosk");
+            var newUser = _userService.SaveUser(new User {FullName = fullName , DocumentNumber = documentNumber});
+            if (!userResult.Success)
+            {
+                TempData["message"] = "User not found. Please register first";
+                return RedirectToAction("Kiosk");
+            }   
+
+            userResult = newUser;
         }
         
         var result = _turnService.SaveTurn(userResult.Data!.Id);
@@ -56,6 +63,7 @@ public class TurnController : Controller
     
     public IActionResult Advisor()
     {
+        ViewBag.Pending = _turnService.GetTurnsByStatus(TurnStatus.Pending).Data; 
         ViewBag.Waiting   = _turnService.GetTurnsByStatus(TurnStatus.Waiting).Data;
         ViewBag.InService = _turnService.GetTurnsByStatus(TurnStatus.InService).Data;
         ViewBag.Finished  = _turnService.GetTurnsByStatus(TurnStatus.Finished).Data;
@@ -70,7 +78,7 @@ public class TurnController : Controller
         TempData["message"] = result.Message;
         return RedirectToAction("Advisor");
     }
-    
+    //1
     [HttpPost]
     public IActionResult Finish(int id, string? comment)
     {
@@ -78,4 +86,30 @@ public class TurnController : Controller
         TempData["message"] = result.Message;
         return RedirectToAction("Advisor");
     }
+    //2
+    [HttpPost]
+    public IActionResult MoveToWaiting(int id)
+    {
+        var result = _turnService.MoveToWaiting(id);
+        TempData["message"] = result.Message;
+        return RedirectToAction("Advisor");
+    }
+    //3
+    [HttpPost]
+    public IActionResult UpdateCurrentUser(int turnId, int userId, string fullName, string documentNumber)
+    {
+        var result = _userService.UpdateUser(new User
+        {
+            Id = userId,
+            FullName = fullName,
+            DocumentNumber = documentNumber
+        });
+        TempData["message"] = result.Message;
+        return RedirectToAction("Advisor");
+    }
+    
+   
+    
+    
+    
 }
