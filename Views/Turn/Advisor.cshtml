@@ -1,0 +1,115 @@
+@using queue_management.Models
+@{
+    ViewData["Title"] = "Panel Asesor";
+    var pending = ((IEnumerable<Turn>?)ViewBag.Pending ?? Enumerable.Empty<Turn>()).OrderBy(t => t.CreatedAt).ToList();
+    var waiting = ((IEnumerable<Turn>?)ViewBag.Waiting ?? Enumerable.Empty<Turn>()).OrderBy(t => t.CreatedAt).ToList();
+    var inService = ((IEnumerable<Turn>?)ViewBag.InService ?? Enumerable.Empty<Turn>()).OrderBy(t => t.CreatedAt).FirstOrDefault();
+    var finished = ((IEnumerable<Turn>?)ViewBag.Finished ?? Enumerable.Empty<Turn>()).OrderByDescending(t => t.CreatedAt).ToList();
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/advisor-panel.css" asp-append-version="true" />
+}
+
+<section class="advisor-page">
+    <aside class="advisor-sidebar">
+        <div class="advisor-profile">
+            <div class="advisor-avatar">CL</div>
+            <div class="advisor-profile-info">
+                <div class="advisor-name">Carlos Lopez</div>
+                <div class="advisor-role">Asesor - Modulo 3</div>
+            </div>
+            <div class="advisor-status-row"><span class="advisor-status-dot"></span><span class="advisor-status-label">Disponible</span></div>
+        </div>
+
+        <nav class="advisor-nav">
+            <div class="advisor-nav-label">Gestion</div>
+            <a class="advisor-nav-item active" href="#"><span class="advisor-nav-text">Panel principal</span></a>
+            <div class="advisor-nav-item"><span class="advisor-nav-text">Pendientes</span><span class="advisor-nav-count">@pending.Count</span></div>
+            <div class="advisor-nav-item"><span class="advisor-nav-text">En espera</span><span class="advisor-nav-count">@waiting.Count</span></div>
+            <div class="advisor-nav-item"><span class="advisor-nav-text">Atendidos</span><span class="advisor-nav-count">@finished.Count</span></div>
+        </nav>
+    </aside>
+
+    <main class="advisor-main">
+        <header class="advisor-topbar">
+            <h1 class="advisor-topbar-title">Panel de Asesor</h1>
+            <div class="advisor-topbar-actions">
+                <form asp-action="CallNext" method="post"><button class="btn btn--secondary" type="submit">Siguiente turno</button></form>
+            </div>
+        </header>
+
+        <div class="advisor-content">
+            <div class="card" style="display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:12px;">
+                <div><p class="card-title">Turno actual</p><div style="font-size:2rem;font-family:var(--font-mono);color:var(--color-teal);">@(inService?.TicketCode ?? "---")</div></div>
+                <div><p class="card-title">En espera</p><div style="font-size:2rem;color:var(--color-amber);">@waiting.Count</div></div>
+                <div><p class="card-title">Pendientes</p><div style="font-size:2rem;color:var(--color-text-primary);">@pending.Count</div></div>
+                <div><p class="card-title">Atendidos</p><div style="font-size:2rem;color:var(--color-green);">@finished.Count</div></div>
+            </div>
+
+            <section class="advisor-current-turn">
+                <div class="advisor-current-inner">
+                    <div class="advisor-current-number-block">
+                        <span class="advisor-current-number-label">Turno</span>
+                        <span class="advisor-current-number">@(inService?.TicketCode ?? "---")</span>
+                    </div>
+                    <div class="advisor-current-info">
+                        <div class="advisor-current-name">@(inService?.User?.FullName ?? "Sin turno en atencion")</div>
+                        @if (inService != null)
+                        {
+                            <div class="advisor-current-details">
+                                <span class="advisor-current-chip">Doc: @inService.User?.DocumentNumber</span>
+                                <span class="advisor-current-chip">Inicio: @inService.CreatedAt.ToString("HH:mm")</span>
+                            </div>
+                            <form asp-action="UpdateCurrentUser" method="post" style="display:flex;gap:8px;flex-wrap:wrap;">
+                                <input type="hidden" name="turnId" value="@inService.Id" />
+                                <input type="hidden" name="userId" value="@inService.UserId" />
+                                <input class="input" name="fullName" value="@inService.User?.FullName" required style="max-width:220px;" />
+                                <input class="input" name="documentNumber" value="@inService.User?.DocumentNumber" required style="max-width:160px;" />
+                                <button class="btn btn--ghost" type="submit">Editar usuario</button>
+                            </form>
+                        }
+                    </div>
+                    <div class="advisor-current-actions">
+                        @if (inService != null)
+                        {
+                            <form asp-action="Finish" method="post" style="display:flex;flex-direction:column;gap:8px;">
+                                <input type="hidden" name="id" value="@inService.Id" />
+                                <input class="input" name="comment" placeholder="Comentario de atencion" />
+                                <button class="btn btn--success" type="submit">Finalizar atencion</button>
+                            </form>
+                            <form asp-action="MarkAbsent" method="post" style="margin-top:8px;">
+                                <input type="hidden" name="id" value="@inService.Id" />
+                                <input type="hidden" name="comment" value="Usuario ausente" />
+                                <button class="btn btn--danger" type="submit">Marcar ausente</button>
+                            </form>
+                        }
+                    </div>
+                </div>
+            </section>
+
+            <div style="display:grid;grid-template-columns:repeat(3,minmax(220px,1fr));gap:14px;">
+                <section class="card"><h3>Pendientes</h3>
+                    @foreach (var t in pending)
+                    {
+                        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px;padding:10px;border:1px solid var(--color-border);border-radius:10px;">
+                            <div><strong>@t.TicketCode</strong><div style="color:var(--color-text-muted)">@t.User?.FullName</div></div>
+                            <form asp-action="MoveToWaiting" method="post"><input type="hidden" name="id" value="@t.Id" /><button class="btn btn--ghost" type="submit">Enviar</button></form>
+                        </div>
+                    }
+                </section>
+                <section class="card"><h3>En espera</h3>
+                    @foreach (var t in waiting)
+                    {
+                        <div style="margin-top:10px;padding:10px;border:1px solid var(--color-border);border-radius:10px;"><strong>@t.TicketCode</strong> - @t.User?.FullName</div>
+                    }
+                </section>
+                <section class="card"><h3>Atendidos</h3>
+                    @foreach (var t in finished.Take(8))
+                    {
+                        <div style="margin-top:10px;padding:10px;border:1px solid var(--color-border);border-radius:10px;"><strong>@t.TicketCode</strong><div style="white-space:pre-line;color:var(--color-text-muted);font-size:.8rem;">@t.Comment</div></div>
+                    }
+                </section>
+            </div>
+        </div>
+    </main>
+</section>

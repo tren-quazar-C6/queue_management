@@ -1,0 +1,54 @@
+@model IEnumerable<queue_management.Models.Turn>
+@using queue_management.Models
+@{
+    ViewData["Title"] = "Cola de Turnos";
+    var current = Model.FirstOrDefault(t => t.Status == TurnStatus.InService);
+    var pending = Model.Where(t => t.Status == TurnStatus.Pending).OrderBy(t => t.CreatedAt).ToList();
+    var waiting = Model.Where(t => t.Status == TurnStatus.Waiting).OrderBy(t => t.CreatedAt).ToList();
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/turn-queue.css" asp-append-version="true" />
+}
+
+<section class="queue-page">
+    <header class="queue-topbar">
+        <div class="queue-topbar-brand">Sistema <span>de turnos</span></div>
+        <div class="queue-topbar-clock">@DateTime.Now.ToString("HH:mm:ss")</div>
+        <div class="queue-topbar-status"><span class="queue-live-dot"></span><span class="queue-live-label">En vivo</span></div>
+    </header>
+
+    <main class="queue-main">
+        <div class="queue-now-serving">
+            <p class="queue-section-label">Turno actual</p>
+            <div class="queue-current-card">
+                <div class="queue-current-number">@(current?.TicketCode ?? "---")</div>
+                <div class="queue-current-meta">
+                    <div class="queue-current-service">@(current?.User?.FullName ?? "Esperando llamado")</div>
+                    <div class="queue-current-module">Modulo asesor</div>
+                </div>
+                <div class="queue-current-highlight">En atencion</div>
+            </div>
+            <div class="queue-announce-bar">
+                <div class="queue-announce-waves"><span></span><span></span><span></span><span></span><span></span></div>
+                <div class="queue-announce-text">Llamado por voz/sonido activo (demo visual).</div>
+            </div>
+        </div>
+
+        <aside class="queue-list-panel">
+            <div class="queue-list-header">
+                <p class="queue-section-label">Turnos en cola</p>
+                <span class="queue-list-count">@(pending.Count + waiting.Count) pendientes</span>
+            </div>
+            <div class="queue-list-scroll">
+                @foreach (var turn in pending.Concat(waiting))
+                {
+                    <div class="queue-item">
+                        <strong style="font-family:var(--font-mono);font-size:1.2rem;">@turn.TicketCode</strong>
+                        <span style="color:var(--color-text-secondary);">@turn.User?.FullName</span>
+                        <span class="badge @(turn.Status == TurnStatus.Pending ? "badge--pending" : "badge--waiting")">@turn.Status</span>
+                    </div>
+                }
+            </div>
+        </aside>
+    </main>
+</section>

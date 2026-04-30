@@ -1,0 +1,29 @@
+@model IEnumerable<queue_management.Models.User>
+@{
+    ViewData["Title"] = "Usuarios";
+}
+<section class="module-content">
+    <div class="card">
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+            <h1 style="font-family:var(--font-display)">Usuarios registrados</h1>
+            <a class="btn btn--primary" asp-action="Create">Nuevo usuario</a>
+        </div>
+        <table style="width:100%;margin-top:1rem;">
+            <thead><tr><th>ID</th><th>Documento</th><th>Nombre</th><th>Acciones</th></tr></thead>
+            <tbody>
+            @foreach (var u in Model)
+            {
+                <tr>
+                    <td>@u.Id</td>
+                    <td>@u.DocumentNumber</td>
+                    <td>@u.FullName</td>
+                    <td style="display:flex;gap:8px;">
+                        <a class="btn btn--ghost" asp-action="Edit" asp-route-id="@u.Id">Editar</a>
+                        <form asp-action="Destroy" method="post"><input type="hidden" name="Id" value="@u.Id"/><button class="btn btn--danger" type="submit">Eliminar</button></form>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</section>
