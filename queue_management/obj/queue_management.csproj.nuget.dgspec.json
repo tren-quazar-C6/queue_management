@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/veronicamartinez/Documents/RIWI/C Sharp/queue_management/queue_management/queue_management.csproj": {}
+    "C:\\Users\\Negro\\Desktop\\queue_management\\queue_management\\queue_management.csproj": {}
   },
   "projects": {
-    "/Users/veronicamartinez/Documents/RIWI/C Sharp/queue_management/queue_management/queue_management.csproj": {
+    "C:\\Users\\Negro\\Desktop\\queue_management\\queue_management\\queue_management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/veronicamartinez/Documents/RIWI/C Sharp/queue_management/queue_management/queue_management.csproj",
+        "projectUniqueName": "C:\\Users\\Negro\\Desktop\\queue_management\\queue_management\\queue_management.csproj",
         "projectName": "queue_management",
-        "projectPath": "/Users/veronicamartinez/Documents/RIWI/C Sharp/queue_management/queue_management/queue_management.csproj",
-        "packagesPath": "/Users/veronicamartinez/.nuget/packages/",
-        "outputPath": "/Users/veronicamartinez/Documents/RIWI/C Sharp/queue_management/queue_management/obj/",
+        "projectPath": "C:\\Users\\Negro\\Desktop\\queue_management\\queue_management\\queue_management.csproj",
+        "packagesPath": "C:\\Users\\Negro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Negro\\Desktop\\queue_management\\queue_management\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/veronicamartinez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Negro\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/veronicamartinez/.dotnet/sdk/9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
