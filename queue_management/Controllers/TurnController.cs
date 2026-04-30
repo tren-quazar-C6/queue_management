@@ -29,12 +29,12 @@ public class TurnController : Controller
         if (!userResult.Success)
         {
             var newUser = _userService.SaveUser(new User {FullName = fullName , DocumentNumber = documentNumber});
-            if (!userResult.Success)
+            if (!newUser.Success)
             {
-                TempData["message"] = "User not found. Please register first";
+                TempData["message"] = newUser.Message;
                 return RedirectToAction("Kiosk");
             }   
-
+    
             userResult = newUser;
         }
         

@@ -8,13 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<MySqlDbContext>(options =>
-{
-    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     options.UseMySql(
-        connectionString,
-        ServerVersion.AutoDetect(connectionString)
-    );
-}
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
+    )
 );
 
 builder.Services.AddScoped<UserService>();
@@ -35,7 +32,8 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapStaticAssets();
+//app.MapStaticAssets();
+app.UseStaticFiles();
 
 app.MapControllerRoute(
         name: "default",

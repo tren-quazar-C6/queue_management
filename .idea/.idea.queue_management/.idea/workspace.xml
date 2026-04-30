@@ -10,6 +10,29 @@
   <component name="ChangeListManager">
     <list default="true" id="e866ca2a-febd-478f-955f-984c7c74ce61" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.queue_management/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.queue_management/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/TurnController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/UserController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MySqlDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20260430003312_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20260430003312_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/MySqlDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Turn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/TurnStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Responses/ServiceResponse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/TurnService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/UserService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue_management.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue_management/Controllers/TurnController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/Controllers/TurnController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue_management/obj/Debug/net9.0/queue_management.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/obj/Debug/net9.0/queue_management.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue_management/obj/Debug/net9.0/queue_management.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/obj/Debug/net9.0/queue_management.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue_management/wwwroot/css/advisor-panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/wwwroot/css/advisor-panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue_management/wwwroot/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/wwwroot/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue_management/wwwroot/css/new-turn.css" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/wwwroot/css/new-turn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue_management/wwwroot/css/turn-queue.css" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/wwwroot/css/turn-queue.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/queue_management/wwwroot/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/wwwroot/js/site.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,18 +46,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Alexis-pr"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Alexis-pr&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/tren-quazar-C6/queue_management.git",
-    "accountId": "75343dfe-6aa4-4dd2-86fb-ca7bf4ca326e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tren-quazar-C6/queue_management.git&quot;,
+    &quot;accountId&quot;: &quot;75343dfe-6aa4-4dd2-86fb-ca7bf4ca326e&quot;
   }
-}]]></component>
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -46,26 +73,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.queue_management: http.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feature/turn-management",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.queue_management: http.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/turn-management&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.queue_management: http">
     <configuration name="queue_management: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/queue_management/queue_management.csproj" />
@@ -108,7 +136,10 @@
       <option name="presentableId" value="Default" />
       <updated>1777545781480</updated>
       <workItem from="1777545785913" duration="18000" />
-      <workItem from="1777545883264" duration="2612000" />
+      <workItem from="1777545883264" duration="6351000" />
+      <workItem from="1777560692352" duration="5084000" />
+      <workItem from="1777566038596" duration="147000" />
+      <workItem from="1777566233816" duration="938000" />
     </task>
     <servers />
   </component>
