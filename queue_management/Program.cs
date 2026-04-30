@@ -1,7 +1,21 @@
+using Microsoft.EntityFrameworkCore;
+using queue_management.Data;
+using queue_management.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<MySqlDbContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("Default"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("Default"))
+    )
+);
+
+builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<TurnService>();
 
 var app = builder.Build();
 
