@@ -1,0 +1,215 @@
+LETZTE AKTUALISIERUNG: 11. August 2015
+
+ELECTRONIC ARTS NUTZUNGSBEDINGUNGEN
+
+Diese Nutzungsbedingungen und alle ergänzenden Bedingungen werden gelegentlich überarbeitet und regeln die Nutzung jeglicher Online- und Mobilprodukte oder Dienste, zu denen Sie Zugriff haben, jedes Produkts oder Dienstes, dessen Zugriff, Installation oder Spiel eine Internetverbindung oder ein EA-Konto benötigt, sowie jedes EA-Konto, das Sie nutzen, um auf Online- und Mobilprodukte oder Dienste zuzugreifen ("EA-Dienste") und die von Electronic Arts für den PC, Spielekonsolen oder mobile Geräte angeboten werden. Diese Nutzungsbedingungen sind als Vereinbarung zwischen Ihnen und Electronic Arts Inc., Redwood Shores Parkway, Redwood City, California, 94065, USA anzusehen, wenn sie in Kanada, Japan oder den USA leben. Kommen Sie aus einem anderen Land, so gilt diese Vereinbarung zwischen Ihnen und Electronic Arts Swiss Sàrl, ein Unternehmen, das in der Genfer Handelskammer für Kapitalgesellschaften unter der Handelsregisternummer CH-660-2328005-8 registriert ist (Firmensitz: 8 Place du Molard, 1204 Genf, Schweiz). Electronic Arts Inc. und EA Swiss Sàrl werden nachfolgend gemeinsam auch „EA“ genannt.
+
+Sollten für die EA-Dienste, die Sie in Anspruch nehmen, weitere Bedingungen und/oder Vereinbarungen gelten, dann regeln diese zusätzlichen Bedingungen und/oder Vereinbarungen ebenfalls Ihre Nutzung von EA-Diensten.
+
+EA behält sich das Recht vor, diese Nutzungsbedingungen jederzeit zu ändern. Die jeweils gültige Version ist auf der Internetseite terms.ea.com/de abrufbar. Wenn Sie registrierter Nutzer sind, werden Sie über geplante Änderungen dieser Nutzungsbedingungen spätestens dreißig Tage vor dem geplanten Inkrafttreten der neuen Version per E-Mail informiert. Falls Sie der Geltung der neuen Nutzungsbedingungen nicht innerhalb von dreißig Tagen nach Empfang dieser E-Mail widersprechen, gelten die neuen Nutzungsbedingungen als von Ihnen akzeptiert. EA wird Sie in der E-Mail, die die geänderten Nutzungsbedingungen enthält, über die Dreißig-Tage-Frist, Ihr Widerspruchsrecht und die Folgen des Ausbleibens des Widerspruchs informieren und hierauf gesondert hinweisen.
+
+Inhaltsangabe
+
+1. EA-Konto (früher bekannt als Origin-Konto)
+2. Inhalte
+3. Berechtigungen
+4. Verwendung der Inhalte und Berechtigungen/Allgemeine Lizenzbeschränkungen
+5. Verfügbarkeit von EA-Diensten, Inhalten und Berechtigungen
+6. Beitrag von Inhalten Dritter zu EA-Diensten
+7. Inhaltliche Beiträge Ihrerseits zu EA-Diensten; Lizenzerteilung an EA und Dritte
+8. Virtuelle EA-Währung
+9. Beendigung von EA-Diensten
+10. Kündigung Ihres Kontos
+11. Verhaltensregeln
+12. Dienste, die nicht der Kontrolle von EA unterliegen
+13. Software, Utilities und Tools
+14. EA’s Haftung
+15. Ausfuhrkontrollgesetze
+16. Updates der EA-Dienste
+17. Links zu Webseiten von Dritten
+18. Allgemeine Bedingungen
+19. Gesamte Vereinbarung
+20. Spezielle Anmerkungen für Kunden mit Wohnsitz in Kalifornien
+21. Ergänzende Bedingungen
+
+1 EA-Konto
+
+Ein EA-Konto, früher bekannt als „Origin-Konto“, ("Konto") ist möglicherweise nötig, um einige EA-Dienste abzurufen und diese zu nutzen. Falls Sie Fragen zur Registrierung Ihres Kontos haben oder anderweitig Kundensupport benötigen, wenden Sie sich an uns unter help.ea.com, support.popcap.com (für PopCap Produkte) oder swtor.com/support (für Star Wars™: The Old Republic).
+
+Um ein Konto zu erstellen, müssen Sie über eine E-Mail-Adresse verfügen sowie wahrheitsgemäße und vollständige Angaben machen. Sie müssen dazu berechtigt sein, die EA-Dienste zu nutzen, für die Sie sich registrieren. Des Weiteren müssen für einige EA-Dienste eventuell ein "Benutzername" oder eine "virtuelle Persönlichkeit" erstellt werden, damit Sie im Spiel und online repräsentiert werden. Benutzernamen und virtuelle Persönlichkeiten werden Ihrem Konto fest zugeordnet. Es ist untersagt, Benutzernamen oder virtuelle Persönlichkeiten zu erstellen, die bereits von einer anderen Person benutzt werden, anstößig oder beleidigend sind oder in irgendeiner Weise nicht den Nutzungsbedingungen entsprechen.
+
+Sie allein sind verantwortlich für alle Aktivitäten, die von Ihrem Konto aus getätigt werden. Wird Ihr Konto von Ihnen oder einer dritten Person für Aktivitäten genutzt, die nicht den Nutzungsbedingungen entsprechen oder in anderer Art und Weise unzulässig oder illegal sind, kann Ihr Konto gelöscht werden. Geben Sie das Passwort für Ihr Konto nicht an Dritte weiter. EA wird Sie nicht bitten, Ihr Passwort preiszugeben oder mit Ihnen in Kontakt treten, um sich nach den Antworten für Ihre Konto-Sicherheitsfragen zu erkundigen.
+
+2 Inhalte
+
+Zu den "Inhalten" der EA-Dienste zählen Software, Technologie, Musik, Ton, Grafiken und Text ebenso wie alle Forumsbeiträge, Chatbeiträge, Profile, Steuerelemente, Nachrichten, Links, E-Mails, Bilder, Videos, HTML-Codes und jegliche Erzeugnisse audiovisuellen oder anderen Ursprungs, die im Rahmen der EA-Dienste erscheinen oder auf sie zurückzuführen sind. Das Design und Erscheinungsbild unserer Websites gehört ebenfalls zu den Inhalten der EA-Dienste. Benutzergenerierte Inhalte umfassen unter anderem mit dem Konto verknüpfte virtuelle Persönlichkeiten, Forumsbeiträge, Chatbeiträge, Profilinhalte sowie alle anderen Inhalte, die Nutzer an EA übermitteln. EA-Inhalte und benutzergenerierte Inhalte werden nachfolgend als "Inhalte" bezeichnet. Alle Inhalte – ausschließlich der Inhalte Dritter wie in den Abschnitten 6 und 7 erörtert – sind Eigentum von EA oder seinen Tochtergesellschaften, Zweigstellen, Lizenzgebern und Zulieferern. An benutzergenerierten Inhalten räumen Sie EA ein Recht zur Nutzung dieser Inhalte gemäß der nachstehenden Regelung unter Ziffer 7 ein. Sie tragen alle Risiken für die Vollständigkeit, Richtigkeit und Dienlichkeit der Inhalte, die Sie im Rahmen der EA-Dienste beitragen.
+
+3 Berechtigungen
+
+"Berechtigungen" sind Lizenzrechte, die Ihnen gewährt, zugesprochen oder zur Verfügung gestellt wurden oder die Sie käuflich erworben haben, um auf Online- oder Offlinefunktionen oder -Elemente der EA-Dienste und/oder Produkte zugreifen zu können oder sie zu nutzen. Zu den Berechtigungen zählen u. a. bezahlte und kostenlose Inhalte, die zum Download zur Verfügung stehen, freischaltbare Inhalte, digitale Inhalte mit zusätzlichen oder erweiterten Funktionen, Inhaltsabonnements; virtuelle Vermögenswerte, Benutzerrechte für Freischaltschlüssel oder -Codes, Seriencodes und/oder jegliche Online-Authentifikation; In-Game-Erfolge; virtuelle Punkte, Münzen oder Währungen (die jeweils einzeln oder gemeinsam als "virtuelle EA-Währung" bezeichnet werden).
+
+4 Verwendung der Inhalte und Berechtigungen/Allgemeine Lizenzbeschränkungen
+
+EA erteilt Ihnen eine persönliche, zeitlich beschränkte, nicht exklusive Lizenz, um die Inhalte und Berechtigungen, zu denen Sie Zugang haben, nur für Ihre persönlichen, privaten, nichtkommerziellen, nicht übertragbaren und beschränkten Zwecke zu nutzen, wie sie in diesenoder zusätzlichen Nutzungsbedingungen für die EA-Dienste, auf die Sie Zugriff haben, dargelegt wurden. Inhalte und Berechtigungen sowie jedes andere Recht am geistigen Eigentum der EA-Dienste sowie der Produkte und Dienstleistungen, die von EA-Diensten angeboten werden, sind Eigentum von EA oder von dritten Lizenzgebern und werden durch US-amerikanisches und internationales Urheberrecht, Patentrechte, Markenrechte, internationale Konventionen und andere Rechte zum Schutz geistigen Eigentums und damit verbundene Eigentumsrechte geschützt. Es ist Ihnen untersagt, Inhalte und/oder Berechtigungen der EA-Dienste zu kopieren, auf diese zuzugreifen oder sie herunterzuladen, wenn Sie dazu keine Befugnis haben. Jegliche gewerbliche Nutzung ist untersagt. Sie erklären sich damit einverstanden, Hinweise auf Urheberrechte, Patente, Marken und andere geistige Eigentumsrechte nicht von Inhalten zu entfernen, zu verschleiern oder zu verändern. Ihre Rechte unterliegen der Einhaltung dieser Nutzungsbedingungen und der Einhaltung aller anderen Vereinbarungen, die für die von Ihnen genutzten EA-Dienste getroffen wurden.
+
+EA behält sämtliche Rechte, Rechtsansprüche und Anrechte an den Inhalten, Berechtigungen, EA-Diensten und allen anderen damit verbundenen Urheberrechten, Marken und anderen dazugehörigen Rechten am geistigen Eigentum, die Ihnen nicht ausdrücklich durch diese Nutzungsbedingungen übertragen wurden. Ihre oben beschriebene, zulässige Nutzung der Inhalte und Berechtigungen wird beschränkt durch die Rechte am geistigen Eigentum von EA und beinhaltet keine Rechte an Patenten oder geistigem Eigentum. Das unautorisierte Erstellen von Kopien oder Vertreiben von Inhalten oder Berechtigungen der EA-Dienste kann dazu führen, dass Ihr/e EA-Konto/s gelöscht werden, dass es Ihnen untersagt wird, weiterhin EA-Dienste in Anspruch zu nehmen und dass wir gemäß Abschnitt 9 rechtliche Schritte gegen Sie einleiten. Bei unerlaubter Nutzung geistigen Rechts Ihrerseits können die Eigentümer von Inhalten und/oder Berechtigungen rechtliche Schritte gegen Sie einleiten.
+
+5 Verfügbarkeit von EA-Diensten, Inhalten und Berechtigungen
+
+Berechtigungen für Konten können nur von Staatsbürgern geltend gemacht werden, die in einem Land leben, in dem die Nutzung und der Zugriff auf Inhalte und Berechtigungen von EA-Diensten erlaubt ist. Berechtigungen können nur bei EA oder einem anerkannten Einzelhändler erworben werden. EA bleibt das Recht vorbehalten, Ihre Anfrage(n), Berechtigungen zu erwerben, zu verweigern. EA bleibt außerdem das Recht vorbehalten, Ihre Anfrage, Berechtigungen zu erwerben, aus irgendeinem Grund zu beschränken oder zu blockieren.
+
+Wir übernehmen keine Gewährleistung dafür, dass EA-Dienste, Inhalte und Berechtigungen jederzeit oder zu einem bestimmten Zeitpunkt in jedem Land und/oder in jeder geografische Region zur Verfügung stehen oder dass wir weiterhin bestimmte Inhalte und Berechtigungen für einen festgelegten Zeitraum anbieten werden.
+
+6 Beitrag von Inhalten Dritter zu EA-Diensten
+
+EA prüft die benutzergenerierten Inhalte vorab nicht. Etwaige benutzergenerierte Inhalte, die Sie im Rahmen der EA-Dienste erstellen, macht sich EA nicht zu eigen. Sie allein sind verantwortlich für die benutzergenerierten Inhalte, die Sie beitragen, und können für selbige haftbar gemacht werden.
+
+EA respektiert das geistige Eigentum anderer. Sie müssen rechtlich dazu befugt sein, benutzergenerierte Inhalte im Rahmen der EA-Dienste hochzuladen. Es ist Ihnen untersagt, benutzergenerierte Inhalte von EA-Diensten hochzuladen oder zu posten, die das Urheberrecht, die Markenrechte oder andere Rechte am geistigen Eigentum eines Dritten verletzen. Des Weiteren ist es Ihnen untersagt, benutzergenerierte Inhalte hochzuladen, die das Gesetz, diese Nutzungsbedingungen und/oder das Recht auf Privatsphäre eines Dritten verletzen. Es ist Ihnen nur gestattet, benutzergenerierte Inhalte hochzuladen, die Sie laut Gesetz oder mit Einwilligung des Eigentümers hochladen dürfen. EA kann nach eigenem Ermessen und ohne Sie vorab zu benachrichtigen benutzergenerierte Inhalte entfernen, die das Recht am geistigen Eigentum oder andere Rechte Dritter verletzen könnten. Sollten Sie zum wiederholten Mal das Recht am geistigen Eigentum von EA oder Dritter verletzt haben, so steht es EA frei, Ihr Konto ohne Vorankündigung zu sperren. Wurde(n) Ihr Konto/Ihre Konten gemäß diesem Absatz gelöscht, verlieren Sie sämtliche Berechtigungen, die mit Ihrem Konto in Verbindung stehen.
+
+EA behält sich das Recht vor (verpflichtet sich jedoch nicht, es sei denn, es wird gesetzlich verlangt), benutzergenerierte Inhalte aus bestimmten Gründen, insbesondere im Falle der Verletzung dieser Bestimmungen, zu löschen, zu blockieren, zu bearbeiten, zu verschieben oder zu sperren.
+
+7 Benutzergenerierte Inhalte; Lizenzerteilung an EA und Dritte
+
+Tragen Sie benutzergenerierte Inhalte im Rahmen der EA-Dienste bei, so gewähren Sie EA und seinen Lizenznehmern ausdrücklich das nicht exklusive (einfache), dauerhafte, weltweite, vollständige, unterlizenzierbare und unwiderrufliche Recht, Ihre benutzergenerierten Inhalte oder einen Teil davon auf beliebige Weise oder in beliebiger Form und durch ein beliebiges Medium oder Forum, sei es derzeit bekannt oder künftig entwickelt, ohne Mitteilung, Zahlung oder Zuerkennung jeglicher Art an Sie oder Dritte zu zitieren, erneut zu posten, zu veröffentlichen, zu nutzen, abzuändern, zu übersetzen, zu archivieren, abzuspeichern, zu modifizieren, davon abgeleitete Werke zu schaffen, zu syndizieren, zu lizenzieren, zu drucken, in Unterlizenz zu vergeben, zu vertreiben, zu übermitteln, auszustrahlen und auf andere Weise zu kommunizieren und öffentlich zu zeigen und darzubieten. Sie erteilen EA und seinen Lizenznehmern sämtliche Lizenzen, Zustimmungen und Freigaben, die es EA und seinen Lizenznehmern ermöglichen, derartige benutzergenerierte Inhalte für solche Zwecke zu nutzen.
+
+Gestattet der EA-Dienst, zu dem Sie benutzergenerierte Inhalte beitragen, anderen Nutzern den Zugriff auf Ihre Inhalte und die Nutzung selbiger als Teil des EA-Dienstes, so gewähren Sie auch allen anderen Nutzern des betreffenden EA-Dienstes das Recht, Ihre benutzergenerierten Inhalte für oder durch den betreffenden EA-Dienst ohne weitere Mitteilung, Zuerkennung oder Entschädigung an Sie zu nutzen, zu kopieren, zu modifizieren, anzuzeigen, darzubieten, davon abgeleitete Werke zu schaffen und auf andere Weise zu kommunizieren und zu vertreiben.
+
+8 Virtuelle EA-Währung
+
+
+Bestimmte EA-Dienste stellen innerhalb des Spiels virtuelle Punkte, Münzen oder Währungen ("virtuelle EA-Währung") zur Verfügung. Durch Kauf, Verdienst oder anderweitigen Erwerb virtueller EA-Währung von EA, zulässigen Partnern oder verbundenen Unternehmen von EA erwerben Sie eine persönliche, zeitlich beschränkte, nicht exklusive Lizenz, zu ausschließlich persönlichen, privaten, nicht kommerziellen, nichtübertragbaren und beschränkten Zwecken, auf die Inhalte, die EA ausdrücklich innerhalb des jeweiligen EA-Dienstes bereitstellt, zuzugreifen und aus diesen auszuwählen.
+
+Virtuelle EA-Währung besitzt keinen Geldwert und stellt keinerlei Währung oder Besitz dar. Die virtuelle EA-Währung kann nicht veräußert, gehandelt, übertragen oder in Bargeld umgetauscht werden; sie kann ausschließlich in EA-In-Game-Inhalten eingelöst werden. Die virtuelle EA-Währung ist nicht rückzahlbar, es sei denn, einer Rückzahlung wird ausdrücklich von EA schriftlich zugestimmt oder sie ist anderweitig gesetzlich erforderlich.
+
+9 Beendigung von EA-Diensten
+
+EA kann Ihre Nutzungsberechtigung von EA-Diensten oder Teilen davon jederzeit unter Einhaltung der Kündigungsfrist, die zum Zeitpunkt Ihres Beitritts zum entsprechenden EA-Dienst festgelegt wurde, einstellen. Falls keine Kündigungsfrist festgelegt wurde, werden Sie dreißig (30) Tage vor Einstellung per Mail (soweit vorhanden), oder wenn eine Benachrichtigung per Mail nicht möglich ist, per Bekanntgabe auf http://www.ea.com/de/2/service-updates darüber informiert. Wann immer EA ein Produkt oder einen Dienst einstellt oder den Vertrag mit Ihnen kündigt, wird EA Ihre Interessen an dem Produkt oder Dienst und insbesondere eine ggf. von Ihnen zuvor für die Benutzung des Dienstes oder des Produktes gezahlte Vergütung angemessen berücksichtigen.
+
+EA hat das Recht, EA-Dienste aufgrund von Verletzungen dieser Nutzungsbedingungen zu sperren, wenn EA (nach alleinigem Ermessen) glaubt, dass Ihre Nutzung von EA-Diensten die Sicherheit dieser für andere und/oder Minderjährige gefährdet oder wenn EA-Dienste, -Inhalte, -Berechtigungen, -Produkte oder das geistige Eigentum von EA wie von EA nach alleinigem Ermessen festgelegt illegal oder unvorschriftsgemäß genutzt wurden. Wenn Sie diese Nutzungsbedingungen oder andere Vereinbarungen schuldhaft verletzen, die für EA-Dienste gelten, die sie nutzen, kann EA Ihnen eine Warnmitteilung senden, Ihr Konto sperren, bestimmte Berechtigungen für Ihr Konto und/oder Ihr Gerät entfernen, aufheben oder einbehalten, all Ihre Konten unverzüglich sperren sowie Ihr Gerät und/oder Ihren Computer vorübergehend oder dauerhaft für alle oder bestimmte EA-Dienste sperren. Sie erkennen an, dass EA Ihnen vorab keine Mitteilung schicken muss, sollte EA Ihr Konto sperren oder löschen, Ihr Gerät vorübergehend oder dauerhaft für einige oder alle EA-Dienste sperren oder bestimmte Berechtigungen für Ihr Konto entfernen, aufheben oder einbehalten. Wenn Sie mehrere Konten haben, kann EA alle Ihre Konten und alle zugehörigen Berechtigungen kündigen. Sie können infolge einer Kündigung Ihren Benutzernamen und Ihre Rolle verlieren. EA wird Sie in diesen Fällen jedoch über die ergriffenen Maßnahme informieren. Ist Ihr Konto von EA gesperrt worden, so ist es Ihnen ohne ausdrückliche Erlaubnis von EA nicht gestattet, wieder einen EA-Dienst zu nutzen. EA behält sich das Recht vor, Einzelnen die Bereitstellung von EA-Diensten und die Führung von EA-Konten zu verweigern.
+Beachten Sie, dass EA eine Benachrichtigung über die Rückbelastung einer Zahlung, die von einem Konto vorgenommen wird, als Anhaltspunkt für eine Unregelmäßigkeit auf Ihrem Account erachtet. Bei Benachrichtigung über eine Rückbelastung ist EA aus Sicherheitsgründen dazu berechtigt, Ihr Konto vorübergehend oder dauerhaft zu sperren und/oder die EA-Dienste, die mit Ihrem Konto verbunden sind, zu entfernen, aufzuheben oder einzubehalten.
+
+Wird infolge einer schuldhaften Verletzung dieser Nutzungsbedingungen oder einer anderen Vereinbarung, die für einen von Ihnen genutzten EA Service gilt, Ihr Konto oder ein bestimmtes Abonnement für einen mit Ihrem Konto verbundenen EA-Dienst gekündigt oder gelöscht und/oder werden Berechtigungen, die Ihr Konto betreffen, entfernt, aufgehoben oder einbehalten und/oder wird Ihr Gerät vorübergehend oder dauerhaft für alle oder bestimmte EA-Dienste gesperrt, werden Ihnen keine Berechtigungen gutgeschrieben oder in Bargeld umgetauscht oder anderweitig rückerstattet. In allen anderen Fällen beachten Sie Abschnitt 14 in Bezug auf Ihre Erstattungsrechte. Zudem wird Ihnen der weitere Zugriff auf Ihr Konto oder auf Berechtigungen, die mit Ihrem EA-Konto oder dem jeweiligen EA-Dienst verbunden sind, verweigert. EA wird Sie über die entsprechenden Maßnahmen, die ergriffen wurden, per E-Mail informieren. Wenn Sie glauben, dass die Maßnahmen, die gegen Ihr Konto oder Gerät ergriffen wurden, unrechtmäßig sind, wenden Sie sich bitte an unseren Kundendienst auf help.ea.com, support.popcap.com (für PopCap Produkte) oder swtor.com/support (für Star Wars™: The Old Republic).
+
+10 Kündigung Ihres Kontos
+
+Sie haben das Recht, Ihr Konto oder ein bestimmtes Abonnement für einen EA-Dienst jederzeit zu kündigen. Sollten Sie mit diesen Nutzungsbedingungen nicht einverstanden sein, bleibt Ihnen nur die Möglichkeit, unsere Dienste nicht zu nutzen und Ihr Konto oder etwaige Abonnements zu kündigen.
+
+Kontaktieren Sie den Kundendienst von EA auf help.ea.com, support.popcap.com (für PopCap Produkte) oder swtor.com/support (für Star Wars™: The Old Republic), um Ihr Konto zu kündigen. EA behält sich das Recht vor, entstandene Gebühren, Aufpreise oder Kosten einzufordern, die entstanden sind, bevor Sie Ihr Konto oder ein Abonnement für einen EA-Dienst gekündigt haben. Sie tragen ebenfalls die Verantwortung für etwaige Beträge, die Sie vor Ihrer Kündigung Dritt- oder Inhaltsanbietern schuldig waren. Alle fälligen oder unbezahlten Gebühren sowie ungeklärte Fragen, die EA-Dienste betreffen, müssen beglichen bzw. geklärt werden, bevor Sie ein neues Konto einrichten.
+
+11 Verhaltensregeln
+
+Sie verstoßen gegen die für EA geltenden Nutzungsbedingungen, wenn Sie:
+
+• Inhalte posten, übermitteln, verbreiten bzw. für Inhalte werben, die illegal sind.
+• einen anderen Spieler beleidigen, bedrohen, in Verlegenheit bringen oder ihn anderweitig belästigen, ihm z.B. wiederholt unerwünschte Nachrichten senden, ihn persönlich angreifen oder sich abfällig zu seiner Herkunft, sexuellen Orientierung, Religion, etc. äußern.
+• Aktivitäten, Gruppen oder Gilden organisieren, fördern oder unterstützen, die schädlich, rassistisch, verletzend, anstößig, vulgär, sexistisch, beleidigend oder verleumderisch sind, die Hass schüren oder eine Ethnie oder Rasse angreifen, die die Rechte auf Privatsphäre und am eigenen Bild verletzen oder die bei vernünftiger Betrachtungsweise zu beanstanden sind. Hassreden werden nicht geduldet.
+• beleidigende, anstößige oder verleumderische Benutzernamen und/oder virtuelle Persönlichkeiten verwenden.
+• sich in Chatbereichen, Spielbereichen, Foren oder anderen Bereichen von EA-Diensten störend verhalten. Störendes Verhalten umfasst unter anderem jegliche Aktionen, die den normalen Ablauf des Spiels bzw. von Gesprächen innerhalb von EA-Diensten stören. Störendes Verhalten umfasst ebenfalls, ohne darauf beschränkt zu sein, die Veröffentlichung von kommerziellen, Promotions- oder Werbematerialien.
+• den Chatverlauf in Chatrooms unterbrechen, indem Sie vulgäre Sprache verwenden, Nutzer beleidigen, wiederholt die Eingabetaste betätigen, übermäßig viel „Schreien“ [alles in Großbuchstaben schreiben], um andere Nutzer zu stören, den Chatroom durch „Spamming“ oder Überfluten [Posten von Wiederholungstext] stören oder große Bilder eingeben, weshalb der Bildschirm zum Lesen zu schnell durchläuft.
+• sich für eine andere Person (einschließlich Berühmtheiten) ausgeben, fälschlicherweise behaupten, dass sie ein EA-Mitarbeiter oder ein Vertreter von EA sind oder versuchen, Nutzer irrezuführen, indem Sie angeben, dass Sie EA selbst, einen Partner oder ein angeschlossenes Unternehmen von EA vertreten.
+• versuchen, an ein Passwort, Kontoinformationen oder andere private Informationen von einer anderen Person, die EA-Dienste verwendet, zu gelangen.
+• eine Software oder einen Inhalt hochladen, die/der nicht Ihnen gehört oder für deren/dessen freie Verbreitung Sie keine Erlaubnis besitzen.
+• zusätzliche Verhaltensregeln verletzen, die für einen bestimmten EA-Dienst gelten, den Sie verwenden.
+• eine illegale Tätigkeit, einschließlich Hacking, Cracking, Phishing, der Verwendung von Exploits und Cheats und/oder der Verbreitung gefälschter Software und/oder virtueller Währung/Gegenstände fördern, anregen oder an ihr teilnehmen.
+• Dateien hochladen, die einen Virus, einen Wurm, Spyware oder Zeitbomben enthalten oder fehlerhafte Daten aufweisen oder andere Computerprogramme hochladen, die EA-Dienste beschädigen, behindern oder stören.
+• Nachrichten für nicht-persönliche Zwecke verwenden; dazu gehören Werbe- oder verkaufsfördernde Nachrichten, Kettenbriefe, Nachrichten, die durch das Schneeballsystem verbreitet werden, oder Nachrichten, die für sonstige gewerbliche Zwecke genutzt werden.
+• den In-Game Support oder die Beschwerdefunktion unsachgemäß nutzen oder EA-Mitarbeitern gegenüber falsche Angaben machen.
+• "Auto"-Softwareprogramme, "Makro"-Softwareprogramme und andere "Cheat"- Softwareprogramme oder -Anwendungen nutzen oder verbreiten.
+• Hacker-, Änderungs- und "Cheat"-Software bzw. -Tools benutzen. 
+• ohne die ausdrückliche Genehmigung von EA irgendeinen Teil der EA-Dienste modifizieren oder dies versuchen.
+• unter Nutzung eines EA-Dienstes persönliche Informationen aus dem realen Leben eines Spielers posten oder kommunizieren.
+• versuchen, Übertragungen von oder zu den Servern der EA-Dienste zu stören, sich in sie einzuhacken oder sie zu dechiffrieren.
+• Exploits und/oder Cheats nutzen und verbreiten.
+• versuchen, EA-Software im Rahmen eines anderen Dienstes zu nutzen, der nicht der Kontrolle von EA unterliegt oder von Electronic Arts autorisiert ist. Eine derartige Nutzung der EA-Dienste hat zur Folge, dass Sie allein die Risiken tragen und eventuell zusätzlichen oder anderen Bestimmungen unterliegen. Für die Nutzung von EA-Software im Rahmen eines anderen Dienstes, der nicht der Kontrolle von Electronic Arts unterliegt, übernimmt EA keine Verantwortung.
+• es anderen Personen erschweren, EA-Dienste zu nutzen oder Handlungen vornehmen, die die Bereitstellung eines EA-Dienstes für alle Nutzer behindert oder die Kosten für diese in materieller Hinsicht erhöht.
+• Ihr Konto oder anderweitige persönliche Zugriffe auf EA-Dienste, Inhalte oder Berechtigungen verkaufen, kaufen, vertreiben, auf Auktionswebseiten anbieten oder anderweitig weitergeben, außer Sie sind dazu ausdrücklich von EA autorisiert worden.
+• Es ist Ihnen untersagt, Handlungen vorzunehmen, die gesetzeswidrig sind. Dazu gehört u. a. die Rechtsverletzung des Urheberrechts und der Markenrechte, Verleumdung, die Missachtung der Privatsphäre, Identitätsbetrug, Hacking, Stalking, Betrug und die Verbreitung gefälschter Software.
+• unerwünschte Promotions- oder Werbematerialien bzw. sonstige Materialien mit werbeähnlichem Inhalt im Spiel oder in den Foren veröffentlichen oder versenden
+• Bugs, undokumentierte Features, Designfehler oder Unregelmäßigkeiten im Spiel missbrauchen oder ausbeuten.
+• Der Begriff "Rollenspiel" berechtigt Sie nicht zur Verletzung dieser oder anderer Richtlinien. Bestimmte EA-Dienste können zusätzliche Verhaltensregeln ausweisen, die Sie zu befolgen haben.
+
+Des Weiteren sind sie verpflichtet, alle Gesetze, Vorschriften und Regelungen – sei es auf Bundes-, Landes-, oder Kommunalebene – einzuhalten, die für Sie gelten, wenn Sie EA-Dienste verwenden. EA behält sich das Recht vor, Ihr Benutzerkonto zu sperren und Ihnen die Nutzung jeglicher EA-Dienste zu verweigern, falls Ihr Konto dazu genutzt wird, illegale Tätigkeiten auszuüben oder gegen diese Nutzungsbedingungen zu verstoßen.
+
+Treffen Sie auf einen Nutzer, der die Verhaltensregeln verletzt, melden Sie dies bitte EA über die Funktionen "Hilfe" oder "Verstoß melden" beim betreffenden EA-Dienst oder kontaktieren Sie den Kundendienst auf help.ea.com, support.popcap.com (für PopCap Produkte) oder swtor.com/support (für Star Wars™: The Old Republic).
+
+12 Dienste, die nicht der Kontrolle von EA unterliegen
+
+Bei einigen Produkten können Sie entscheiden, ob Sie EA-Software im Rahmen eines Dienstes verwenden möchten, der nicht der Kontrolle von EA unterliegt. Ihnen wird beispielsweise angeboten, online mit EA-Software auf Servern zu spielen, die nicht der Kontrolle von EA unterliegen oder EA gehören. EA übernimmt keine Haftung für die Nutzung von EA-Software im Rahmen derartiger Dienste und hat im Übrigen keine Kontrolle darüber, wie diese Dienste angeboten, verwaltet oder betrieben werden. Eine derartige Nutzung von Diensten, die nicht der Kontrolle von EA unterliegen, hat zur Folge, dass Sie allein die Risiken tragen und eventuell zusätzlichen oder anderen Bestimmungen unterliegen.
+
+13 Software, Utilities und Tools
+
+Es kann für EA-Dienste vonnöten sein, Software, Software-Updates, Patches oder andere Utilities (Dienstprogramme) und Tools von EA oder seinen Lizenzgebern auf Ihren Computer, auf Ihr Unterhaltungsmedium oder Ihr Gerät herunterzuladen ("EA-Software"). EA gewährt Ihnen eine nicht exklusive, beschränkte Lizenz, EA-Software ausschließlich für den Zweck zu nutzen, der von EA zu dem Zeitpunkt benannt wird, zu dem Ihnen die EA-Software zur Verfügung gestellt wird. Falls mit der EA-Software eine Endnutzer-Lizenzvereinbarung oder eine Endnutzer-Zugriff-und-Lizenzvereinbarung geliefert wird, unterliegt Ihre Nutzung der EA-Software den Bedingungen dieser Lizenzvereinbarung. Sie dürfen EA-Software nicht modifizieren oder in einer Weise nutzen, die nicht ausdrücklich schriftlich von EA autorisiert ist. Sie verstehen, dass die Einführung verschiedener Technologien durch EA möglicherweise nicht für alle Plattformen übereinstimmend ist und die Leistung der EA-Software und verbundener EA-Dienste je nach Computer und anderer Ausrüstung unterschiedlich sein kann.
+
+Es ist möglich, dass Electronic Arts von Zeit zu Zeit Updates oder Modifikationen der EA-Software bereitstellt. Sie verstehen, dass bestimmte Updates und Modifikationen für die fortgesetzte Nutzung der EA-Software und EA-Dienste erforderlich sein können.
+
+14 EA’s Haftung
+
+Die Haftung von EA, gleich aus welchem rechtlichen Grund, ob aus der Verletzung vertraglicher Pflichten oder aus Delikt, bestimmt sich ausschließlich nach den folgenden Regelungen:
+
+14.1 Soweit EA das jeweilige Produkt oder den jeweiligen Dienst, bei dem der Haftungsfall entsteht, kostenlos zur Verfügung stellt, haftet EA ausschließlich für Vorsatz und grobe Fahrlässigkeit.
+
+14.2 Bei kostenpflichtigen Produkten oder Dienstleistungen ist die Haftung von EA außer in Fällen der Verletzung von Leib, Leben oder Gesundheit auf Vorsatz und grobe Fahrlässigkeit beschränkt. In diesen Fällen haftet EA unbeschränkt. In Fällen leichter Fahrlässigkeit haftet EA jedoch nur für die schuldhafte Verletzung von wesentlichen Vertragspflichten, wie z.B. Verzug oder Unmöglichkeit der Leistung. Die Haftung im Falle der Verletzung einer solchen wesentlichen Vertragspflicht ist beschränkt auf den typischen Schaden, der bei Abschluss dieses Vertrages für EA aufgrund der Umstände vorhersehbar war. „Wesentliche Vertragspflichten“ im Sinne dieser Klausel sind diejenigen Pflichten, deren Erfüllung wesentlich für die Erfüllung des Vertrages ist und auf deren Erfüllung Sie sich verlassen können.
+
+14.3 EA haftet nicht für von EA nicht verschuldete Störungen des Netzwerks.
+
+14.4 EA haftet nach Maßgabe der vorstehenden Regelungen nur dann für einen Verlust von Daten, wenn ein solcher Datenverlust nicht mit angemessenen Sicherungsmaßnahmen auf Seiten des Nutzers hätte vermieden werden können.
+
+14.5 Die vorstehenden Haftungsbeschränkungen gelten nicht im Falle der Übernahme einer Garantie durch EA, im Falle der Verletzung von Leib, Leben oder Gesundheit sowie im Fall entgegenstehender gesetzlicher Regelungen.
+
+15 Ausfuhrkontrollgesetze
+
+EA-Software kann Ausfuhrkontrollen der Vereinigten Staaten und Ausfuhrkontrollen anderer Gerichtsbarkeiten unterliegen. Durch Herunterladen der EA-Software von EA sichern Sie zu, dass Sie nicht in einem Land sind oder EA-Software an eine Person oder einen Ort ausführen, für die die Vereinigten Staaten, die Europäische Union oder eine andere Gerichtsbarkeit ein Warenembargo verhängt haben.
+
+Sie verpflichten sich, die US-amerikanischen und andere geltende Ausfuhrkontrollgesetze zu befolgen und nicht durch elektronische Übermittlung oder auf andere Weise EA-Software oder Inhalte, die nach diesen Gesetzen Beschränkungen unterliegt/unterliegen, an einen durch diese Gesetze verbotenen nationalen Bestimmungsort zu übertragen, ohne zuvor eine erforderliche staatliche Genehmigung einzuholen und diese entsprechend zu befolgen. Sie verpflichten sich des Weiteren, keine Daten oder Software zu EA-Dienste hochzuladen, die nicht ohne vorherige und schriftliche staatliche Genehmigung ausgeführt werden können, insbesondere bestimmte Arten von Verschlüsselungssoftware. Die Zusicherungen und Verpflichtungen in diesem Abschnitt haben über die Beendigung dieser Vereinbarung hinaus Fortbestand.
+
+16 Updates der EA-Dienste
+
+WICHTIG: EA KANN ES FÜR ERFORDERLICH HALTEN, EIN UPDATE VORZUNEHMEN ODER BESTIMMTE PARAMETER NEU EINZUSTELLEN, UM DIE SPIELDURCHFÜHRUNG UND DIE NUTZUNG DER EA-DIENSTE HARMONISCH ZU GESTALTEN. DIESE UPDATES ODER "RESETS" KÖNNEN FÜR SIE INNERHALB DER BETREFFENDEN SPIELWELT NACHTEILIG SEIN UND SICH AUF FIGUREN, SPIELE, GRUPPEN ODER ANDERE IHRER KONTROLLE UNTERSTEHENDE BERECHTIGUNGEN AUSWIRKEN. EA BEHÄLT SICH DAS RECHT VOR, DIESE UPDATES VORZUNEHMEN UND HAFTET IHNEN GEGENÜBER NICHT FÜR DIESE ÄNDERUNGEN.
+
+17 Links zu Webseiten von Dritten
+
+EA-Dienste können Hyperlinks zu Webseiten einschließen, die von Dritten, einschließlich Werbefirmen und anderen Inhaltsanbietern, betrieben werden. Es ist möglich, dass diese Webseiten Daten von Ihnen erheben oder persönliche Angaben von Ihnen erfragen. EA kontrolliert solche Webseiten nicht und ist nicht verantwortlich für deren Inhalt, Datenschutzpolitik oder für die Erhebung, Nutzung oder Offenlegung jeglicher Daten, die diese Seiten vielleicht erheben. EA macht sich die Inhalte der verlinkten Seiten nicht zu eigen.
+
+18 Allgemeine Bedingungen
+
+a) Rechtsmittel
+
+Sie stimmen zu, dass diese Nutzungsbedingungen nicht dazu bestimmt sind, einer anderen Person als den Parteien dieser Nutzungsbedingungen Rechte oder Rechtsmittel zu verleihen und dass sie dies nicht tun. Sie verstehen ebenfalls und stimmen zu, dass diese Nutzungsbedingungen, die EA-Datenschutz- und Cookie-Richtlinie und die in diese Nutzungsbedingungen einbezogenen Bestimmungen, einschließlich EAs Durchsetzung dieser Richtlinien, nicht dazu bestimmt sind, irgendeiner Person Rechte oder Rechtsmittel zu verleihen und dass sie dies nicht tun.
+
+b) Verzicht
+
+Das Versäumnis von EA, ein Recht oder eine Bestimmung dieser Nutzungsbedingungen auszuüben oder durchzusetzen, begründet keinen Verzicht auf dieses Recht oder diese Bestimmung. Jeder Verzicht auf eine Bestimmung dieser Nutzungsbedingungen ist nur wirksam, wenn er in Form eines von EA unterzeichneten Schriftstücks geleistet wird.
+
+c) Geltendes Recht
+
+Für diese Nutzungsbedingungen und Ihr Benutzerkonto bzw. Ihre Benutzerkonten gilt deutsches Recht.
+
+19 Gesamte Vereinbarung
+
+Die Nutzungsbedingungen (einschließlich der EA-Datenschutzrichtlinien und anderer durch Bezugnahme in dieses Dokument aufgenommene Zusatzbedingungen) und jegliche ausgewiesene Regeln oder Anweisungen in Bezug auf ein bestimmtes Spiel, Tätigkeit, Wettbewerb oder Gewinnspiel stellen die vollständige Vereinbarung zwischen Ihnen und EA in Bezug auf Ihre Rechte und Pflichten bei der Nutzung von EA-Diensten dar.
+
+20 Spezielle Anmerkungen für Kunden mit Wohnsitz in Kalifornien
+
+Gemäß Cal. Civil Code § 1789, Absatz 3 möchten wir Sie auf Folgendes hinweisen: (a) Der Sitz von EA befindet sich in 209 Redwood Shores Parkway, Redwood City, CA 94065. (b) Die Gebühren und Abgaben für EA-Dienste variieren in Abhängigkeit von den Diensten, die Sie ausgewählt haben. (c) Sind Sie mit EA-Diensten unzufrieden oder wünschen Sie mehr Informationen zum Gebrauch der EA-Dienste, besuchen Sie bitte den EA-Kundendienst unter help.ea.com, support.popcap.com (für PopCap Produkte) oder swtor.com/support (für Star Wars™: The Old Republic). Die Beschwerdestelle (Complaint Assistance Unit) der Abteilung für Verbraucherdienste (Division of Consumer Services) des Ministeriums für Verbraucherangelegenheiten Kaliforniens (California Department of Consumer Affairs) ist wie folgt zu erreichen: Postanschrift: 1020 N Street, #501, Sacramento, California 95814, USA; Telefonnummer: +1-916-445-1254 oder +1-800-952-5210.
+
+Bookmarken Sie terms.ea.com/de und besuchen Sie diese Seite regelmäßig, um Aktualisierungen der EA- Nutzungsbedingungen zu erhalten.
+
+21 Ergänzende Bedingungen
+
+Zusatzbedingungen für bestimmte EA-Dienste
+
+Bei bestimmten EA-Diensten kann es sein, dass Sie die für diesen EA-Dienst zutreffenden Bedingungen lesen und ihnen zustimmen müssen. Ihr Recht, diesen EA-Dienst zu nutzen, unterliegt diesen speziellen Bedingungen und den vorliegenden Nutzungsbedingungen.
+
+Die Xbox Live® Nutzungsbedingungen
+
+Die Xbox Live® Nutzungsbedingungen gelten weiterhin in ihrer Gesamtheit und sind maßgebend für Ihr Verhalten bei einem Zugriff auf die EA-Dienste über Xbox Live®. Insoweit die Xbox Live® Nutzungsbedingungen zu den EA Nutzungsbedingungen in Widerspruch stehen, sind die Xbox Live® Nutzungsbedingungen maßgebend. EA ist ausschließlich für den Betrieb und den Inhalt von EA-Diensten verantwortlich. Microsoft kann Daten über Sie und Ihre Nutzung von Xbox Live® erheben, wenn Sie auf EA-Dienste über Xbox Live® zugreifen. Die Nutzung und Erhebung solcher Daten durch Microsoft unterliegt der Xbox Live® Datenschutzerklärung (erhältlich unter xbox.com oder der Telefonnummer 0800 181 2968). DURCH DAS ZUGREIFEN AUF EA-DIENSTE ÜBER Xbox Live® ERKLÄREN SIE SICH DAMIT EINVERSTANDEN, DASS MICROSOFT NICHT FÜR SCHÄDEN IRGENDEINER ART HAFTET, DIE SIE BEIM ZUGREIFEN AUF EA-DIENSTE ÜBER DEN Xbox Live® DIENST ERLEIDEN KÖNNEN, UND SIE VERZICHTEN HIERMIT AUF JEGLICHE AUS SOLCHEN SCHÄDEN ODER IHRER NUTZUNG VON EA-DIENSTEN ENTSTEHENDE KLAGEGRÜNDE UND ANSPRÜCHE, DIE SIE GEGEN MICROSOFT GELTEND MACHEN KÖNNTEN. EA ist ausschließlich verantwortlich für die Bereitstellung des gesamten Kundensupports und die Inrechnungstellung von Diensten, die über EA-Dienste erlangt wurden.
+
+Adobe® Produkte
+
+Adobe® Flash® Player. Copyright © 1996 – 2012. Adobe Systems Incorporated. Alle Rechte vorbehalten. Schwebende Patente in den USA und in anderen Ländern. Adobe und Flash sind entweder Marken oder eingetragene Marken in den USA und/oder anderen Ländern.
+
+Adobe® Shockwave® Player. Copyright © 1996 – 2012. Adobe Systems Incorporated. Alle Rechte vorbehalten. Adobe und Shockwave sind entweder Marken oder eingetragene Marken in den USA und/oder anderen Ländern.
+
+Adobe® AIR™. Copyright © 2007 – 2012. Adobe Systems Incorporated. Alle Rechte vorbehalten. Adobe und Adobe AIR sind entweder Marken oder eingetragene Marken in den USA und/oder anderen Ländern.
+
+Version: 45372_11

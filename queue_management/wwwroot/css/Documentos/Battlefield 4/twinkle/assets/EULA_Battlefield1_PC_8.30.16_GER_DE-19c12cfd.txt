@@ -1,0 +1,112 @@
+﻿ELECTRONIC ARTS
+SOFTWARE-ENDBENUTZER-LIZENZVERTRAG
+BATTLEFIELD™ 1
+
+
+Einwilligung in die Verarbeitung personenbezogener Daten
+
+Der Schutz und die Vertraulichkeit Ihrer Daten ist EA sehr wichtig. EA würde niemals Ihre personenbezogenen Daten verkaufen oder an Dritte übermitteln, es sei denn, Sie stimmen wie unten beschrieben zu oder dies ist gesetzlich gerechtfertigt. EA verwendet keine Spyware und installiert keine Spyware auf den Geräten der Nutzer. EA erhebt nur eine beschränke Anzahl an Daten, um Ihnen einen hervorragenden, führenden Service zu bieten, um unsere Produkte und Dienstleistungen zu verbessern und Cheating und Betrug zu bekämpfen und so die Integrität der Spielerfahrung der Nutzer zu wahren. EA erhebt keinerlei Daten wie Bilder, Dokumente oder andere persönliche, nicht zu Webseiten, mobilen Plattformen und EA-Dienstleistungen gehörenden Daten oder greift auf solche Daten zu.
+
+A. Indem Sie diesen Software-Endbenutzer-Lizenzvertrag akzeptieren, willigen Sie in die Erhebung, Speicherung, Nutzung und Verarbeitung Ihrer IP-Adresse und Ihres Unique Device Identifiers (UDID) zu den oben genannten Zwecken an Electronic Arts Inc., 209 Redwood Shores Parkway, Redwood City, CA 94065, USA ein.
+
+B.  Sie willigen ebenfalls ein, dass EA personenbezogene Daten mit technischen Informationen über Ihr System und Ihre Hardware, wie in Abschnitt 2 beschrieben, kombiniert, um sicherzustellen, dass die Software richtig funktioniert, um die Produkte und Dienstleistungen zu verbessern, Fehler zu beheben, um auf sonstige Weise mit Ihnen zu kommunizieren und Ihnen einen exzellenten, persönlichen Service zu bieten.
+
+C.   Sie willigen ein, dass alle nach diesem Vertrag erhobenen, gespeicherten, genutzten und verarbeiteten personenbezogenen Daten in den Vereinigten Staaten von Amerika, dem Europäischen Wirtschaftsraum und/oder Kanada gespeichert werden.
+
+Selbstverständlich können Sie Ihre Einwilligung jederzeit widerrufen, indem Sie die Nutzung der Software einstellen und zusätzlich eine E-Mail mit der Mitteilung Ihres Widerrufs senden an privacy_policy@ea.com.
+
+Bitte beachten Sie: Verantwortliche Stelle für alle erhobenen, genutzten und verarbeiteten Daten ist Electronic Arts Inc., 209 Redwood Shores Parkway, Redwood City, CA 94065, USA. 
+
+Dieser Endbenutzer-Lizenzvertrag (im Folgenden „Vertrag“ genannt) wird zwischen Ihnen und Electronic Arts Inc. („EA“), 209 Redwood Shores Parkway, Redwood City, CA 94065, USA, geschlossen. Dieser Vertrag legt Ihre Nutzung des Software-Produktes, aller zugehörigen Dokumentationen und aller Updates und Upgrades, die die Software ersetzen oder ergänzen und ohne separaten Lizenzvertrag vertrieben werden, (zusammen im Folgenden „Software“ genannt) fest.
+
+Indem Sie den Vertrag durch Aktivierung einer Checkbox akzeptieren, erkennen Sie die Bedingungen dieses Vertrags an. In Abschnitt 2 finden Sie Informationen über die Daten, die EA für die Bereitstellung von Diensten und den Support für diese Software benutzen kann.   
+
+1.   Erteilung der beschränkten Lizenz und Nutzungsbedingungen. 
+
+A.   Lizenz.  Durch Akzeptieren dieses Vertrages erwerben Sie und EA gewährt Ihnen eine persönliche, nicht exklusive Lizenz, diese Software zu installieren und zu benutzen. 
+
+B.   Die Lizenz beginnt mit dem Akzeptieren dieses Vertrages und endet 
+
+(i) wenn Sie die Software löschen, oder
+
+(ii) wenn ggf. Ihr Abonnement der Software beendet oder gekündigt wird oder auf sonstige Weise abgelaufen ist, oder
+
+(iii) wenn EA den Betrieb oder die Unterstützung der Software einstellt, wobei EA Sie hierüber rechtzeitig informieren und Ihre Interessen angemessen berücksichtigen wird; oder
+
+(iv) wenn EA diesen Vertrag nach Ziff. 5 kündigt,
+
+je nachdem, welches der vorstehenden Ereignisse zuerst eintritt. 
+
+C.   Die Software unterliegt den in diesem Vertrag und der zugehörigen Dokumentation festgelegten Bestimmungen und ist ausschließlich für Ihre persönliche, nicht kommerzielle Nutzung bestimmt. Jegliche kommerzielle Nutzung ist verboten. Die Unterlizenzierung, der Verleih, Leasing und jegliche andere Form der Verbreitung der Software oder des Rechts, die Software zu nutzen, sind ausdrücklich untersagt.
+
+Die Verwendung von Onlinediensten in Verbindung mit der  Software wird in separaten Nutzungsbedingungen festgelegt. Diese Nutzungsbedingungen können Sie unter http://terms.ea.com/de einsehen. Eine separate Datenschutz- und Cookie-Richtlinie regelt das Erheben, die Speicherung, Nutzung und Übertragung von Nutzerinformationen. Die Datenschutz- und Cookie-Richtlinie können Sie unter http://privacy.ea.com/de einsehen.
+
+D.   Technische Schutzvorkehrungen. Die PC-Version dieser Software verwendet eine Origin-Online-Aktivierung als technische Vorkehrung sowie die technische Vorkehrung Denuvo von Sony DADC Austria AG zum Schutz von Inhalten. Die Software muss authentifiziert werden, bevor Sie sie nutzen können. Für die Authentifizierung sind ein EA-Konto einschließlich der Annahme der EA- Nutzungsbedingungen und der Datenschutz- und Cookie-Richtlinie (verfügbar unter www.doc.ea.de), die Installation der Origin-Client-Anwendung (siehe www.origin.com/de), die Annahme des Origin-Software-Endbenutzer-Lizenzvertrags (abrufbar unter www.doc.ea.de), die Überprüfung, dass Sie das Mindestalter für die Nutzung der Software erreicht haben, die Überprüfung des mit der Software gelieferten Seriencodes sowie eine Internetverbindung erforderlich („Authentifizieren” oder „Authentifizierung”). Die Überprüfung des Mindestalters ist für den Abschluss und die Erfüllung des Vertrags zwischen Ihnen und EA erforderlich. EA benötigt diese Daten, um sicherzustellen, dass Sie das erforderliche Mindestalter für den Abschluss rechtlich bindender Verträge erreicht haben, und um ihre Verpflichtungen aus geltendem Jugendschutzrecht hinsichtlich Online-Inhalten einzuhalten, die beworben werden können oder Ihnen im Rahmen der Online-Nutzung der Software bereitgestellt werden.
+
+Die Authentifizierung ist auf ein EA-Konto pro Seriencode begrenzt. EA behält sich das Recht vor, Ihre Lizenz durch spätere Online-Authentifizierungen zu validieren. Die Software kann auf beliebig vielen Geräten authentifiziert werden; es ist jedoch nicht möglich, die Software innerhalb von 24 Stunden auf mehr als 5 (fünf) verschiedenen Geräten zu starten oder zu verwenden. Wenn Sie die technischen Schutzvorkehrungen deaktivieren oder anderweitig manipulieren, kann es dazu führen, dass die Software nicht mehr einwandfrei funktioniert, und Sie begehen damit eine Verletzung dieses Vertrages. Bewahren Sie Ihre Seriennummer auf. Sie könnten sie benötigen, um die Software auf anderen Rechnern zu installieren.
+
+Die technischen Schutzvorkehrungen dieser Software können diverse Anwendungen wie etwa Debugger beeinträchtigen, wenn eine solche Anwendung potenziell dazu genutzt werden könnte, die Zugangskontrolltechnologie entgegen den Vorgaben des deutschen Urheberrechtsgesetzes zu umgehen.
+
+E.   Zugriff auf Online-Features und/oder -Dienste. Um Zugang zu Onlinediensten und/oder -funktionen zu haben, benötigen Sie ein EA-Konto, müssen die EA- Nutzungsbedingungen und Datenschutz- und Cookie-Richtlinie (verfügbar unter www.doc.ea.de) akzeptieren und sich mit dem der Software beiliegenden Seriencode registrieren. Lediglich lizenzierte Software kann für den Zugriff auf Onlinedienste und/oder –funktionen, einschließlich herunterladbarer Inhalte, genutzt werden und der Zugriff auf solche Funktionen ist auf ein EA-Konto pro Softwareprodukt beschränkt. 
+
+F.   Virtuelle EA-Währung: EA kann virtuelle Punkte, Münzen oder Währungen ("virtuelle EA-Währung") zur Verwendung in der Software zur Verfügung stellen. Durch Kauf, Verdienst oder anderweitigen Erwerb virtueller EA-Währung von EA, zulässigen Partnern oder verbundenen Unternehmen von EA erwerben Sie eine persönliche, zeitlich beschränkte, nicht übertragbare Lizenz auf die In-Game-Inhalte, die EA ausdrücklich innerhalb der Software bereitstellt, zuzugreifen und aus diesen auszuwählen. Virtuelle EA-Währung besitzt keinen Geldwert und stellt keinerlei Währung oder Besitz dar. Die virtuelle EA-Währung kann nicht veräußert, gehandelt, übertragen oder in Bargeld umgetauscht werden; sie kann ausschließlich für In-Game-Inhalte innerhalb der Software eingelöst werden. Die virtuelle EA-Währung ist nicht rückzahlbar, es sei denn, einer Rückzahlung wird ausdrücklich von EA schriftlich zugestimmt oder sie ist anderweitig gesetzlich erforderlich.
+
+G.   Weitere Einschränkungen. Ihr Recht zur Benutzung der Software beschränkt sich auf die oben gewährte Lizenz, und es ist Ihnen nicht gestattet, ohne ausdrückliche Genehmigung von EA aus der Software abgeleitete Arbeiten zu erstellen. Sofern keine ausdrückliche Genehmigung von EA vorliegt, dürfen Sie die Software nicht über ein Netzwerk zur Verfügung stellen, von dem sie von mehreren Nutzern verwendet werden könnte. Sie dürfen die Software nicht über ein Netzwerk zur Verfügung stellen, von dem sie von mehreren Nutzern heruntergeladen werden könnte.  
+
+H.   Rechtevorbehalt. Sie haben eine Lizenz für die Software erworben. Ihre Rechte unterliegen diesem Vertrag. Sofern in diesem Vertrag nicht ausdrücklich anders bestimmt, verbleiben sämtliche Rechte, Rechtsansprüche und Anrechte an und aus dieser Software (insbesondere an und aus allen Charakteren, Handlungssträngen, Bildern, Fotografien, Animationen, Videos, Musikstücken und Texten) sowie alle verwandten Urheberrechte, Markenrechte und anderen geistigen Eigentumsrechte bei EA. Diese Lizenz ist begrenzt auf die von EA und seinen Lizenzgebern gehaltenen geistigen Eigentumsrechte an der Software und schließt keinerlei Rechte an anderen Patenten oder geistigem Eigentum ein. Es ist Ihnen nicht gestattet, Produktkennungen, Urheberrechtshinweise oder andere rechtliche Hinweise auf geistiges Eigentum in der Software zu entfernen, zu verändern oder unkenntlich zu machen. Alle in diesem Vertrag nicht ausdrücklich gewährten Rechte sind EA vorbehalten.
+
+I.   Benutzergenerierte Inhalte. Tragen Sie benutzergenerierte Inhalte bei, die dem Urheberrecht unterfallen, so gewähren Sie EA und seinen Lizenznehmern ausdrücklich das nicht exklusive (einfache), dauerhafte, weltweite, vollständige, unterlizenzierbare und unwiderrufliche Recht, Ihre Inhalte oder einen Teil davon auf beliebige Weise oder in beliebiger Form und durch ein beliebiges Medium oder Forum, sei es derzeit bekannt oder künftig entwickelt, ohne Mitteilung, Zahlung oder Zuerkennung jeglicher Art an Sie oder Dritte zu zitieren, erneut zu posten, zu veröffentlichen, zu nutzen, abzuändern, zu übersetzen, zu archivieren, abzuspeichern, zu modifizieren, davon abgeleitete Werke zu schaffen, zu syndizieren, zu lizenzieren, zu drucken, in Unterlizenz zu vergeben, zu vertreiben, zu übermitteln, auszustrahlen und auf andere Weise zu kommunizieren und öffentlich zu zeigen und darzubieten. Sie erteilen EA und seinen Lizenznehmern sämtliche Lizenzen, Zustimmungen und Freigaben, die es EA und seinen Lizenznehmern ermöglichen, derartige benutzergenerierte Inhalte für solche Zwecke zu nutzen.
+
+2.   Verarbeitung, Übermittlung und Nutzung von Daten. 
+
+EA weiß, wie wichtig es Ihnen ist, nachzuverfolgen, wie Informationen über Sie erhoben, verwendet und weitergegeben werden. Deshalb schätzen wir Ihr Vertrauen, dass wir gewissenhaft und zweckmäßig mit Ihren Daten umgehen. Informationen über unsere Kunden sind ein wichtiger Bestandteil unseres Unternehmens. Wir geben ohne Ihre vorherige Einwilligung keine Informationen, die eine Identifizierung Ihrer Person ermöglichen, weiter. Eine Ausnahme bilden seltene Fälle, in denen eine Offenlegung durch das Gesetz gerechtfertigt ist.
+
+Zusätzlich zu den oben in der Einwilligungserklärung beschriebenen Informationen sowie Informationen, die Sie selbst direkt an EA weitergeben, erhebt EA nicht-personenbezogene Informationen, um EAs Produkte und Dienste zu verbessern, Ihnen Dienste zur Verfügung zu stellen, um mit Ihnen zu kommunizieren, und um Software-Updates, dynamisch bereitgestellte Inhalte und Produkt-Support zu ermöglichen. Die Informationen, die EA erhebt, umfassen technische und entsprechende Informationen, die Ihr Betriebssystem identifizieren (wie z. B. Service Pack, Treiber und unterstützende DLLs wie die DirectX-Version), sowie Informationen zu Ihrer Softwarenutzung (insbesondere fehlgeschlagene Installationsversuche, Nutzung von Funktionen und Spielstatistiken) und Hardwaretypen. 
+
+Wie vorstehend erwähnt, werden diese Informationen regelmäßig zur Verbesserung unserer Produkte und Dienste, zur Behebung von Bugs (Programmfehlern) sowie zur Verbesserung des Nutzererlebnisses erhoben. EA und die damit verbundenen Unternehmen können diese Informationen außerdem zur Verbesserung ihrer Produkte und Dienste nutzen und können anonyme Daten an unsere Dienstleister weitergeben. Wenn Sie die Software offline spielen, werden die Daten auf Ihrem Gerät gespeichert und an EA übertragen, falls und sobald Sie auf Onlinefunktionen und/oder Onlineservices zugreifen.
+
+Diese und alle anderen EA zur Verfügung gestellten und/oder von EA in Verbindung mit Ihrer Installation und Nutzung dieser Software erhobenen Daten werden in den Vereinigten Staaten, dem Europäischen Wirtschaftsraum, der Schweiz und/oder Kanada verarbeitet und gespeichert. Bitte beachten Sie, dass die Datenschutzgesetze anderer Länder nicht unbedingt den gleichen Schutz aufweisen wie die Datenschutzgesetze in Ihrem Herkunftsland und daher einen geringeren Schutz Ihrer personenbezogenen Daten bieten könnten. Seien Sie jedoch versichert, dass wir Ihre personenbezogenen Informationen nur gemäß der Datenschutz- und Cookie-Richtlinie von EA, die Sie unter http://doc.ea.de aufrufen können, verarbeiten und gemäß der Datenschutz- und Cookie-Richtlinie geeignete Maßnahmen ergreifen um Ihre personenbezogenen Daten zu schützen.
+
+3.   Veröffentlichung von Daten. 
+
+Wenn Sie Online-Angebote wie Online-Spiele oder den Download/Upload von Inhalten nutzen, können EA und die damit verbundenen Unternehmen auch anonyme statistische Spieldaten (insbesondere Punktzahlen, Ranglisten und Erfolge) erheben, nutzen, verarbeiten, speichern, übertragen und öffentlich anzeigen oder Inhalte identifizieren, die von Ihnen erstellt und anderen Spielern von Ihnen bereitgestellt werden. Daten, die Sie persönlich identifizieren, werden gemäß der Datenschutz- und Cookie-Richtlinie von EA erhoben, genutzt, gespeichert und übertragen. Sie finden die Datenschutz- und Cookie-Richtlinie auf http://privacy.ea.com/de.
+
+4. Überwachung.
+
+EA ist darum bemüht, für alle Spieler von EA-Spielen eine sichere und faire Spielumgebung bereitzustellen. Es ist Bestandteil der vertraglichen Leistung von EA, die Spiele von EA, soweit möglich, ohne Beeinträchtigung durch Cheating-Software-Tools bereitzustellen. Wenn Sie online spielen, überwacht EA das Gameplay, um so festzustellen, ob Cheating-Software-Tools verwendet werden. Weiter setzt EA Cheat- und Betrugsbekämpfungstechnologien ein, um Verhalten zu verhindern, welches sonst die Spielererfahrung negativ beeinflussen könnte.
+
+WENN SIE ONLINE EINE VERBINDUNG ZU EINEM BATTLEFIELD 1 GAME-SERVER HERSTELLEN, ÜBERPRÜFEN DIE CHEAT-BEKÄMPFUNGSTECHNOLOGIEN IHREN SPIELVERLAUF, DIE BATTLEFIELD 1 SPIEL-DATEIEN UND BEI BETRIEB DEN ARBEITSSPEICHER (RAM) IHRES COMPUTERS ZUR IDENTIFIZIERUNG VON NICHT AUTORISIERTEN, GLEICHZEITIG MIT IHREM SPIEL LAUFENDEN DRITTPROGRAMMEN UND MODIFIKATIONEN VON BATTLEFIELD 1 SPIEL-DATEIEN, DIE CHEATING ERMÖGLICHEN ODER FÖRDERN. DER HIER VERWENDETE BEGRIFF „NICHT AUTORISIERTES DRITTPROGRAMM“ IST DEFINIERT ALS EINE DRITTSOFTWARE, INSBESONDERE ALLE „ADDONS“, „MODS“, „HACKS“, „TRAINERS“ ODER „CHEATS“, DIE NACH EA‘S ALLEINIGEM ERMESSEN: (I) DAS CHEATEN JEGLICHER ART ERMÖGLICHEN ODER ERLEICHTERN; (II) ES NUTZERN ERLAUBEN, DAS SPIEL-INTERFACE, DIE SPIELUMGEBUNG UND/ODER DIE SPIELERFAHRUNG IN EINER NICHT AUSDRÜCKLICH VON EA GENEHMIGTEN WEISE ZU MODIFIZIEREN ODER ZU HACKEN; ODER (III) INFORMATIONEN AUS DEM ODER DURCH DAS SPIEL ABFANGEN, „GEWINNEN“ ODER AUF SONSTIGE WEISE ERHEBEN. FÜR DEN FALL, DASS DAS SPIEL EIN NICHT AUTORISIERTES DRITTPROGRAMM AUSFINDIG MACHT, KANN DAS SPIEL (A) EA INFORMATIONEN MITTEILEN, INSBESONDERE IHREN KONTONAMEN, DETAILS ÜBER DAS AUSFINDIG GEMACHTE NICHT AUTORISIERTE DRITTPROGRAMM UND DIE ZEIT UND DAS DATUM, IN DER BZW. AN DEM DAS NICHT AUTORISIERTE DRITTPROGRAMM AUSFINDIG GEMACHT WURDE; UND/ODER (B) EA KANN EINZELNE ODER ALLE RECHTE, WIE IN DIESEM VERTRAG FESTGELEGT, MIT ODER OHNE VORHERIGE ANKÜNDIGUNG GELTEND MACHEN.
+
+WENN SIE DIE VERBINDUNG ZUM GAME-SERVER BEENDEN, WIRD DIE ANTI-CHEAT-TECHNOLOGIE DEAKTIVIERT. 
+
+5.   Laufzeit und Beendigung.  
+
+EA kann diese Lizenz kündigen, wenn Sie Bedingungen dieser Endnutzer-Lizenzvereinbarung verletzen. Sollte EA Sie in Fällen, in denen Ihre Vertragsverletzung EA nicht zur fristlosen Kündigung berechtigt, zur Beseitigung der Verletzung auffordern, und Sie dieser Aufforderung nicht innerhalb angemessener Frist nachkommen, endet diese Lizenz mit Ablauf der angemessenen Frist. 
+
+6.   Weitere Software, Dienstprogramme und Tools.
+
+Die Software kann Sie auffordern oder es Ihnen gestatten, Software, Software-Updates, Patches oder andere Dienstprogramme und Tools von EA oder ihren Lizenzgebern auf Ihren Computer herunterzuladen. Die Leistung der Software kann in Abhängigkeit von Ihrem Computer und Ihrer weiteren Technik Schwankungen unterliegen. Ihnen ist bewusst, dass bestimmte Updates dieser Technologien für die weitere Nutzung der Software erforderlich sein können. Einige dieser Updates enthalten möglicherweise gesperrte Funktionen oder Inhalte, für die Sie eine zusätzliche Gebühr entrichten müssen, um darauf zugreifen zu können.  Werden verfügbare Updates nicht installiert, kann es sein, dass die Software nicht mehr gespielt werden kann.
+
+7.   Haftung durch EA.
+
+Die Haftung von EA aus jeglichen rechtlichen Gründen, ob im Zusammenhang mit Vertragsbruch oder unerlaubter Handlung, richtet sich ausschließlich nach Maßgabe folgender Bestimmungen:
+
+7.1.     Soweit EA das jeweilige Produkt und/oder die Dienstleistung, aus dem bzw. aus der die Haftung erwächst, kostenlos zur Verfügung stellt, ist EA lediglich für Vorsatz und grobe Fahrlässigkeit haftbar.
+
+7.2.     Im Falle kostenpflichtiger Produkte und/oder Dienstleistungen ist die Haftung von EA auf Fälle von Vorsatz und grober Fahrlässigkeit beschränkt, im Falle von Körperverletzung ist die Haftung jedoch uneingeschränkt. Im Falle leichter Fahrlässigkeit ist EA jedoch lediglich für Verstöße gegen wesentliche vertragliche Pflichten, wie beispielsweise Verzögerungen oder Unmöglichkeit der Leistung, haftbar, die durch EA zu verantworten sind. Die Haftung im Falle eines Verstoßes gegen eine solche wesentliche Pflicht beschränkt sich auf den gewöhnlichen Vertragsschaden, dessen Eintritt seitens EA bei Vertragsabschluss aufgrund der zu diesem Zeitpunkt bekannten Umstände zu erwarten gewesen wäre. „Wesentliche vertraglichen Pflichten“ sind die Pflichten, deren Einhaltung zur ordnungsgemäßen Erfüllung des Vertrags und seines Zwecks wesentlich sind und auf deren Einhaltung der Kunde sich verlassen kann.
+
+7.3     EA übernimmt keine Haftung für Störungen innerhalb des Netzwerks, die nicht von EA verursacht werden.
+
+7.4     EA ist nach Maßgabe der obigen Abschnitte nur in dem Umfang für Datenverlust haftbar, soweit der Verlust nicht durch angemessene Sicherungsmaßnahmen seitens des Nutzers hätte vermieden werden können.
+
+7.5     Die vorstehenden Beschränkungen der Haftung gelten nicht im Fall ausdrücklicher Garantien von EA, im Falle von Verletzungen des Lebens, des Körpers oder der Gesundheit sowie im Falle von zwingenden gesetzlichen Vorschriften. 
+
+8.   Geltendes Recht. 
+
+Dieser Vertrag und Ihre Nutzung der Software unterliegen deutschem Recht.
+
+9.   Gesamtheit der Vereinbarung/Verzicht. 
+
+Dieser Vertrag stellt die gesamten Vereinbarungen bezüglich der Software zwischen EA und Ihnen dar und ersetzt alle früheren oder gleichzeitigen Vereinbarungen hinsichtlich des Vertragsgegenstands. Änderungen bedürfen der Schriftform und Unterschrift von EA. Die ausbleibende oder verzögerte Durchsetzung von Rechten oder im Rahmen dieses Vertrags gewährten Berechtigungen einer beliebigen Partei stellt in keinem Fall einen Verzicht auf dieses Recht oder diese Berechtigung dar, und in keinem Fall schließt eine einzelne oder teilweise Durchsetzung eines Rechts oder einer Berechtigung im Rahmen dieses Vertrags eine weitere Umsetzung aller im Rahmen dieses Vertrags gewährten Rechte aus. Sollte es zu Widersprüchen zwischen diesem Vertrag und geltenden Kaufbedingungen oder anderen Bedingungen kommen, so gilt dieser Vertrag.
+
+

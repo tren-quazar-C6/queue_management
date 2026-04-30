@@ -1,0 +1,310 @@
+ELECTRONIC ARTS-DATENSCHUTZ- UND COOKIE-RICHTLINIE
+
+Gültig ab: 15. Januar 2016
+ 
+TRUSTe Privacy Certification
+
+Dies ist die Datenschutz- und Cookie-Richtlinie der Electronic Arts Inc., 209 Redwood Shores Parkway, Redwood City, CA 94065, USA („EA"). EA informiert Sie im folgenden Text über Art, Reichweite und Zweck der Erhebung, Speicherung, Nutzung und Verarbeitung von personenbezogenen Daten auf unseren Webseiten, mobilen Plattformen sowie Online-Produkten und/oder -Diensten, einschließlich PC-, Konsolen-, online und mobilen Spielen (online Produkte und Dienste nachfolgend „EA Services" genannt). Sie können diese Informationen jederzeit auf unseren Webseiten abrufen.
+
+Der Schutz und die Vertraulichkeit Ihrer Daten ist EA sehr wichtig. EA wird Ihre personenbezogenen Daten niemals verkaufen oder ohne Ihre ausdrückliche Einwilligung an Dritte wie unten angegeben weitergeben, soweit dies nicht gesetzlich vorgeschrieben ist. EA verwendet weder Spyware, noch installiert EA Spyware auf den Geräten der Nutzer. EA erhebt nur eine beschränkte Anzahl an Daten, um Ihnen einen exzellenten, führenden Service zu bieten. Von EA werden keinerlei Daten, wie Bilder, Dokumente oder sonstige personenbezogene Daten, die nicht im Zusammenhang mit Webseiten, mobilen Plattformen und EA Services stehen, erhoben oder aufgerufen.
+
+Einwilligungserklärung
+
+Die folgende Einwilligungserklärung gilt für die Erstellung und das Anmelden eines EA-Kontos, Pogo-Kontos oder eines anderen zu EA gehörigen Kontos (zusammen „Konto") und für die Nutzung von EA Services.
+
+Indem Sie das entsprechende Häkchen beim Registrierungsprozess eines Kontos setzen, willigen Sie in
+
+• die Erhebung, Speicherung, Nutzung und Verarbeitung Ihrer IP-Adresse, Ihrer MAC-Adresse und Ihrer eindeutigen Gerätekennung ( Unique Device Identifier) durch Electronic Arts Inc., 209 Redwood Shores Parkway, Redwood City, CA 94065, USA ein und dass EA personenbezogene Daten mit technischen Informationen über Ihr System und Ihre Hardware zusammenführen darf. Diese Daten werden für interne Analysen (wie der Nutzung und Performance zur Verbesserung unserer Produkte und Dienste) genutzt, um mit Ihnen zu kommunizieren, um eventuelle Programmfehler zu beheben, um Ihre Software zu authentifizieren, um Software-Updates und dynamische Inhalte anzubieten, um Kundenbindungssysteme zu betreiben, um Ihr Erlebnis der EA Services zu personalisieren und Ihnen andere Dienste (einschließlich Kundenservice) zu bieten. Die Erhebung, Speicherung, Nutzung und Verarbeitung dieser Daten durch EA ermöglicht Ihnen den einfachsten Zugriff auf Ihre Spiele und das bestmögliche Spielerlebnis, das EA zu bieten hat.
+• die Speicherung aller nach diesem Vertrag erhobenen, gespeicherten, genutzten und verarbeiteten personenbezogenen Daten in den Vereinigten Staaten von Amerika, dem Europäischen Wirtschaftsraum („EWR“), der Schweiz und/oder in Kanada ein. Für weitere Informationen beachten Sie den Abschnitt VI. unten.
+
+Selbstverständlich können Sie Ihre Einwilligung jederzeit widerrufen, indem Sie Ihr Konto kündigen und die Nutzung der EA Services einstellen. Sie können Ihre Einwilligung auch widerrufen, indem Sie einen Brief an Electronic Arts Inc., 209 Redwood Shores Parkway, Redwood City, CA 94065, USA oder eine E-Mail an privacy_policy@ea.com schicken und die Nutzung der EA Services einstellen.
+
+FALLS SIE KEINE EINWILLIGUNG ERTEILEN ODER IHRE EINWILLIGUNG NACHTRÄGLICH WIDERRUFEN, KÖNNEN SIE KEIN KONTO REGISTRIEREN ODER EA SERVICES NUTZEN.
+
+INHALT
+
+EA- Datenschutz- und Cookie-Richtlinie
+
+I. Einleitung
+
+II. Die EA-Seite ist TRUSTe-zertifiziert
+
+III. Informationen, die EA erhebt
+
+1. Was sind personenbezogene Daten?
+2. Was sind nicht-personenbezogene Daten?
+3. Welche Informationen werden von EA erhoben?
+4. Auf welche Weise erfasst EA Daten?
+
+a) Cookies
+b) Internetprotokoll-Dateien
+c) Analytisches Metrik-Tool und andere Technologien
+d) Clear GIFs und Zählpixel
+e) Werbedienstleistungstechnologien Dritter
+f) Kundenservice
+g) Anti-Cheat und Betrugspräventionstechnologie
+
+IV. Durch Dritte an EA zur Verfügung gestellte Daten 
+
+1. PlayStation®3 und PlayStation®4 Computer-Entertainment-Systeme
+2. Xbox Live
+3. Wii U
+4. Andere durch Dritte zur Verfügung gestellte Informationen
+
+V. Was geschieht mit den von EA erhobenen Daten?  
+
+1. Wie nutzt EA Ihre Daten?
+2. Teilt EA meine Daten mit Dritten?  
+
+VI. Wo werden die Daten gespeichert?  
+
+VII. Was unternimmt EA zum Schutz Ihrer personenbezogenen Daten?  
+
+VIII. Rechte des Nutzers: Überprüfung, Berichtigung und Löschung Ihrer Daten, Entfernung aus  Adressenlisten und Deaktivierung Ihres Kontos 
+
+IX. Ein besonderer Hinweis zu Kindern 
+
+X.  Öffentliche Informationen, einschließlich benutzergenerierte Inhalte, Online-Foren, Blogs und Profile
+
+XI. Webseiten Dritter 
+
+XII. Produkte, die in Zusammenarbeit mit Dritten angeboten werden 
+
+XIII. Kontaktdaten 
+
+XIV. Änderung dieser Datenschutz- und Cookie-Richtlinie  
+
+
+EA- Datenschutz- und Cookie-Richtlinie
+
+I. Einleitung
+
+EA und ihre Tochtergesellschaften wissen, dass es Ihnen wichtig ist zu wissen, wie Informationen über Sie genutzt und übermittelt werden. Dies begrüßen wir und werden daher verantwortungsvoll und mit größter Sorgfalt mit Ihren Daten umgehen. Wir respektieren diese Datenschutz- und Cookie-Richtlinie für Kunden und erkennen die Bedeutung des Schutzes der über Sie gesammelten Daten an. Wir haben diese Datenschutz- und Cookie-Richtlinie eingeführt, um zu erläutern, wie wir personenbezogene und nicht-personenbezogene Daten auf Webseiten, während Ihrer Nutzung unserer Webseiten auf mobilen Plattformen und unserer EA Services online erheben, speichern, verarbeiten und nutzen. Diese Datenschutz- und Cookie-Richtlinie gilt nicht für Daten, die uns im Rahmen von Bewerbungen auf Stellenanzeigen von Ihnen zur Verfügung gestellt werden. Für weitere Informationen lesen Sie bitte die EA-Datenschutzerklärung für Stellenangebote auf der Job-Webseite von EA unter www.jobs.ea.com.
+
+Diese Datenschutz- und Cookie-Richtlinie gilt ebenfalls für TRUSTe-zertifizierte EA-Webseiten. Eine Auflistung dieser geprüften EA-Webseiten finden Sie unter www.TRUSTe.com. EA besitzt darüber hinaus mehrere andere Domainnamen, die auf die oben angeführten Webseiten verweisen. Wir können neue Webseiten hinzufügen, die dieser Datenschutz- und Cookie-Richtlinie unterfallen; in diesem Fall wird die Auflistung aktualisiert, um diese Seiten einzubeziehen. Bitte beachten Sie, dass diese Datenschutz- und Cookie-Richtlinie nur für Webseiten gilt, die von EA betrieben werden, und nicht für verlinkte Webseiten anderer Unternehmen und Organisationen. EA befolgt das Schweizer Safe-Harbor-Abkommen der USA, welches vom US-amerikanischen Handelsministerium in Bezug auf die Erhebung, Nutzung, Verarbeitung und Speicherung von Daten aus der Schweiz übernommen wurde.
+
+Die TRUSTe-Zertifizierung von EA beinhaltet die Verpflichtung auf die Safe-Harbor-Prinzipien zwischen den USA und der Schweiz bezüglich Benachrichtigungen, Wahlmöglichkeit, Weitergabe, Sicherheit, Datenintegrität, Zugriffsrechten und Rechtsdurchsetzung. Für weitere Informationen über das Safe-Harbor-Abkommen und um das EA Zertifikat zu sehen, besuchen Sie bitte http://www.export.gov/safeharbor/.
+
+II. Die EA-Seite ist TRUSTe-zertifiziert
+
+EA wurde das TRUSTe-Datenschutzsiegel verliehen; das bedeutet, dass unsere Datenschutz- und Cookie-Richtlinie durch TRUSTe auf ihre Übereinstimmung mit den Programmanforderungen von TRUSTe unter http://www.truste.com/privacy_seals_and_services/consumer_privacy/privacy-programs-requirements.html einschließlich Transparenz, Verantwortlichkeit und Wahlmöglichkeit in Bezug auf die Erhebung, Nutzung und Verarbeitung Ihrer personenbezogenen Daten geprüft wurde. Die Aufgabe von TRUSTe als unabhängiger Dritter besteht darin, in Bezug auf den Online-Verkehr die Vertrauensbildung bei Kunden und Unternehmen weltweit durch sein führendes Datenschutz-Vertrauenssiegel und seine innovativen Lösungen zur Vertrauensbildung zu fördern.
+
+III. Informationen, die EA erhebt
+
+1. Was sind personenbezogene Daten?
+
+Personenbezogene Daten sind Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person. Personenbezogene Daten sind daher solche, die zur Identifizierung Ihrer Person genutzt werden können, um Sie online oder offline zu kontaktieren.
+
+2. Was sind nicht-personenbezogene Daten?
+
+Nicht-personenbezogene Daten allein können nicht genutzt werden, um Sie zu identifizieren. EA erhebt nicht-personenbezogene Daten über Ihre Nutzung von EA-Services, auf unserer Webseite und auf mobilen Plattformen. Diese Daten helfen uns, EA-Services zu verbessern, sowie weitere Dienste für Sie zu erbringen, Software-Updates und dynamische Inhalte bereitzustellen und Produkte zu unterstützen.
+
+3. Welche Informationen werden von EA erhoben?
+
+EA erhebt sowohl personenbezogene als auch nicht-personenbezogene Daten. Die Informationen, die EA erhebt, hängen von der Aktivität ab und können Ihren Namen, Benutzernamen, E-Mail-Adresse, Telefonnummer, Ihre Adresse, Ihr Geburtsdatum, Ihre Mobilfunknummer und Kreditkarteninformationen sowie Nutzungsdaten enthalten. Nutzungsdaten sind Daten, die benötigt werden, um unsere Webseiten, mobilen Plattformen und/oder EA-Services zu nutzen, wie etwa Informationen über Anfang, Ende und Dauer Ihrer Nutzung der Webseite, mobilen Plattformen und/oder EA Services und Registrierungsdaten.
+
+Nutzer von EAs mobilen Plattformen werden unter Umständen gebeten, den Namen ihres Mobilfunkanbieters, das Modell ihres Handys und eine gültige Mobilfunk-Rufnummer anzugeben, damit wir Kaufanweisungen direkt auf Ihr Handy leiten können. In diesem Zusammenhang wird Ihre Mobilfunk-Rufnummer lediglich dazu genutzt, Ihnen eine Textmitteilung mit einem Link für den Download Ihres Spiels zu senden - sie wird nicht für weitere Zwecke gespeichert. Preisgewinner müssen unter Umständen zum Zweck der Altersüberprüfung eine Kopie ihres Personalausweises oder eines anderen Identifizierungsdokumentes vorlegen, die lediglich für die Gewinnabwicklung der Teilnehmer genutzt wird.
+
+Wenn Sie EA Services nutzen, können wir bestimmte Informationen zum Zwecke der Produkt- und Serviceverbesserung, der Behebung von Fehlern, zur Erbringung von Service für Sie, der Bereitstellung von Software-Updates und dynamischen Inhalten, zur Produktunterstützung sowie der Kommunikation mit Ihnen erheben. Nicht-personenbezogene Daten können demographische Daten, einschließlich Geschlecht, Postleitzahl sowie weiterer automatisiert übermittelter Daten über Ihren PC, Ihre Hardware, Software, Plattform, Betriebssystem, Browserinformationen, Spielsystem, Medien ID, den Typ Ihres mobilen Endgeräts, Ereignisdaten und Verbindung (nachfolgend „technische Daten") sowie User ID oder Online Charakter („Persona") sein. Wir erfassen außerdem andere Informationen, darunter die Nutzung von Funktionen, Spielstatistiken, Punktzahlen und Leistungen, Benutzerranglisten, die Zeit, die Sie für unsere Spiele aufwenden, und Klickpfade sowie andere Daten, die Sie möglicherweise bei Abfragen über Ihre Kontoeinstellungen und Online-Profile oder bei Käufen machen. Diese Daten dienen statischen Zwecken sowie der Verbesserung unserer Produkte. EA kann diese technischen Daten mit Ihren personenbezogenen Daten im Rahmen Ihrer Einwilligungserklärung zusammenführen.
+
+Im Zusammenhang mit Markt- und demographischen Studien und/oder Daten, erhalten wir möglicherweise auch von Dritten Listen-Daten oder öffentlich zugängliche Informationen. Bitte beachten Sie: Sofern wir nicht-personenbezogene Daten mit personenbezogenen Daten zusammenführen, werden diese zu personenbezogenen Daten gemäß dieser Datenschutz- und Cookie-Richtlinie, die den Datenschutzgesetzen unterfallen und besonders geschützt sind.
+
+4. Auf welche Weise erfasst EA Daten?
+
+EA erfasst sowohl nicht-personenbezogene als auch personenbezogene Daten direkt von Ihrem System oder Gerät sowie von Ihrem System oder Gerät im Zusammenhang mit verschiedenen Online- und mobilen Aktivitäten, einschließlich der Konto-Registrierung, Online- und mobiler Käufe, Spielregistrierungen und Marketing-Umfragen. Zudem verwenden wir und andere Dritte Technologien wie Cookies, um auf unseren Webseiten passiv Daten zu erfassen. Dies dient dem Zweck, Ihr Erlebnis auf unseren Webseiten zu personalisieren und Ihnen personalisierte Werbung zukommen zu lassen. EA benutzt folgende Methoden, um Informationen zu erfassen:
+
+a) Cookies
+
+Cookies sind kleine Dateien, die von Ihrem Internetbrowser benutzt werden, um Bewegungen innerhalb von Webseiten zu verfolgen. Wir verknüpfen möglicherweise Cookie-Informationen mit personenbezogenen Daten. Cookies stellen Verknüpfungen zu Informationen bezüglich der von Ihnen in unserem Online-Store zum Kauf ausgewählten Artikel, der von Ihnen angesehenen Seiten oder der von Ihnen gespielten Spiele her. Diese Informationen werden beispielsweise genutzt, um Ihren Einkaufswagen zu verfolgen und sicherzustellen, dass Ihnen nicht wiederholt die gleiche Werbung angezeigt wird. Darüber hinaus verwenden wir Cookies, um Ihnen auf Ihre Interessen zugeschnittene Inhalte und Werbung anzubieten und um Ihre Nutzung der Webseite oder von EA Services zu verfolgen. Wir und Dritte erheben Daten über Spiele, die gespielt werden, wie lange sie gespielt werden und welche Werbeanzeigen oder Links angeklickt werden. Auf einigen unserer Webseiten ist ein drittes Werbeunternehmen für die angezeigte Werbung verantwortlich. Diese Werbeanzeigen enthalten Cookies, die ausschließlich nicht-personenbezogene Daten erheben. In Verbindung mit Bannerwerbung erhaltene Cookies werden von unseren Werbeunternehmen verwendet; EA hat keinen Zugang zu diesen Informationen. Die meisten Browser sind automatisch so eingestellt, dass Cookies beim Besuch einer Webseite akzeptiert werden. Sie können Cookies deaktivieren oder Ihren Browser so einstellen, dass eine Warnmeldung erfolgt, sobald Cookies versendet werden. Bei deaktivierten Cookies funktionieren jedoch einige Bereiche unserer Webseiten nicht ordnungsgemäß. Sie können Ihren Webbrowser so einstellen, dass eine Warnmeldung bei versuchten Cookie-Platzierungen auf Ihrem Rechner erfolgt oder die Art der von Ihnen zugelassenen Cookies eingeschränkt wird.
+
+Wir und andere Dritte verwenden unter Umständen auf unseren Seiten Flash-Cookies, auch als "Local Shared Objects" bekannt, bei denen die Adobe-Technologie eingesetzt wird. Flash-Cookies sind kleine Dateien, die den Browser-Cookies ähneln und dazu genutzt werden, die Einstellungen der Webseite für das personalisierte Erscheinungsbild der Seite zu speichern. Wie normale Cookies auch, werden Flash-Cookies als kleine Dateien auf Ihrem PC dargestellt. Sie können Ihre Einstellungen unter dem Punkt „Globale Speicherungseinstellungen" auf der Adobe-Webseite anpassen. Für weitere Informationen zu der Flash Player Sicherheit und Datenschutz besuchen Sie die Adobe Webseite unter www.Adobe.com und die Macromedia Webseite unter http://www.macromedia.com/support/documentation/de/flashplayer/help/settings_manager.html.
+
+Bitte beachten Sie, dass wenn Sie Cookies deaktivieren, Sie möglicherweise einige der Eigenschaften und Funktionen für das Spielen unserer Spiele, für welche Cookies erforderlich sind, um Ihre Spielaktivitäten zu verfolgen und zu verbessern, nicht nutzen können.
+
+b) Internetprotokoll-Dateien
+
+Wir speichern gegebenenfalls auch Protokolldateien, die Ihr PC automatisch an unseren Webserver übermittelt. Diese Protokolldateien umfassen Informationen über Ihren Computer oder Ihr Endgerät, insbesondere Browsertyp/-version, verwendetes Betriebssystem, URL der verweisenden Webseiten sowie Datum und Uhrzeit des Zugriffs.
+
+c) Analytisches Metrik-Tool und andere Technologien
+
+EA verwendet ebenfalls sein eigenes analytisches Metrik-Tool und andere Analyse-Technologien Dritter, um Daten zu erheben, wenn Sie unsere online und mobilen Produkte und Dienste nutzen und unsere Spiele auf Ihrem PC, Ihrer Konsole, Spielsystem und/oder mobilen Endgerät spielen. Diese Tools und Technologien erheben Informationen über Ihren Computer, Browser, Medien, Ihr Betriebssystem, Feature- und Seitennutzung, Anwendungssoftware, andere Informationen über Webseiten- und Produktnutzung, sowie Informationen über die Nutzungsart unseres Spiels, einschließlich Spiel-Metriken und Statistiken, der Nutzung von Funktionen und Kaufverhalten und andere ähnliche Informationen. EA kann ebenso Ihren genauen Standort bestimmen, sofern Sie dazu vorab Ihre explizite Genehmigung bei der Nutzung Ihres mobilen Endgerätes geben.
+
+EA verwendet Google Analytics, ein Webanalysetool der Google Inc. („Google"). Für Google Analytics gilt Folgendes: Google Analytics verwendet sog. „Cookies", Textdateien, die auf Ihrem PC gespeichert werden und die eine Analyse der Benutzung der Webseite durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Webseite werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Google setzt allerdings ein IP-Anonymisierungs-Tool auf unseren Webseiten ein, mit dem Ihre IP-Adresse von Google innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt und somit anonymisiert übermittelt wird. Google nutzt die erhobenen Informationen, um Ihre Nutzung der Webseite für EA auszuwerten, Berichte über die Webseiteaktivitäten zu erstellen und um weitere mit der Webseite und der Internetnutzung verbundene Dienste gegenüber EA zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.
+
+Sie können die Google Analytics-Funktion mittels eines Browser Add-on, das Sie unter https://tools.google.com/dlpage/gaoptout downloaden können, deaktivieren. Dafür müssen Sie dieses Browser Add-on installieren. Dadurch wird verhindert, dass Analyse-Informationen an Google gesendet werden.
+
+Andere Dritte, die in Anlage A aufgeführt sind und auf unseren Webseiten und im Rahmen unserer online und mobilen Produkte und/oder Dienste Informationen sammeln, können die gesammelten Informationen mit Nutzungsdaten zusammenführen, die sie unabhängig von anderen Webseiten und/oder online oder mobilen Diensten bezüglich Ihrer Aktivitäten in ihrem Netzwerk von Webseiten, sowie online und/oder mobilen Produkte und Dienste erhoben haben. Viele dieser Unternehmen erheben und nutzen Informationen auf Basis ihrer eigenen Datenschutzrichtlinien.
+
+d) Clear GIFs und Zählpixel
+
+Clear GIFs (auch bekannt als Web Bugs, Beacons oder Tags) sind kleine Grafikbilder, die in eine Webseite, ein webbasiertes Dokument oder in eine E-Mail-Nachricht platziert werden. Clear GIFs sind für den Benutzer unsichtbar, da sie normalerweise sehr klein sind (nur 1 x 1 Pixel groß) und dieselbe Farbe wie der Hintergrund der Webseite, des Dokuments oder der E-Mail-Nachricht aufweisen. Wir können Clear GIFs nutzen, um statistische Nutzungsdaten zu unseren Webseiten, Funktionen oder sonstigen Elementen auf einer Webseite zu erfassen.
+
+e) Werbedienstleistungstechnologien Dritter
+
+EAs Webseiten, mobile Plattformen oder EA Services verwenden unter Umständen eigene Werbedienstleistungstechnologien oder die von Dritten, um Informationen von den Werbediensten durch EA Services zu sammeln oder besser verfolgen zu können. Einige dynamische In-Game Werbedienstleistungstechnologien ermöglichen es, dass Werbeanzeigen für einige Zeit in Ihren Webbrowser oder Ihr mobiles Endgerät hochgeladen und, während Sie online sind, ersetzt werden. Wir oder Dritte nutzen unter Umständen Daten wie Alter und Geschlecht sowie von Ihrer Hardware oder Ihrem Gerät protokollierte Daten, um sicherzustellen, dass innerhalb der Webseiten, mobilen Plattformen, der online oder mobilen EA Services angemessene Werbung präsentiert wird, und um die Anzahl einmaliger oder wiederholter Betrachtungen einer bestimmten Werbeanzeige zu kalkulieren oder zu kontrollieren, und/oder um mit Ihren Interessen zusammenhängende Werbung anzuzeigen sowie die Effektivität von Werbekampagnen zu evaluieren. Zu diesem Zweck erheben wir oder Dritte möglicherweise Daten, einschließlich Informationen über Ihren Computer oder Ihr Gerät, die ID Ihres Computers oder Geräts, die Platzierung im Spiel, die Dauer der Pop-up-Werbe-Einblendung, Nutzungsinformationen anderer Internet- und Webseiten und mobile Internetseiten, die von Ihnen besucht wurden (wie auch Datum und Zeit des Besuchs), Domaintyp, Größe der Werbeanzeige, Reaktion auf die Werbeanzeige (falls erfolgt) und Betrachtungswinkel. Die vorgenannten Daten können von den Dritten, die auf privacyappendix.ea.com aufgelistet sind, erhoben, genutzt und verarbeitet und/oder diesen zur Verfügung gestellt werden.
+
+Die Werbeunternehmen, die Anzeigen für uns einblenden, kombinieren möglicherweise die erhobenen Daten mit anderen Informationen, die sie selbständig von anderen Webseiten und/oder anderen online oder mobilen Produkten und Diensten im Zusammenhang mit den Aktivitäten Ihres Browsers in ihrem Netzwerk von Webseiten gesammelt haben.
+
+Eine Liste der Werbeunternehmen, die ihre eigenen Netzwerke auf unseren Seiten betreiben, online und/oder mobilen Produkten und/oder Diensten sowie Erläuterungen zum Opt-Out-Verfahren können Sie unter privacyappendix.ea.com abrufen. Für weitere Informationen über verhaltensbezogene Werbung und wie dieses Feature ausgeschaltet werden kann, besuchen Sie bitte http://www.youronlinechoices.com/de/.
+
+f) Kundenservice
+
+EA bietet Ihnen Kundenservice. Sie können den Kundenservice über ein webbasiertes Formular oder telefonisch erreichen. Der Kundenservice hat Zugriff auf Ihre Kontodaten sowie auf andere Daten, um Ihnen exzellenten Kundenservice bieten zu können. Der Kundenservice kann außerdem Daten speichern, die während des Supports zu Ihrem Konto oder anderen EA Services erhoben wurden.
+
+g) Anti-Cheat und Betrugspräventionstechnologie
+
+Es ist Teil des Service von EA, Spiele ohne Störungen und - wenn möglich - frei von jeglichen betrügerischen Tools anzubieten. EA ist bestrebt, allen Spielern ihrer Spiele eine sichere und faire Spielumgebung zur Verfügung zu stellen. Um betrügerischen Handlungen und Verhaltensweisen, die das Spielerlebnis negativ beeinflussen können, vorzubeugen, benutzt EA „Anti-Betrugs"-Software oder Anwendungen zur Betrugsprävention auf unseren Internetauftritten und während der Nutzung von EA Services. Insbesondere während des Logins bei EA-Services, bei der Erstellung eines Kontos und/oder bei der Verkaufsstelle erhebt EA Daten über Ihr Gerät, um eine irreversible Kennung Ihrer Gerätekomponenten zu erstellen. Diese Daten werden in einer nicht abrufbaren Form gespeichert. EA nutzt die gesammelten Informationen im Verdachtsfalle zur Betrugsprävention und für Authentifizierungszwecke. EA darf die zu diesem Zweck erstellte Maschinenkennung mit Ihrem Konto zusammenführen; die so zusammengeführten Daten werden nicht an andere Dritte weitergegeben und werden von EA ausschließlich für Sicherheits- und Authentifizierungszwecke verwendet.
+
+IV. Durch Dritte an EA zur Verfügung gestellte Daten
+
+EA erhält auch von Dritten personenbezogene und nicht-personenbezogene Daten, wie nachfolgend beschrieben. EA nutzt diese Daten nur für Zwecke, die in Einklang mit dieser Datenschutz- und Cookie-Richtlinie stehen.
+
+1. PlayStation®3 und PlayStation®4 Computer-Entertainment-Systeme
+
+Wenn Sie sich registrieren, um EA-Spiele auf einem PlayStation®3 oder PlayStation®4 Computer-Entertainment-Systeme zu spielen, werden Informationen über Ihr Sony Entertainment Network-Konto an EA weitergeleitet, damit wir ein EA-Konto  für Sie einrichten können. An EA übermittelte Daten umfassen Ihren Namen, Ihre E-Mail-Adresse, Ihre Online-ID, Ihr Land, Ihre Sprache und Ihr Geburtsdatum, jedoch keine Kreditkartennummern oder andere für finanzielle Transaktionen erforderliche Konto-Informationen. Die Übermittlung der Daten ist erforderlich, damit ein EA-Konto angelegt werden kann und Sie dadurch die Spiele von EA online spielen können.
+
+2. Xbox Live
+
+Wenn Sie sich für das Spielen von EA-Spielen über Microsofts Xbox Live-Service registrieren, wird Microsoft Ihre Xbox Live-Benutzerkontoinformation an EA weitergeben, so dass wir ein EA-Konto für Sie anlegen können. Zu Informationen, die von Microsoft an EA weitergegeben werden, gehören Ihr Gamertag, Ihre E-Mail-Adresse, Bundesland oder Provinz, Land, Sprache und Alter, jedoch nicht Kreditkartennummer oder andere Bankkontoinformationen. Diese Informationen sind erforderlich, damit wir ein EA-Konto für Sie anlegen können. Sie benötigen ein EA -Konto, um die Spiele von EA online spielen zu können.
+
+3. Wii U
+
+Wenn Sie sich für das Spielen von EA-Spielen über die Konsole Wii U von Nintendo registrieren, werden Informationen über Ihr Nintendo-Konto an EA weitergeleitet, damit wir ein EA-Konto für Sie einrichten können. Sie benötigen ein EA-Konto, um EA-Spiele online spielen zu können. Zu den Informationen, die an EA weitergegeben werden, gehören Ihre sog. „Mii"-Informationen, Ihre E-Mail-Adresse, Ihre Nintendo-Network-ID, Ihre Freundesliste, Land, Sprache und Ihr Geburtsdatum, jedoch nicht Ihre Kreditkartennummer oder sonstige Bankkontoinformationen.
+
+4. Andere durch Dritte zur Verfügung gestellte Informationen
+
+EA kann auch im Zusammenhang mit dem Betrieb und Vertrieb von EA Services sowie gelegentlich mit Markt- und demographischen Studien weitere Daten von Dritten erhalten. Diese nutzen wir, um die von Ihnen direkt oder auf andere Weise zur Verfügung gestellten oder erhobenen personenbezogenen und nicht-personenbezogenen Daten zu ergänzen. Einige Drittdienste wie z.B. Twitter und Facebook stellen uns mit Ihrem Einverständnis möglicherweise ebenfalls Angaben zu Ihren dortigen Konten zur Verfügung.
+
+Durch das Spielen eines EA-Spiels über ein soziales Netzwerk oder eine andere Drittplattform oder einen Drittdienst oder durch die Verbindung zu einem (einer) solchen Netzwerk, Plattform, oder Dienst Dritter mittels eines unserer Produkte und/oder Dienste kann es sein, dass das soziale Netzwerk oder eine andere Drittplattform mittels Application Programming Interface (API) Informationen an uns übermittelt, wenn Sie dazu zugestimmt haben, als Sie dem sozialen Netzwerk oder Dienst beigetreten sind. Diese werden wir ausschließlich im Rahmen dieser Datenschutz- und Cookie-Richtlinie verwenden.
+
+Sie und andere EA-Benutzer können auf unserer Plattform E-Mail-Kontakte hochladen. Diese Informationen werden von uns gespeichert, um Ihnen die Kontaktaufnahme mit Ihren Freunden zu erleichtern.
+
+V. Was geschieht mit den von EA erhobenen Daten?
+
+1. Wie nutzt EA Ihre Daten?
+
+EA nutzt Ihre Daten, um ein Konto zu eröffnen, Ihren besonderen Wünschen bzw. Anfragen nachzukommen, Ihre Bestellungen auszuführen und Ihnen eine Kaufbestätigung und andere kontobezogene Informationen zu senden sowie für andere hier beschriebene Zwecke. Zudem verwendet EA Ihre Daten, um Ihnen die Nutzung von EA Services zu ermöglichen, um technische Probleme zu korrigieren, um die richtige Funktionsweise unserer Produkte und Dienste zu gewährleisten und um deren Verbesserung zu unterstützen sowie um unsere Nutzungsbedingungen durchzusetzen.
+
+Außerdem nutzt EA Informationen zu folgenden Zwecken:
+• Teilnahme an Wettbewerben und Annahme von Preisen; Garantie-Registrierung und Anfragen;
+• um Ihren Wünschen und Nachfragen zu entsprechen;
+• um Kundenservice anzubieten;
+• um auf Anfragen und/oder technische Fragen zu antworten und/oder besonderen Wünschen und Nachfragen zu entsprechen;
+• die Vermittlung von Spielerpaarungen und anderen online „Kopf-an-Kopf" Wettbewerben;
+• die Registrierung von Spielen und/oder besonderen spielspezifischen Ereignissen;
+• die Anmeldung zu Newslettern, einschließlich Newsletter-Werbung - soweit Sie uns dazu Ihre vorherige, ausdrückliche Einwilligung gegeben haben -, Empfehlungsdienste und andere Marketing-Umfragen und E-Mail-Kampagnen. Nutzer können stets dem Empfang von Newsletter-Werbung widersprechen;
+• um den ordnungsgemäßen Betrieb von EA Produkten und EA Services sicherzustellen und um Software-Fehler zu erkennen und zu beheben;
+• um Werbung und Kommunikation anzubieten, die an Ihre Interessen angepasst sind;
+• um Software-Updates und dynamische Inhalte anzubieten;
+• um Conversion Rates bei Werbeanzeigen festzustellen;
+• um mit Ihnen Kontakt aufzunehmen;
+• um die EA Nutzungsbedingungen durchzusetzen;
+• um Betrug zu verhindern;
+• um Ihnen die Erstellung eines persönlichen Profils zu ermöglichen;
+• um Ihnen die (personalisierte) Nutzung unserer Webseite und Dienste zu ermöglichen, einschließlich Anfragen zu Produkt- und Kundenservice, Werbung und Anmeldung;
+• Zugang zu unseren Produkten und/oder Diensten in sozialen Netzwerken oder anderen Diensten Dritter; Nutzung von EA-Services;
+• Ausführen Ihrer Bestellungen und Zusenden einer Bestellbestätigung;
+• die Nutzung von EA-Services, bei denen Daten notwendig sind, um sie zu nutzen und/oder teilzunehmen;
+• das Anbieten dynamischer Inhalte und statischer, dynamischer und interessenbasierter Werbung, angepasst an Ihre Interessen, das Analysieren von Conversion Rates bei Werbung, das Bereitstellen von Angeboten, das Beheben von Bugs, die Verbesserung von EA-Services und um Ihnen anderweitig exzellenten Kunden-Service bieten zu können;
+• um Ihre Software zu authentifizieren und um Lizenzrechte zu verifizieren;
+• um Kundenbindungsprogramme zu betreiben und zu managen;
+• um Ihnen exzellente Produkte und Dienste bieten zu können, um Produkte und Dienste, sowie Ihr Spielerlebnis zu verbessern und weiterzuentwickeln;
+• um die Nutzung unserer Webseiten, mobilen Plattformen und EA-Services zu personalisieren und Ihren Interessen anzupassen;
+• zur Analyse der Leistung von EA-Services und
+• zur Ermittlung Ihres ungefähren Standorts, um die richtige Steuer zu ermitteln, Ihre Anfragen zu bearbeiten, um Nutzungsstatistiken zu analysieren und personalisierten Service bieten zu können.
+
+Wenn Sie Friend-Finder-Tools wie z.B. Facebook, Game Center oder anderer - einschließlich mobiler - Dritter nutzen, wissen Sie, dass die Nutzung dieser Friend-Finder-Tools Ihnen helfen wird, Ihre Kontakte aufzufinden und es ebenfalls Ihren Kontakten erlauben wird, Ihr Konto oder andere EA-Services (und zugehörige Spielberechtigungen) mit Ihrem sozialen Netzwerkprofil und/oder Ihrer E-Mail-Adresse in Verbindung zu bringen. Ihre daraus resultierende Freunde-Liste, die unter Umständen über soziale Plattformen von EA, soweit verfügbar, zugänglich ist, wird dieser Datenschutz- und Cookie-Richtlinie unterliegen. Bitte beachten Sie, dass Freunde, welche Sie zur Ihrer Origin-Freundes-Liste hinzufügen, Sie im Zusammenhang mit verschiedenen EA-Produkten und Diensten identifizieren können und das von Ihnen erstellte Profil einsehen können. Solche Freunde können gegebenenfalls auch in der Lage sein, die von Ihnen genutzten Gamer-Tags zu sehen, welche für EA-Produkte und Dienste nutzen. Daher sollten Sie Ihre Freunde mit Bedacht wählen.
+
+Sollten Sie unseren Empfehlungsdienst nutzen wollen, um einen Freund auf ein EA-Produkt oder eine EA-Seite aufmerksam zu machen, werden wir Sie bitten, den Namen Ihres Freundes und seine E-Mail-Adresse anzugeben. Wir werden Ihrem Freund eine E-Mail in Ihrem Namen senden, als Einladung unsere Webseite zu besuchen oder sich unsere Produkte anzuschauen. EA speichert den Namen und die E-Mail-Adresse Ihres Freundes kurzfristig und einzig zu dem Zweck, diese E-Mail zu versenden und um doppelte Datensätze zu vermeiden, damit Ihr Freund nicht mehrere Kopien derselben E-Mail erhält. Wir behalten oder nutzen diese Daten zu keinem anderen Zweck.
+
+Ihre Teilnahme an Wettkämpfen oder anderen online Spielveranstaltungen ist auch abhängig von unserer Erhebung, Nutzung, Verarbeitung, Speicherung, Übermittlung und öffentlichen Anzeige der durch Ihre Teilnahme erzeugten statistischen Daten (wie z.B. Ihre Ergebnisse, Platzierungen und Erfolge).
+
+Wir werden Ihre Daten so lange speichern, wie Ihr Konto aktiv ist oder wie es erforderlich ist, um Ihnen EA-Services zur Verfügung zu stellen.
+
+2. Teilt EA meine Daten mit Dritten?
+
+EA wird Ihre personenbezogenen Daten ohne Ihre vorherige ausdrückliche Zustimmung niemals an Dritte, die nicht im Auftrag von EA handeln, weitergeben. EA kann allerdings anonyme Daten mit Dritten insbesondere für Werbe- und Marktforschungszwecke teilen. Es kann auch Umstände geben, unter denen Sie eventuell selbst Informationen mit anderen teilen. Näheres zu Ihren Rechten an Informationen, die Sie an EA und dritte Seiten und Foren weitergeben, finden Sie in Abschnitt X.
+
+Im Falle einer Fusion, einer Übernahme oder dem unwahrscheinlichen Fall eines Konkurses kann die Verwaltung der EA-Kundendaten ungeachtet des Alters auf den Rechtsnachfolger oder Zessionar übertragen werden. EA beauftragt gelegentlich Drittunternehmen mit der Erhebung von personenbezogenen Daten in unserem Namen für die Zwecke der Zustellung von E-Mails, Erfüllung von Produktbestellungen, Zustellung von Preisen oder Werbematerial, Ausrichtung von Wettwerben, Kreditkartenverarbeitung, Versand oder zur Erbringung anderer Dienstleistungen auf unseren Seiten. Wenn Sie diese Dienstleistungen in Anspruch nehmen, werden Sie möglicherweise gebeten, Ihren Namen, Ihre Postanschrift, Telefonnummer und E-Mail-Adresse anzugeben.
+
+Wir bitten einige Drittunternehmen wie Kreditauskunfteien, Datenanalyse- oder Marktforschungsunternehmen, die uns von Ihnen zur Verfügung gestellten personenbezogenen Daten für unsere eigenen Marketing- und demographischen Studien zu ergänzen, damit wir unsere Seiten und die damit verbundene Werbung ständig verbessern und so den Bedürfnissen und Vorlieben unserer Besucher besser entsprechen können. Um die Profile individueller Kunden zu optimieren, verknüpfen wir diese Informationen mit den personenbezogenen Daten, die Sie uns zur Verfügung stellen.
+
+Wenn wir Drittunternehmen damit beauftragen, für uns personenbezogene Daten zu erheben und/oder auf diese Zugriff geben, verpflichten wir diese, die Daten ordnungsgemäß zu nutzen. Diesen Dritten ist es untersagt, Ihre personenbezogenen Daten ohne Ihre ausdrückliche Einwilligung für einen anderen Zweck zu nutzen.
+
+Lediglich in den folgenden Ausnahmefällen können wir Ihre Daten an Dritte, auch ohne vorherige gesonderte Information, weitergeben:
+• Wenn es zur Bekämpfung einer rechtswidrigen Nutzung der EA Anwendungen dient oder für die Verfolgung der Rechte von EA erforderlich ist, werden personenbezogene Daten an die Strafverfolgungsbehörden sowie - falls notwendig - an geschädigte Dritte weitergeleitet. Dies geschieht jedoch nur dann, wenn konkrete Anhaltspunkte für ein gesetzwidriges/missbräuchliches Verhalten vorliegen.
+
+• Eine Weitergabe kann auch dann stattfinden, wenn dies der Durchsetzung von EAs Allgemeinen Geschäftsbedingungen oder anderer Vereinbarungen dient.
+
+• Wir sind zudem gesetzlich verpflichtet, auf Anfrage bestimmten öffentlichen Stellen Auskunft zu erteilen. Dies sind Strafverfolgungsbehörden, Behörden, die bußgeldbewährte Ordnungswidrigkeiten verfolgen und die Finanzbehörden.
+
+• Beachten Sie, dass bestimmte öffentlich zugängliche Informationen, die Sie auf unseren und auf den Seiten und Diensten Dritter posten, öffentliche Informationen sind, für die Sie keine Privatsphäre erwarten können. Weitere Einzelheiten hierzu finden Sie in Abschnitt X.
+
+VI. Wo werden die Daten gespeichert?
+
+EA ist ein weltweit tätiges Unternehmen, und die meisten der Computersysteme, auf denen EA die erhobenen, gespeicherten und genutzten Daten erfasst und aufbewahrt, befinden sich in den Vereinigten Staaten, Irland und den Niederlanden. Unter bestimmten Umständen verarbeiten wir die gespeicherten Daten auch im EWR. Ihre personenbezogenen Daten können von EA in die Vereinigten Staaten oder in andere Länder, in denen EA geschäftlich tätig ist, einschließlich Länder innerhalb und außerhalb des EWR übermittelt und dort genutzt, verarbeitet, gespeichert und für die in dieser Datenschutz- und Cookie-Richtlinie aufgeführten Zwecke verwendet werden.
+
+Personenbezogene Daten, welche innerhalb der Schweiz und dem EWR erhoben werden, können an Orte außerhalb der Schweiz und des EWR übermittelt und dort gespeichert werden. Die gespeicherten Daten können auch von solchen Mitarbeitern verarbeitet werden, welche außerhalb der Schweiz oder der EWR für uns oder einen unserer Dienstleister tätig sind. Solche Angestellten können, unter anderem, für (i) die Verarbeitung von Transaktionen und Ihre Zahlungsdetails und (ii) bei der Bereitstellung von Support und anderen Diensten eingesetzt werden.
+
+Die Server und sonstige Ausrüstung, auf denen Ihre Daten gespeichert werden, können Dritten gehören oder von diesen betrieben werden, mit denen EA vertragliche Beziehungen über die Erhebung, die Speicherung, die Nutzung sowie die Verarbeitung Ihrer personenbezogenen und nicht-personenbezogenen Daten unterhält und die im Auftrag von EA handeln. Darüber hinaus dürfen EA und die dafür beauftragten Dritten Ihre personenbezogenen Daten auf Server und Einrichtungen übermitteln, speichern, nutzen und verarbeiten, welche sich in anderen Ländern befinden. Bitte beachten Sie auch, dass die Datenschutzgesetze anderer Länder nicht unbedingt denen Ihres Herkunftslandes entsprechen müssen und daher einen geringeren Schutz Ihrer personenbezogenen Daten bieten könnten. Seien Sie jedoch versichert, dass wir Ihre personenbezogenen Informationen nur wie in dieser Datenschutz- und Cookie-Richtlinie beschrieben verarbeiten und geeignete Maßnahmen ergreifen, um Ihre personenbezogenen Daten zu schützen.
+
+VII. Was unternimmt EA zum Schutz Ihrer personenbezogenen Daten?
+
+EA versteht die Wichtigkeit, Ihre Daten sicher und geschützt zu speichern. EA wird notwendige und wirtschaftlich angemessene Anstrengungen unternehmen, um Ihre personenbezogenen Daten zu schützen und die Sicherheit unserer Systeme sicherzustellen. Wenn Sie sensible Bankinformationen (wie z.B. die Daten Ihrer Kreditkarte) in unsere Bestellformulare eingeben, erfolgt die Übermittlung dieser Informationen mittels einer wirtschaftlich angemessenen Verschlüsselungsmethode. Gleichwohl ist keine Übertragungsart über das Internet oder Methode zur elektronischen Datenspeicherung 100 % sicher. Wir können daher keine Verantwortung oder Haftung für unauthorisierten Zugriff auf unsere Server und Systeme übernehmen.
+
+VIII. Rechte des Nutzers: Überprüfung, Berichtigung und Löschung Ihrer Daten, Entfernung aus Adressenlisten und Deaktivierung Ihres Kontos
+
+Selbstverständlich haben Sie das Recht, auf Antrag Auskunft über die von uns zu Ihrer Person gespeicherten Daten zu erhalten. Sie können Ihre Konto-Daten jederzeit berichtigen, aktualisieren oder löschen, indem Sie sich auf unserer Webseite einloggen und zu "Mein Konto", Grundinformationen  oder zu anderen Kontoeinstellungen navigieren. Wenn Sie sich nicht einloggen können oder wenn Sie Ihr Konto/Ihre Konten deaktivieren lassen möchten, wenden Sie sich an den Datenschutz- und Cookie-Richtlinien-Administrator, den Sie unter folgender E-Mail-Adresse kontaktieren können: privacy_policy@ea.com. Wir werden Ihre Daten gerne für Sie prüfen, aktualisieren oder entfernen/löschen. Beachten Sie, dass einmal gelöschte Konten nicht wiederhergestellt werden können. Wir behalten unter Umständen Ihre Daten jedoch weiterhin in unseren Unterlagen solange es nötig ist, um Rechtsstreitigkeiten beizulegen, unsere Nutzungsbedingungen oder andere Vereinbarungen durchzusetzen oder wegen technischer und rechtlicher Auflagen und Einschränkungen in Zusammenhang mit der Sicherheit, Integrität und dem Betrieb unserer Webseiten. In diesem Fall werden wir Ihre Daten sperren.
+
+Einige EA Seiten oder EA-Services enthalten möglicherweise personenbezogene Daten, die nicht über unsere Seite zugänglich sind. In solchen Fällen haben Sie jedoch die Möglichkeit, durch alternative Kanäle auf diese Daten zuzugreifen, oder indem Sie Ihren örtlichen Datenschutz- und Cookie-Richtlinien-Administrator unter privacy_policy@ea.com anschreiben, der Sie umgehend kontaktieren wird.
+
+Soweit Sie EA Zugriff auf Ihre Facebook-Profilinformationen über eine EA- oder Playfish-Anwendung gegeben haben, können Sie beim unter privacyadmin.ea.com gelisteten Datenschutz- und Cookie-Richtlinien-Administrator unter Angabe der genutzten Facebook-Anwendung die Entfernung Ihrer Facebook-Daten beantragen. Bitte beachten Sie, dass mit der Entfernung der mit der Facebook-Anwendung verknüpften Daten, kein Zugriff mehr auf die Anwendung sowie sämtliche Errungenschaften und virtuellen Währungsguthaben mehr bestehen, soweit solche noch vorhanden sind.
+
+Sie können Ihre Einwilligung jederzeit widerrufen, indem Sie Ihr Konto kündigen und die Nutzung der EA-Services einstellen. Sie können Ihre Einwilligung auch widerrufen, indem Sie einen Brief an Electronic Arts Inc., 209 Redwood Shores Parkway, Redwood City, CA 94065, USA oder eine E-Mail an privacy_policy@ea.com schicken und die Nutzung der EA Services einstellen.
+
+IX. Ein besonderer Hinweis zu Kindern
+
+Viele EA online oder mobilen Produkte und Dienste sind für eine breite Anwenderschaft gedacht und erheben nicht bewusst personenbezogene Daten von Kindern. Sofern EA bei der Nutzung von Online- oder mobilen Produkten und Diensten Altersinformationen erhebt und Nutzer sich als jünger als 14 Jahre identifizieren, wird das Produkt oder die Leistung solche Nutzer entweder von der Zurverfügungstellung von personenbezogenen Daten ausnehmen oder sicherstellen, dass die Einwilligung der Eltern in die Erhebung Nutzung, Verarbeitung und Verbreitung der personenbezogenen Daten des Kindes vorliegt. Wir werden Kinder unter 14 Jahren nicht bewusst nach mehr Informationen fragen, als für die Erbringung unserer Leistungen erforderlich ist.
+
+Bitte beachten Sie, dass im Falle Ihrer Einwilligung für Ihr Kind zur Nutzung von EA-Services, auch der Zugang zu Kommunikationsservice wie E-Mail, Instant Messengers und Online-Gruppen mit einem breiten Publikum umfasst ist und Ihr Kind grundsätzlich mit Nutzern sämtlicher Altersgruppen kommunizieren und diesen gegenüber personenbezogene Daten veröffentlichen kann.
+
+Eltern können die erteilte Einwilligung ändern oder widerrufen und mittels E-Mail an den zuständigen Datenschutz- und Cookie-Richtlinien-Administrator unter privacyadmin.ea.com die personenbezogenen Daten ihres Kindes einsehen, bearbeiten oder die Entfernung/Löschung beantragen.
+
+Im Falle einer Änderung dieser Datenschutz- und Cookie-Richtlinie dahingehend, dass die Erhebung, Nutzung, Verarbeitung oder Verbreitung der personenbezogenen Daten des Kindes, zu welcher die Einwilligung erteilt wurde, erweitert wird, werden wir den jeweiligen Elternteil benachrichtigen; EA ist in diesem Fall zur Einholung einer erweiterten Einwilligungserklärung verpflichtet.
+
+Wir möchten Sie ermutigen, mit Ihrem Kind über die Kommunikation mit Fremden sowie die Preisgabe persönlicher Informationen im Internet zu sprechen. Sie und Ihr Kind sollten unsere Internetseite zur Onlinesicherheit für zusätzliche Informationen zur sicheren Nutzung des Internets besuchen. Die erhobenen Daten werden im Einklang mit den Bestimmungen dieser Datenschutz- und Cookie-Richtlinie gesichert (siehe Ziffer VII). Falls wir die Nutzung der Daten Ihres Kindes ändern, werden wir Sie entsprechend der Bestimmungen dieser Erklärung informieren.
+
+Keinesfalls werden wir die Teilnahme eines Kindes an einer Aktivität - wie einem Turnier - von der Preisgabe weiterer personenbezogener Daten abhängig machen, als für die Teilnahme bei angemessener Betrachtung erforderlich ist. Auf bestimmten Seiten können wir die Teilnahme eines Kindes unabhängig von einer Einwilligung vollständig untersagen.
+
+X. Öffentliche Informationen, einschließlich benutzergenerierte Inhalte, Online-Foren, Blogs und Profile
+
+Sie haben die Möglichkeit, Informationen über Ihre Person im Rahmen Ihres Beitrags von benutzergenerierten Inhalten zu EA-Webseiten oder Spielen oder in unseren Online-Chatrooms, Blogs, auf Pinnwänden oder in öffentlich einsehbaren Benutzer-Profilen oder in ähnlichen Foren auf unseren Webseiten und/oder den Webseiten Dritter zu veröffentlichen. Informationen, die Sie in einem dieser Foren preisgeben, sind unverschlüsselte, öffentliche Informationen, welche von EA-Mitarbeitern gespeichert oder überprüft werden. In diesem Zusammenhang kann der Schutz oder die vertrauliche Behandlung der Informationen nicht erwartet werden. Sie sollten beachten, dass alle von Ihnen im Rahmen dieser öffentlichen Aktivitäten unterbreiteten Informationen, die eine Identifizierung Ihrer Person ermöglichen, von anderen Benutzern dieser Foren gelesen, erhoben, genutzt und verarbeitet werden können, um Ihnen unerwünschte Nachrichten zukommen zu lassen. Wir übernehmen keine Verantwortung für die von Ihnen in diesen Foren öffentlich gemachten Informationen, die zur Identifizierung Ihrer Person genutzt werden können. Beachten Sie auch, dass im Rahmen der üblichen Internet-Aktivitäten unter Umständen von Ihrem Browser bestimmte technische Information an Dritte wie z.B. Werbenetzwerke oder Analyse-Unternehmen geschickt werden.
+
+EA hat keine Kontrolle über die von Ihrem Browser an solche Netzwerke oder Dritte versandte Informationen und empfiehlt Ihnen sicherzustellen, dass Ihre Browser-Einstellungen die Offenlegung von Informationen, die Sie nicht teilen wollen, verhindern. Wenn Sie ein Video, Bild oder Foto auf einer unserer Webseiten allgemein zugänglich veröffentlichen wollen, sollten Sie beachten, dass diese möglicherweise von anderen Benutzern ohne Ihre Zustimmung verarbeitet, erhoben, kopiert und/oder genutzt werden können.
+
+Wir übernehmen keine Verantwortung für die von Ihnen auf der EA-Webseite veröffentlichten Videos, Bilder oder Fotos. Bitte beachten Sie hierzu und für weitere Informationen zum Veröffentlichen von Inhalten auf unseren Webseiten unsere Nutzungsbedingungen unter terms.ea.com/de.
+
+XI. Webseiten Dritter
+
+Unsere Webseite enthält möglicherweise Werbung oder Dienste, die mit anderen Webseiten wie z.B. Twitter, Facebook und YouTube verlinkt sind. Die Tatsache, dass wir einen Link zu einer Webseite herstellen, stellt keine Billigung, Genehmigung oder Stellungnahme hinsichtlich unserer Beziehung zu diesen Dritten dar. Wenn Sie einen Link zur Webseite eines Dritten - dazu gehören auch Werbeanzeigen - anklicken, verlassen Sie die von Ihnen besuchte EA-Seite und wechseln auf die ausgewählte Webseite. Da wir die Aktivitäten Dritter, einschließlich Facebook und anderer Dienstleister, nicht kontrollieren können, kann von uns keine Verantwortung für eine Nutzung Ihrer personenbezogenen Daten durch diese Dritten übernommen werden; wir können nicht gewährleisten, dass Dritte die gleichen Datenschutz- und Sicherheitsmaßnahmen befolgen wie EA. Es wird empfohlen, dass Sie die Datenschutzrichtlinien jedes anderen Dienstleisters, den Sie in Anspruch nehmen, lesen. Wenn Sie eine Webseite Dritter besuchen, die mit einer EA-Seite verlinkt ist, sollten Sie die Datenschutzrichtlinien dieser Webseite lesen, bevor Sie personenbezogene Daten zur Verfügung stellen.
+
+XII. Produkte, die in Zusammenarbeit mit Dritten angeboten werden
+
+Mitglieder können sich von unserer Webseite / unseren Webseiten aus für andere Dienste anmelden. Bestimmte, auf unserer Webseite verfügbare Produkte und/oder Dienste werden Ihnen in Zusammenarbeit mit Dritten bereitgestellt und erfordern unter Umständen die Preisgabe von Informationen, die eine Identifizierung Ihrer Person ermöglichen, um sich für diese Produkte und/oder Dienste zu registrieren und den Zugriff darauf zu erhalten. Diese Produkte und/oder Dienste identifizieren diese Drittanbieter bei der Registrierung. Wenn Sie entscheiden, sich für diese Produkte und/oder Dienste zu registrieren, werden die Informationen, die eine Identifizierung Ihrer Person ermöglichen können, an diese(n) Dritte(n) übermittelt und unterliegen den Datenschutzrichtlinien und -methoden dieser Drittpartei(en). Wir übernehmen keine Verantwortung für die Datenschutzrichtlinien und -methoden dieser Dritte(n); Sie sollten deshalb die Datenschutzrichtlinien und -methoden dieser Dritte(n) prüfen, bevor Sie Informationen, die der Identifizierung Ihrer Person dienen können, in Zusammenhang mit solchen Produkten und/oder Dienstleistungen zur Verfügung stellen.
+
+XIII. Kontaktdaten
+
+Wenn Sie Fragen oder Bedenken in Bezug auf diese Erklärung haben oder von den hier beschriebenen Rechtsbehelfen Gebrauch machen möchten, sollten Sie sich zuerst an den EA- Datenschutz- und Cookie-Richtlinien-Administrator unter privacy_policy@ea.com wenden.
+
+Wenn Ihre Anfrage nicht zu Ihrer Zufriedenheit bearbeitet wurde, wenden Sie sich bitte an TRUSTe, wie oben beschrieben, oder über https://feedback.truste.com. TRUSTe dient dann als Vermittler zwischen uns, um Ihre Bedenken zu zerstreuen. Bitte beachten Sie, dass das TRUSTe-Programm lediglich Daten abdeckt, die durch diese Webseite erfasst werden und nicht für Daten gilt, die möglicherweise durch eine von dieser Webseite heruntergeladene Software erfasst werden. Für weitere Informationen und Updates unserer Datenschutz- und Cookie-Richtlinie, besuchen Sie privacy.ea.com/de.
+
+XIV. Änderung dieser Datenschutz- und Cookie-Richtlinie
+
+Wir behalten uns vor, diese Datenschutz- und Cookie-Richtlinie zu ändern. Die aktuelle Fassung der Datenschutz- und Cookie-Richtlinie können Sie stets unter privacy.ea.com/de abrufen.
+
+Version 65502_2
+
+Bisherige Datenschutz- und Cookie-Richtlinie: 
+Datum des Inkrafttretens: 05. Oktober 2012
+Datum des Inkrafttretens: 11. Januar 2012
+

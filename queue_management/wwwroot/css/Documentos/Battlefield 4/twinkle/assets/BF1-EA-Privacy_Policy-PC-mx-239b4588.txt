@@ -1,0 +1,289 @@
+POLÍTICA DE PRIVACIDAD Y DIRECTIVA DE COOKIES DE ELECTRONIC ARTS
+
+Fecha de vigencia: 17 de mayo de 2016
+
+
+Al registrarse en una Cuenta EA (anteriormente conocida como una Cuenta Origin) (la "Cuenta"), utilizar este sitio y/o cualquier producto y servicio en línea o móvil de EA, acepta la Política de Privacidad de EA y que podemos transferir y almacenar su información en los EE.UU. Al registrarse acepta que EA pueda procesar sus datos de acuerdo con la siguiente política de privacidad y que usted se atendrá a los Términos de Servicio de EA.
+
+SI NO ACEPTA ESTA POLÍTICA, ENTONCES NO UTILICE NINGÚN SITIO, PRODUCTO O SERVICIO EN LÍNEA O MÓVIL DE EA. Si cambiamos nuestra política de privacidad, notificaremos los cambios en esta declaración de privacidad, en la página de inicio o en otros lugares, para que esté al tanto de la información que recopilamos, cómo la usamos y bajo qué circunstancias, si existieran, la revelamos. Nos reservamos el derecho de modificar esta declaración de privacidad en cualquier momento, así que revísela frecuentemente. Si hacemos cambios esenciales o significativos a esta política o en la forma en que tratamos la información de los menores de edad, aquí le notificaremos a usted o al padre/tutor, por correo electrónico o por medio de una notificación en nuestra página de inicio antes de que los cambios entren en vigor. Si continúa usando nuestros productos y servicios en línea o móviles significa que acepta los cambios de nuestra Política de Privacidad en línea.
+
+TABLA DE CONTENIDO
+
+I.          Política de Privacidad de EA en línea: Introducción
+II.        ¿Qué es Información Personal y cuándo EA la recopila?
+III.       ¿Qué es Información No Personal y cuándo EA la recopila?
+IV.       Información proporcionada a EA por terceros.
+V.        ¿Qué pasa con la información que EA recopila?
+VI.      ¿Dónde se guarda la información?
+VII.     ¿Cómo protege EA su Información Personal?
+VIII.    Revisión, corrección de su información, solicitud de eliminación de las listas de correos y desactivación de su cuenta
+IX.       Una nota especial sobre los menores de edad
+X.        Información pública, incluyendo contenido generado por el usuario, foros en línea, blogs y perfiles
+XI.      Sitios de terceros
+XII.     Productos ofrecidos en sociedad con terceros
+XIII.   Información de contacto
+XIV.    Residentes de California: sus derechos de privacidad en California
+XV.     Resolución de disputas mediante arbitraje obligatorio
+
+
+
+I.    Política de privacidad de EA en línea y móvil: Introducción
+
+EA y sus compañías subsidiarias reconocen su interés por cómo la información sobre usted se utiliza y comparte, y apreciamos su confianza en que lo haremos con cuidado y prudencia. Nosotros respetamos el derecho de privacidad de los consumidores y reconocemos la importancia de proteger la información recopilada acerca de usted. Hemos adoptado una Política de Privacidad global en línea para explicar la forma en que almacenamos y usamos la información personal y no personal que recopilamos en línea en nuestros sitios web, durante el uso por su parte de nuestros productos y/o servicios en línea (incluyendo el juego en línea) y en las plataformas móviles. Esta política no cubre la información proporcionada en línea en respuesta a las publicaciones de empleo. Para obtener más información, por favor revise la Declaración de Privacidad de Datos de Empleos de EA en el sitio de empleos de EA en www.jobs.ea.com.
+
+Si usted reside en los Estados Unidos, Canadá o Japón, estos términos son un contrato que se celebra entre usted y Electronic Arts Inc. Si usted reside en algún otro país, entonces estos términos son un contrato que se celebra entre usted y Electronic Arts Swiss Sàrl.
+
+II.    ¿Qué es Información Personal y cuándo EA la recopila?
+
+EA recopila información tanto personal como no personal del cliente. La información personal recopilada por EA se discute abajo en esta sección. La información no personal se discute más adelante en la Sección III.
+
+La información personal es aquella que le identifica y que puede utilizarse de forma independiente para ponerse en contacto con usted en línea o por otros medios. Electronic Arts recopila información personal de nuestros visitantes en línea durante:
+
+-    El registro en concursos y aceptación de premios;
+-    El registro y solicitud de garantía;
+-    Las solicitudes de atención al cliente y/o servicio técnico;
+-    El hacer parejas de jugadores y otras competencias de enfrentamiento en línea;
+-    El registro de juegos y/o eventos especiales específicos del juego;
+-    Las suscripciones a noticias, servicios de referencia y otras encuestas de mercadotecnia y campañas de correo electrónico;
+-    El registro en Cuentas EA y/u otras cuentas de servicio;
+-    La creación de un perfil personal;
+-    Las ordenes de productos, servicios y/o suscripciones;
+-    Las solicitudes de servicio proporcionados por terceros en nuestro sitio;
+-    El acceso a nuestros productos y/o servicios en redes sociales u otros servicios de terceros; y
+-    De otra manera, por el uso de nuestro software, servicios móviles o en línea, donde se le pida información personal para el uso y/o para participar.
+
+La información recopilada variará según la actividad, y puede incluir su nombre, dirección de correo electrónico, número de teléfono, dirección postal, fecha de nacimiento, número de teléfono celular e información sobre la tarjeta de crédito. Puede pedirse a los visitantes de EA Mobile que proporcionen el nombre de su proveedor de servicios, el modelo de su teléfono celular y un número válido de teléfono celular para que podamos dar instrucciones de compra directamente a su teléfono celular. Bajo este contexto, su número de teléfono celular solo será utilizado para enviarle un mensaje de texto con un enlace para descargar su juego y no se retendrá para ningún otro propósito. A los ganadores de premios se les puede solicitar que proporcionen su número de seguro social u otra identificación personal, para efectos de impuestos, y sólo se utilizará para cumplir con el premio.
+
+III.    ¿Qué es Información no personal y cuándo EA la recopila?
+
+La información no personal, por sí sola, no puede usarse como identificación o para ponerse en contacto con usted. EA recopila información no personal sobre la forma como usted usa nuestros productos y servicios móviles y en línea tanto en nuestro sitio web como durante algún juego y uso de software (desde una PC y plataformas de sistema de juegos y móviles).
+
+
+Conservaremos su información siempre que su Cuenta EA esté activa o según sea necesario para proporcionarle servicios. Si desea cancelar su Cuenta EA o solicitar que ya no utilicemos su información, póngase en contacto con el Administrador de la Política de Privacidad de su país especificado en nuestro sitio en privacyadmin.ea.com, o si su país no está incluido en la lista, póngase en contacto con el Administrador de la Política de Privacidad en los Estados Unidos.   Puede haber instancias en las que estemos legalmente obligados a conservar su información.
+
+A.    ¿Qué tipo de Información No Personal recopila EA?
+
+Cuando utiliza los productos y servicios móviles y en línea de EA o juega a algún juego en su PC o en el sistema de juegos, podemos recopilar cierta información sin datos personales para diversos propósitos entre los que se incluyen mejorar nuestros productos y servicios, solucionar problemas relativos a errores, ofrecerle servicios, facilitar la provisión de actualizaciones de software, contenido que se entrega dinámicamente y soporte de productos, así como para comunicarse con usted.   La información no personal que se recopila puede incluir datos demográficos tales como sexo, edad, código postal, información sobre su computadora, hardware, software, plataforma, sistema de juego, medios, dispositivo móvil, incluyendo dispositivos ID u otros identificadores de dispositivos, datos incidentales, dirección IP, dirección de Control de Acceso al Medio (MAC) de red y conexión. También recopilamos otra información no personal como nombre de usuario, ID de usuario o personaje, uso típico, estadísticas de juego, puntuaciones y logros, clasificación de usuario, tiempo que usó para jugar a nuestros juegos y rutas de clic, además de otros datos que usted podría proporcionar en encuestas, a través de sus preferencias de cuenta y perfiles en línea tales como listas de amigos o compras, por ejemplo. También podemos recibir información de terceros en relación con estudios de mercado y demográficos y/u otros datos que usamos para complementar la información personal proporcionada directamente por usted.
+
+B.    ¿Cómo recopila EA la Información No Personal?
+
+EA recopila la información no personal junto con la información personal cuando usted la proporciona activamente en el contexto de diversas actividades en línea o móviles, incluyendo compras en línea o móviles, registro de juegos y encuestas de mercadeo, por ejemplo. Además, nosotros y otros terceros usamos cookies y otras tecnologías para obtener en forma pasiva información demográfica no personal, personalizar su experiencia en nuestros sitios y monitorear la publicidad y otras actividades como se describe abajo. También podemos deducir a partir de la información recopilada otros hechos, como determinar la tasa del impuesto aplicable basándose en su dirección IP.
+
+1.    Cookies
+
+Las cookies son pequeños archivos que se descargan en su navegador de Internet para registrar los movimientos en los sitios web. Podemos vincular información de cookies a la información personal. Las cookies enlazan la información referente a qué artículos ha seleccionado para comprar en nuestra tienda, páginas que ha visto o los juegos que ha jugado. Por ejemplo, esta información se usa para llevar un registro de su carrito de compras y asegurar que no vea el mismo anuncio repetidamente. También usamos las cookies para entregar contenido específico según sus intereses y para monitorear el uso del sitio web o de los juegos. Nosotros y terceros recopilamos información sobre los juegos que se juegan, el tiempo que se utiliza para jugar y los anuncios o enlaces sobre los que se hace clic. Algunos de nuestros sitios utilizan compañías externas de publicidad para desplegar anuncios. Estos anuncios contienen cookies. Las cookies recibidas con los anuncios son aplicadas por nuestras agencias de publicidad; EA no tiene acceso a esta información. La mayoría de los navegadores están configurados para aceptar cookies de forma automática siempre que visite un sitio web. Puede deshabilitarlas o configurar el navegador para advertirle cuando éstas se envían. Sin embargo, algunas áreas de nuestros sitios no funcionarán adecuadamente si lo hace. Puede configurar su navegador para que le advierta sobre intentos de colocar cookies en su computadora o limitar el tipo de cookies que usted permite. Para obtener más información sobre cómo desactivar las cookies, por favor visite www.support.ea.com.
+
+En nuestros sitios, nosotros y terceros también podemos utilizar cookies flash, también conocidos como "objetos locales compartidos", que utilizan tecnología Flash. Las cookies Flash son pequeños archivos similares a las cookies del navegador y se utilizan para recordar la configuración del sitio para personalizar la forma en que se ve y se siente el sitio. Como las cookies normales, las cookies Flash se representan como pequeños archivos en su computadora. Un método para evitar que se coloquen cookies Flash consiste en ajustar sus preferencias en el Panel de Configuración de Privacidad en la página web de Macromedia en www.macromedia.com.
+
+Si desactiva las cookies, usted puede perder algunas de las características y funciones de nuestros juegos, ya que las cookies son necesarias para rastrear y mejorar sus actividades de juego. Por favor, tenga en cuenta que las compañías que envían publicidad en nuestros juegos o en nuestros sitios web también pueden usar cookies u otras tecnologías, y esas prácticas están sujetas a sus propias políticas.
+
+Por favor, tenga en cuenta que esta política de privacidad cubre el uso de las cookies de EA únicamente y no cubre el uso de las cookies de ningún anunciante.
+
+2.    Los GIF transparentes y píxeles de seguimiento
+
+Los GIF transparentes (también conocidos como balizas, marcadores y señuelos web) son pequeñas imágenes que están en las páginas web, en documentos basados en Internet o en correos electrónicos. Los GIF transparentes son invisibles al usuario porque suelen ser muy pequeños (1x1 píxeles) y del mismo color que el fondo de la página web, del documento o del correo electrónico. Nosotros no utilizamos GIF transparentes para recopilar información personal acerca de usted. Sin embargo, podemos usar GIF transparentes para conseguir información estadística sobre el uso de nuestras páginas web, funciones y demás elementos en una página web. Podemos asociar esta información a un usuario para personalizar su experiencia y para análisis estadísticos de la experiencia del usuario en nuestras páginas web.
+
+Nosotros y terceros también podemos usar píxeles de seguimiento, lo cual nos permite hacer publicidad de una forma más eficiente al excluir a nuestros usuarios actuales de ciertos mensajes promocionales o identificar el origen de una nueva instalación.
+
+3.    Archivos de seguimiento de Internet
+
+EA y otros terceros también pueden mantener archivos de registro que contienen direcciones IP. Una dirección IP es una dirección numérica asociada a su computadora por el proveedor de servicios de Internet. En general, usamos los archivos de seguimiento para monitorear el tráfico en nuestros sitios web, para resolver problemas técnicos y para autentificar el derecho a nuestros productos que tienen los usuarios. Sin embargo, en caso de que un usuario abuse de nuestros sitios web, podríamos bloquear ciertas direcciones IP o ID del sistema de juegos proporcionados por nuestros fabricantes de hardware autorizados con licencia. De estar disponible, las direcciones IP e ID del sistema de juegos podrían usarse para hacer cumplir nuestras Condiciones de Servicio.
+
+4.    Herramienta de medición analítica y otras tecnologías
+
+EA también utiliza su propia herramienta de medición analítica y otras tecnologías analíticas de terceros para recopilar información cuando usted utiliza nuestros productos y servicios en línea y/o juega nuestros juegos en su PC, sistema de juegos o dispositivo móvil. Estas herramientas y tecnologías usan archivos de registro del servidor, web beacons, cookies, píxeles de seguimiento y otras tecnologías de rastreo para recopilar y analizar ciertos tipos de información, incluyendo cookies, direcciones IP (como por ejemplo, para determinar su ubicación geográfica aproximada), ID de dispositivos móviles u otro tipo de hardware, otros tipos de identificadores de dispositivos, tipos de navegadores, idioma del navegador, información pasada desde su navegador (en caso de que existiera), páginas de referencia y salida, y direcciones URL, tipo de plataforma, información sobre clics, información sobre sus medios, hardware periférico, software y/o aplicaciones instaladas en su máquina y/o dispositivo, nombres y tipos de dominio, páginas de aterrizaje, páginas vistas y el orden de esas páginas, tasas de conversión de publicidad, la fecha y la cantidad de tiempo dedicado en páginas particulares, otra información de uso de Internet y de sitios web, estado del juego y la fecha y hora de actividad en nuestros sitios web o juegos, información sobre cómo se utiliza su juego, incluyendo medidas y estadísticas de juego, uso de las funciones e historial de compra, así como identificadores únicos de hardware, como dirección MAC, ID único de dispositivo móvil (de ser aplicable) y otra información similar.
+
+Las compañías de análisis de terceros que recopilan información en nuestros sitios y en el contexto de nuestros productos y/o servicios en línea y móviles pueden combinar la información recopilada con otra información que han recopilado independientemente de otros sitios web y/u otros productos y servicios en línea o móviles en relación con sus actividades en su red de sitios web, así como productos y servicios en línea y/o móviles. Muchas de estas compañías recopilan y usan información bajo sus propias políticas de privacidad.
+
+Algunos sitios web y servicios de EA usan Google Analytics, un servicio web de análisis que ofrece Google Inc. (“Google”). Google Analytics usa “Cookies”, archivos de texto que se almacenan en su PC y permiten el análisis del uso que haga de este sitio web. La información acerca del uso que usted haga del sitio web, recopilada a través de estas cookies, será transmitida y almacenada en el servidor de Google que se encuentra en EE. UU. Google utilizará esta información en nombre de EA para evaluar el uso de estos sitios web, para realizar informes sobre las actividades del sitio web y/o para proporcionar al operador del sitio web otros servicios relacionados con estos sitios web. Su dirección IP recopilada por Google Analytics no se asociará con otros datos de Google. Para evitar la instalación de cookies, ajuste la configuración de su navegador. Por favor, tenga en cuenta que si desactiva las cookies es posible que no pueda usar todas las funciones de los sitios web de EA. También puede impedir que las cookies recopilen y almacenen su información descargando e instalando el plugin para navegador que se encuentra en el siguiente enlace http://tools.google.com/dlpage/gaoptout?hl=en.
+
+
+Una lista no exclusiva de otras compañías de análisis que operan sus propias tecnologías en nuestros sitios y productos y/o servicios en línea y/o móviles se puede encontrar en privacyappendix.ea.com/mx.
+
+5.    Tecnología de servicios publicitarios
+
+Los sitios web, productos o servicios en línea o móviles de EA pueden emplear tecnologías para publicidad propias o de terceros que usan cookies, GIF transparentes, web beacons, píxeles de seguimiento u otras tecnologías para recopilar información como resultado de ofrecer servicios publicitarios mediante nuestros productos o servicios, así como para ayudar a hacer seguimiento. Alguna tecnología para publicidad dinámica en el juego permite que la publicidad se cargue temporalmente en su navegador web o dispositivo móvil y se reemplace cuando usted está en línea. Nosotros o terceros que operan la tecnología para publicidad pueden usar información como edad y sexo, así como información registrada proveniente de su hardware o dispositivo para asegurarnos de presentar la publicidad apropiada dentro del sitio, producto o servicio en línea o móvil y para calcular o controlar el número de visualizaciones únicas y repetidas de un anuncio dado, y/o enviar anuncios que se relacionan con sus intereses y miden la efectividad de campañas publicitarias.   Nosotros o terceros pueden reunir datos para este propósito, incluyendo dirección IP (como por ejemplo, para determinar su ubicación geográfica aproximada), ID. único del dispositivo, información acerca de su software, aplicaciones y hardware, información del navegador (y/o información pasada a través de su navegador), hardware, marca y modelo de su máquina o dispositivo, publicidad enviada, ubicación en el juego, cantidad de tiempo que un anuncio publicitario fue visible, otra información de uso del sitio web o Internet, páginas web y sitios de Internet móvil que usted ha visto (así como fecha y hora), tipo de dominio, tamaño del anuncio publicitario, respuesta al anuncio publicitario (de haber alguna) y ángulo de visualización. Los datos anteriores se pueden usar y divulgar de conformidad con esta política y la política de privacidad de la compañía que proporciona la tecnología para publicidad.  
+
+Las compañías publicitarias que nos envían anuncios pueden combinar la información recopilada u obtenida de EA con otra información que han recopilado independientemente de otros sitios web y/u otros productos y servicios en línea o móviles relacionados con las actividades de su navegador web en su red de sitios web. Muchas de estas compañías recopilan y usan información bajo sus propias políticas de privacidad.
+
+Una lista no exclusiva de las compañías que ofrecen servicios publicitarios que operan sus propias redes en nuestros sitios y productos y/o servicios en línea y/o móviles se puede encontrar en privacyappendix.ea.com/mx.
+
+Para obtener más información acerca de las prácticas de otras grandes compañías de servicios publicitarios que pudieran recopilar información basándose en su interacción con los anuncios en este sitio, en nuestros productos móviles y otros sitios o productos que no pertenecen a ni son mantenidos por EA para "optar por no participar" en publicidad dirigida proporcionada por redes de publicidad de miembros de la National Advertising Initiative (NAI) (Iniciativa Nacional de Publicidad), debe visitar www.networkadvertising.org.
+
+Para obtener más información acerca de publicidad dirigida dentro de nuestros productos móviles o para optar por no participar, consulte el anexo de esta política en privacyappendix.ea.com/mx.
+
+
+Estas tecnologías para publicidad están integradas en nuestros sitios, productos y servicios en línea o móviles; si no desea utilizar esta tecnología, no juegue.
+
+6. Tecnologías de prevención de fraude y anti-trampa
+
+EA se esfuerza en proporcionar un ambiente de juego seguro y equitativo para todos los jugadores de sus juegos. Para evitar que ocurran actividades fraudulentas y comportamientos que pudieran afectar de manera adversa la experiencia de algún jugador, EA está autorizado a usar software "anti-trampa" o aplicaciones para la prevención del fraude para nuestra presencia en Internet, durante el uso de nuestros productos y/o servicios en línea (incluyendo juegos en línea) y plataformas móviles.
+
+Al iniciar sesión para los productos y/o servicios de EA en línea, durante la configuración de una Cuenta EA y/o en el punto de venta, EA puede recopilar datos acerca de su dispositivo para poder crear una hash de los componentes de la máquina. La información recopilada para este propósito no será almacenada de una forma que sea recuperable. EA usa la información recopilada para prevenir el fraude y para propósitos de autentificación. EA puede agrupar la hash de la máquina creada para este propósito con su Cuenta EA; los datos agrupados de esta manera no serán compartidos con terceros y EA los usará únicamente para propósitos de seguridad, prevención de fraude y autentificación.
+
+IV.    Información proporcionada a EA por terceros.
+
+EA también obtiene información personal y no personal de terceros como se discute más adelante. EA usa estos datos únicamente para fines acordes con esta política.
+
+1.    Sistema PlayStation®3 y consola PlayStation®4
+
+Si accede para jugar con juegos de EA a través de un sistema PlayStation®3 o de una consola PlayStation®4, la información de su cuenta de Sony Entertainment Network se enviará a EA para que le podamos establecer una Cuenta EA. Necesita una Cuenta EA para jugar en línea con títulos de EA. Al acceder para jugar con títulos de EA, acepta que se puede transferir la información limitada de la cuenta de usuario a EA. La información transferida a EA incluye su nombre, dirección de correo electrónico, ID online, país, idioma y fecha de nacimiento, pero no incluye el número de la tarjeta de crédito u otro tipo de información financiera.
+
+2.    Xbox Live
+
+Si accede para jugar con juegos de EA a través del Servicio de Microsoft Xbox Live, Microsoft proporcionará la información de su cuenta de usuario en Xbox Live a EA para que le podamos crear una cuenta de EA en línea. Necesitas una Cuenta EA para jugar los títulos de EA para Xbox Live. Al acceder para jugar con títulos Xbox Live de EA, acepta que Microsoft pueda transferir a EA la información de su cuenta de usuario. La información que Microsoft transfiere a EA incluye su Gamertag, dirección de correo electrónico, estado o provincia, país, idioma y edad, pero no incluye su número de tarjeta de crédito ni ninguna otra información financiera de su cuenta.
+
+3.  Wii U
+
+Si accede para jugar con juegos de EA a través de una consola Nintendo Wii U, la información de su cuenta de Nintendo se enviará a EA para que te podamos establecer una Cuenta EA. Necesita una Cuenta EA para jugar en línea con títulos de EA. Al acceder para jugar con títulos de EA, acepta que se puede transferir la información limitada de la cuenta de usuario a EA. La información transferida a EA incluye su personaje Mii, dirección de correo electrónico, Nintendo Network ID, lista de amigos, país, idioma y fecha de nacimiento, pero no incluye el número de la tarjeta de crédito u otro tipo de información financiera.
+
+4.    Otra información recopilada por terceros
+
+EA también puede recibir otra información personal de terceros, incluyendo en relación con la operación y distribución de nuestros productos y servicios, así como estudios de mercado y demográficos que usamos para complementar información personal proporcionada y anónima recopilada o proporcionada directamente por usted. Algunos servicios de terceros, por ejemplo Twitter y Facebook, también nos pueden ofrecer información de sus cuentas allí con su permiso.
+
+Al jugar un juego de EA a través de una red social u otra plataforma u otro servicio de terceros o al conectarse a esa red, plataforma o servicio de terceros a través de uno de nuestros productos y/o servicios, está autorizando a EA a recopilar, almacenar y usar, de conformidad con esta Política de Privacidad, toda la información que usted aceptó que la red social u otra plataforma de terceros pueda proporcionar a EA a través de la Interfaz de Programación de Aplicaciones (API) de la red social/plataforma de terceros basándose en su configuración en la red social o plataforma de terceros. Su aceptación tiene lugar cuando se conecta con la red, la plataforma o el servicio de terceros a través de nuestros productos y/o servicios, y/o cuando se conecta con, “acepta” o “permite” (o términos similares) una de nuestras aplicaciones mediante una red social, u otras plataforma u otro servicio de terceros.
+
+EA también puede recopilar o recibir información sobre usted a partir de otros usuarios de EA que eligen cargar sus contactos de correo electrónico u otros contactos. Nosotros almacenaremos esta información y la usaremos principalmente para ayudarle a usted y a sus amigos a conectarse.
+
+EA también puede recibir información no personal o pública de terceros en relación con estudios de mercado y demográficos y/u otros datos que usamos para complementar la información personal proporcionada directamente por usted.
+
+V.    ¿Qué sucede con la información que recopila EA?
+
+A. Cómo utiliza EA su información
+
+EA utiliza su información para cumplir con sus solicitudes específicas, órdenes de compra, así como para enviarle la confirmación de compra y otra información relacionada con la cuenta. Además, la información personal que proporcione nos permitirá enviarle mensajes acerca de diferentes aspectos, incluidos nuevos productos, características, mejoras, ofertas especiales, oportunidades de actualización, concursos y eventos de interés. También es posible que después no desee recibir este tipo de comunicaciones enviadas por correo electrónico.
+
+De lo contrario, EA utiliza información personal y no personal, tanto a nivel individual como una combinación de ambas, para mejorar su experiencia como usuario, mejorar nuestros productos y servicios, entender el comportamiento y las preferencias de nuestros clientes, solucionar problemas técnicos, atender la publicidad, con propósitos de autenticación, hacer cumplir nuestras Condiciones de Servicio, garantizar el buen funcionamiento de nuestros productos y servicios, así como para ayudar a mejorarlos. Además, combinamos información no personal con información personal, tales como una dirección de correo electrónico, con propósitos que incluyen ofrecer un excelente servicio al cliente, administración de programas de lealtad y la adaptación de nuestras comunicaciones, ofertas, páginas web o experiencia de juego para usted. 
+
+Mediante el uso de herramientas como Facebook, Game Center (Centro de Juegos) u otros servicios proporcionados por terceros en nuestros productos y servicios en línea y móviles, usted reconoce que el uso de estas herramientas de localización de amigos le ayudarán a encontrar sus contactos y también le permitirá a ellos asociar su Cuenta EA (y derechos de juego relacionados, incluidos los juegos en plataformas PC, móviles y de consola) con su perfil de red social y/o dirección de correo electrónico. La lista resultante de sus amigos, a la cual se puede acceder a través de la plataformas sociales de EA que se encuentren disponibles, estará sujeta a esta política de privacidad. Tenga en cuenta que los amigos que usted elija para incluirlos en cualquier lista de amigos de EA u Origin, pueden encontrarlo y/o identificarlo en el contexto de los diferentes productos y servicios de EA, así como ver los perfiles que ha establecido. Esos amigos también pueden ver los personajes virtuales que usted utiliza en toda la suite de productos y servicios de EA. Sea muy cuidadoso al elegir a sus amigos.
+
+Si usted decide utilizar nuestro servicio de recomendación para "Decirle a un Amigo" acerca de un producto o sitio de EA, le pediremos el nombre y dirección de correo electrónico de su amigo. Nosotros le enviaremos a su amigo un correo electrónico en su nombre invitándole a visitar el sitio, o que consulte nuestro producto. EA almacena el nombre y correo electrónico de su amigo durante un corto período con el único propósito de enviar este correo electrónico, así como para la redundancia de comprobación, con el fin de asegurarnos de que su amigo no recibe varias copias del mismo mensaje de correo electrónico. No conservamos ni utilizamos estos datos para cualquier otro fin.
+Su participación en torneos u otros eventos del juego en línea también está condicionada a nuestra recolección, uso, almacenamiento, transmisión y exhibición pública de datos estadísticos (tales como sus puntajes, clasificaciones y logros) generados a través de su participación.
+
+B.    ¿Compartirá EA mi información con terceros?
+
+EA nunca compartirá su información personal de identificación con terceros sin su consentimiento.   Sin embargo, podemos compartir información sin datos personales, agregada y/o pública con terceros. Puede haber circunstancias en las que usted puede compartir información por su cuenta. Por favor, consulte la sección X para obtener más detalles acerca de sus derechos sobre la información que usted comparte públicamente en EA y otros sitios y foros de terceros. También puede optar por permitir que EA comparta su información personal con compañías y organizaciones que ofrecen productos o servicios que pensamos puedan interesarle. Para optar por no participar en comunicados adicionales de socios comerciales o patrocinadores con los que su información ha sido compartida, por favor póngase en contacto directamente a ese socio o patrocinador.
+
+EA no revelará información personal alguna acerca de menores de 18 años que se hayan registrado a través de nuestros sitios web con terceros, ni compartirá o revelará ninguna otra información personal de la mencionada en esta política, a no ser que, en caso de fusión, adquisición o en el improbable caso de quiebra, la administración de la información de usuarios de EA pudiera transmitirse a su sucesor o cesionario independientemente de la edad.
+
+De vez en cuando, EA emplea a contratistas externos para recopilar información personal en nuestro nombre para realizar el envío de correos electrónicos, productos, complementar premios o promociones, administrar concursos, procesar tarjetas de crédito, envíos u otros servicios de nuestros sitios web. Cuando pida estos servicios, se le puede pedir que proporcione a estos contratistas su nombre, dirección de correo, número telefónico y dirección de correo electrónico. Pedimos a algunos contratistas externos, tales como agencias de crédito, análisis de datos o firmas de investigación de mercados, que complementen la información personal que usted nos proporcione para nuestros estudios demográficos y de mercado, para que podamos mejorar continuamente nuestros sitios y la publicidad asociada para cubrir mejor las necesidades y preferencias de nuestros visitantes. Para enriquecer nuestra comprensión de los clientes individuales, ligamos esta información a la información personal que usted nos proporciona.
+
+Cuando nuestros agentes o proveedores de servicios externos recopilan y/o acceden a cualquier información que no corresponda a datos no personales, anónimos y/o agregados, EA requiere que estos utilicen los datos de conformidad con nuestras políticas de privacidad estipuladas. Estos terceros tienen prohibido el uso de su información personal para cualquier otro propósito sin su consentimiento específico.
+
+Será notificado antes de que su información personal sea recopilada por un tercero que no sea nuestro agente o proveedor de servicios, para que pueda tomar una decisión bien informada de si desea o no compartir su información con este tercero.
+
+También podemos acceder a y divulgar información personal, incluidas las comunicaciones personales, en relación con funciones para denunciar abusos en nuestros productos y servicios, a fin de hacer cumplir derechos y cumplir con las leyes, o para cumplir con una orden de una entidad gubernamental u otra autoridad competente, o cuando tengamos razones para considerar que se requiere una divulgación a efectos de tratar un daño potencial o real o una interferencia con nuestros derechos, nuestra propiedad, nuestras operaciones, nuestros usuarios u otras personas que pudieran resultar perjudicadas o pudieran sufrir pérdidas o daños, o cuando consideremos que es necesaria una divulgación para proteger nuestros derechos, combatir fraude y/o cumplir con un proceso judicial, una orden de un tribunal, o un proceso legal en el que EA esté involucrado. Tenga en cuenta que la información públicamente disponible que publique y comunique en los sitios y servicios de terceros o nuestros constituye información pública para la cual no puede esperar privacidad. Consulte la Sección X para obtener más detalles.
+
+VI.    ¿Dónde se guarda la información?
+
+Es posible que, a los fines establecidos en esta Política de privacidad, la información personal que recolectamos se almacene y se procese en los Estados Unidos o en cualquier otro país en el que realicen operaciones EA, sus filiales o sus agentes externos. Al usar nuestros productos, usted acepta que su información personal podrá transferirse a destinatarios en los Estados Unidos o en otros países que quizás no ofrezcan el mismo nivel de protección de la privacidad que ofrecen las leyes de su país de residencia o ciudadanía. 
+
+EA participa en el Marco Safe Harbor entre Estados Unidos y Suiza para la recolección, el uso y la retención de datos de Suiza. Aunque EA depende de varios mecanismos para efectuar transferencias transfronterizas, nos continuamos adhiriendo a los Principios de privacidad de Safe Harbor relativos a la notificación, elección, transferencia ulterior, seguridad, integridad de los datos, acceso y aplicación de la ley. Para obtener más información sobre el programa Safe Harbor y para consultar nuestra certificación, visite el sitio http://www.export.gov/safeharbor.
+
+VII.    ¿Cómo protege EA su Información Personal?
+
+EA comprende la importancia de mantener su información segura y protegida. EA hará un esfuerzo comercialmente razonable por proteger su información personal y por garantizar la seguridad de nuestros sistemas. Cuando ingrese información financiera confidencial (como un número de tarjeta de crédito) en nuestros formularios de orden de compra, encriptamos la transmisión usando métodos comercialmente razonables. Sin embargo, no existe método de transmisión en Internet, o método de almacenamiento electrónico 100% seguro. No podemos garantizar que nadie accederá, divulgará, alterará o destruirá su información en caso de una violación de cualquiera de nuestras medidas de protección, ya sea física, técnica o administrativa. No podemos asumir responsabilidad u obligación alguna por el acceso sin autorización a nuestros servicios y sistemas.
+
+VIII.    Revisión, corrección de su información, solicitud para quitarlo de las listas de correo y desactivación de su cuenta
+
+Para corregir o actualizar la información de su cuenta en cualquier momento puede acceder a nuestro sitio y navegar en "Mi Cuenta", consultar su "Información básica" u otras configuraciones de la cuenta. Si no puede acceder o desea que su(s) cuenta(s) sea(n) desactivada(s), póngase en contacto con el Administrador de la Política de Privacidad de su país, listado en nuestro sitio en privacyadmin.ea.com, o si su país no está en la lista, póngase en contacto con el Administrador de la Política de Privacidad de los Estados Unidos. Nos dará mucho gusto revisar, actualizar o eliminar información según corresponda. Aun así, podemos mantener su información en nuestros archivos, para resolver disputas, hacer valer nuestro acuerdo de usuario y debido a requerimientos técnicos y legales y a restricciones relacionadas con la seguridad, integridad y operación de nuestros sitios web.
+
+Algunos sitios o servicios de EA pueden recopilar información personal que no está accesible por medio de nuestro sitio. Sin embargo, en tales casos, puede acceder a esa información a través de medios alternos de acceso descritos por el servicio o escribiendo a su administrador de política de privacidad local en privacyadmin.ea.com y será contactado dentro de los 30 días siguientes respecto a su solicitud.
+
+Si otorgó acceso a EA a la información de su cuenta de Facebook a través de una aplicación de EA o Playfish, puede solicitar a EA que elimine su información de Facebook poniéndose en contacto con el Administrador de la Política de Privacidad que se lista en privacyadmin.ea.com y especificando la aplicación de Facebook utilizada. Tenga en cuenta que al eliminar sus datos asociados con una aplicación en Facebook, ya no podrá acceder a dicha aplicación.
+
+IX.    Aviso especial sobre los menores de edad
+
+Muchos productos y servicios de EA en línea o móviles están diseñados para el público en general y no recopilan información personal de niños de manera intencional. Cuando un producto o servicio de EA en línea o móvil recopila información sobre la edad y los usuarios declaran que tienen menos de 13 años, el producto o servicio bloqueará a dichos usuarios para que no proporcionen información personal o se asegurará de obtener el consentimiento de los padres para recopilar, usar y compartir la información personal de sus hijos. No le pediremos a los niños menores de 13 años de manera intencional que proporcionen más información que la que sea razonablemente necesaria para brindar nuestros servicios.
+
+Tenga en cuenta que si acepta que su hijo/a utilice los productos o servicios de EA en línea o móviles, esto incluirá los servicios de comunicación para el público en general como correo electrónico, mensajería instantánea y grupos en línea y su hijo podrá comunicarse con otros usuarios de todas las edades y revelar información personal. Los padres pueden cambiar o revocar las opciones de consentimiento que hayan realizado previamente y revisar, editar o solicitar la eliminación de la información personal de sus hijos enviando un correo electrónico al Administrador de la Política de Privacidad local en privacyadmin.ea.com.
+
+Si cambiamos esta declaración de privacidad de manera que se amplíe la recopilación, uso y divulgación de la información personal de los niños que aceptó previamente el padre, se le notificará al padre y tendremos la obligación de obtener un consentimiento adicional del padre.
+
+Le recomendamos que hable con sus hijos acerca de la comunicación con extraños y la divulgación de información personal en línea. Usted y su hijo deberían leer nuestra página web de seguridad en línea para obtener información adicional acerca del uso de la seguridad en Internet.
+
+La información recopilada es asegurada en una forma consistente con esta política de privacidad (ver Sección VII arriba). Si cambiamos la forma de manejar la información de su niño(a), le notificaremos en una forma consistente con esta política.
+
+Bajo ninguna circunstancia condicionamos la participación de un menor de edad en una actividad—como concursos—a la revelación por su parte de más información personal de la necesaria, en la medida de lo razonable, para participar en dicha actividad. En ciertos sitios, podremos no permitir del todo la participación de menores de edad sin importar el consentimiento.
+
+
+X.    Información pública, incluyendo contenido generado por el usuario, foros en línea, blogs y perfiles
+
+Puede optar por revelar información sobre usted en el caso de contribuir con contenido generado por el usuario en los sitios o juegos de EA o en nuestras salas de chat (charlas) en línea, blogs, tableros de mensajes, "perfiles" de usuario para vista pública o en foros similares en nuestros sitios web y/o en sitios de terceros. La información que revele en cualquiera de estos foros no está encriptada, se considera información pública, los empleados pueden acceder a ella o grabarla y no es de esperar privacidad o confidencialidad en esos lugares.
+
+Debe estar enterado de que cualquier información de identificación personal que envíe en el transcurso de estas actividades públicas puede ser leída, recopilada o utilizada por otros usuarios de estos foros, y puede ser utilizada para enviar mensajes que no ha solicitado. No asumimos responsabilidad alguna por la información personal identificable que usted decida hacer pública en cualquiera de estos foros.
+
+Tenga en cuenta que durante el curso normal de la actividad de Internet, es posible que se envíe alguna información de su navegador a terceros, tales como redes de publicidad y compañías de análisis. EA no posee control alguno sobre la información proveniente de su explorador enviada a dichas redes u otros terceros y recomienda que se asegure de que la configuración de su explorador previene la divulgación de información que no desea compartir.
+
+Si publica un video, imagen o foto en uno de nuestros sitios para vista pública, debe estar enterado de que pueden ser vistos, recopilados, copiados y/o utilizados por otros usuarios sin su consentimiento. No somos responsables por los videos, imágenes o fotos que decida enviar al sitio de EA. Lea los Términos de Servicio en terms.ea.com/mx sobre este punto y para consultar otros lineamientos acerca de la publicación de contenido en nuestros sitios web.
+
+XI.    Sitios de terceros.
+
+Nuestro sitio web puede contener publicidad o servicios que enlazan a otros sitios web, tales como Twitter, Facebook y YouTube. El hecho de que nosotros enlacemos a otro sitio web no es un endoso, autorización o declaración de nuestra afiliación con ese tercero. Si hace clic en un enlace a un sitio de un tercero, incluyendo el que se encuentre en un anuncio, abandonará el sitio de EA que está visitando e irá al sitio que seleccionó. Debido a que no podemos controlar las actividades de terceros, no podemos aceptar responsabilidad por el uso de su información personal por ese tercero, y no podemos garantizar que ellos se adherirán a las mismas prácticas de privacidad y seguridad como lo hace EA. Le recomendamos que revise las políticas de privacidad de cualquier otro proveedor de servicios de los que solicite servicios. Si visita el sitio web de un tercero que está enlazado a un sitio de EA, debe consultar la política de privacidad de ese sitio antes de proporcionar cualquier información personal.
+
+XII.    Productos ofrecidos en sociedad con terceros
+
+Los miembros pueden registrarse para otros servicios de nuestro(s) sitio(s). Ciertos productos y/o servicios disponibles en nuestro sitio se proporcionan en sociedad con tercero(s) y pueden requerir que revele información de identificación personal para poder registrarse y acceder a dichos productos y/o servicios. Dichos productos y/o servicios deben identificar a los socios externos en el momento del registro. Si elige registrarse para dichos productos y/o servicios, su información de identificación personal será transferida a dicho(s) tercero(s) y estará sujeta a la política y prácticas de privacidad de dicho(s) tercero(s). No somos responsables por las prácticas y políticas de privacidad de dicho(s) tercero(s) y, por ende, debe revisar las prácticas y políticas de privacidad de dicho(s) tercero(s) antes de proporcionar su información de identificación personal en relación a dichos productos y/o servicios. AnchorAnchor
+
+XIII.    Información de contacto
+
+Si tiene preguntas o inquietudes con respecto a esta declaración, primero debe ponerse en contacto con el Administrador de la Política de Privacidad de EA en el país en el que usted reside utilizando la dirección de correo electrónico o la dirección postal especificadas en privacyadmin.ea.com. Si su país no se encuentra en la lista, comuníquese con el Administrador de Política de Privacidad de los EE. UU. o escriba a Administrador de Política de Privacidad, Electronic Arts Inc., 209 Redwood Shores Parkway, Redwood City CA 94065.
+
+
+Para obtener más información y actualizaciones de nuestra Política de Privacidad en línea, visite privacy.ea.com/mx.
+
+XIV.    Residentes de California: sus derechos de privacidad en California
+
+Conforme a la ley de California, los residentes de California que tienen una relación de negocio establecida con Electronic Arts Inc. (EA) o con una de sus subsidiarias pueden optar por no participar en la revelación, por parte de EA, de la información personal acerca de ellos a terceros con propósitos de mercadeo directo. Tal como se detalla arriba, nuestra política es de no revelar información personal recopilada en línea a un tercero con propósitos de mercadeo directo sin su aprobación. Si opta por no participar en cualquier momento después de haber otorgado la autorización, envíe un correo electrónico a privacy_policy@ea.com o escriba al Administrador de la Política de Privacidad, a Electronic Arts Inc., 209 Redwood Shores Pkwy, Redwood City, CA 94065.
+
+
+XV. Resolución de disputas mediante arbitraje obligatorio
+
+La finalidad de esta Sección es proporcionar un método simplificado para resolver los conflictos entre nosotros que pudieran surgir. Como se verá más adelante, si no podemos resolver nuestros conflictos de manera informal y se le otorgará un laudo arbitral superior al último acuerdo ofrecido por EA (si lo hay), entonces EA le pagará el 150% del laudo arbitral, hasta $5000 por encima de dicho laudo arbitral.
+
+POR FAVOR LEA ESTO CUIDADOSAMENTE. AFECTA A SUS DERECHOS. Anchor
+
+La mayoría de problemas de los usuarios pueden resolverse rápidamente y a su satisfacción al iniciar sesión en nuestra interfaz de atención al cliente con su Cuenta EA en support.ea.com. En el improbable caso de que EA no pueda resolver un problema a su satisfacción (o si EA no puede resolver un problema que tenga con usted después de intentar solucionarlo de manera informal), entonces usted y EA acuerdan quedar obligados por el siguiente procedimiento para resolver cualquier disputa entre nosotros. Esta cláusula aplica a todos los clientes en la máxima medida que permita la ley, pero excluye expresamente a los residentes de Quebec, Rusia, Suiza y de los Estados Miembros de la Unión Europea, y la República de Corea. Al aceptar estos términos, usted y EA renuncian expresamente al derecho a un juicio con jurado o participar en una acción de grupo.  Este contrato tiene la intención de ser interpretado en sentido amplio. Esta Sección se aplica a todas y cada una de las disputas entre nosotros ("Disputas"), incluyendo, sin limitación:
+
+- reclamaciones que surjan de o estén relacionadas con cualquier aspecto de la relación entre nosotros, ya sea con base en contrato, agravio, estatuto, fraude, declaración falsa o cualquier otra teoría legal;
+- reclamaciones que hayan surgido antes de este Contrato o cualquier acuerdo previo (incluyendo, pero sin limitarse a ello, reclamaciones relacionadas con la publicidad);
+- reclamaciones que actualmente sean objeto de supuesto litigio de acción en grupo en el que usted no sea miembro de un grupo certificado; y
+- reclamaciones que puedan surgir después de la rescisión de este Contrato.
+
+Las únicas disputas que no están incluidas en esta Sección son las siguientes:
+
+- una reclamación para hacer cumplir o proteger, o respecto a la validez de cualquiera de sus derechos de propiedad intelectual o de los derechos de EA (o de cualquiera de sus licenciatarios);
+- una reclamación relacionada con, o que surja de las denuncias de robo, piratería o uso no autorizado;
+- además, nada en este Contrato impedirá que cualquiera de las partes presente una reclamación en un juzgado menor.
+
+Las referencias a "EA", "usted" y "nosotros" incluyen a nuestras respectivas subsidiarias, afiliados, agentes, empleados, predecesores en interés, sucesores y cesionarios, así como todos los usuarios autorizados y no autorizados o beneficiarios de los servicios o del software conforme a este Contrato o Contratos previos entre nosotros. Esta cláusula de arbitraje pone de manifiesto la transacción de comercio interestatal, y por lo tanto, la Ley de Arbitraje Federal rige la interpretación y cumplimiento de esta cláusula. Esta cláusula de arbitraje seguirá vigente después de la finalización de estos Términos de servicio.
+
+A.    Negociaciones informales/Aviso de Disputa. Usted y EA acuerdan primero intentar negociar cualquier Disputa de manera informal por lo menos 30 días antes de iniciar el arbitraje. Dichas negociaciones informales comenzarán tras la recepción de un aviso por escrito de una parte a la otra ("Aviso de Disputa"). Los Avisos de Disputa deberán: (a) incluir el nombre completo e información de contacto de la parte reclamante; (b) describir la naturaleza y base de la reclamación o disputa; y (c) establecer la reparación específica que se busca ("Demanda"). EA enviará su Aviso de Disputa a la dirección de facturación que usted nos haya proporcionado o a la dirección de correo electrónico que usted nos haya proporcionado. Deberá enviar su Aviso de Disputa a: Electronic Arts Inc., 209 Redwood Shores Parkway, Redwood City CA 94065, ATENCIÓN: Departamento Jurídico.
+
+B.    Arbitraje obligatorio. Si usted y EA no son capaces de resolver una Disputa a través de negociaciones informales en los 30 días después de la recepción del Aviso de Disputa, ya sea usted o EA podrá elegir resolver la Disputa de forma final y exclusiva mediante arbitraje obligatorio. Toda elección de arbitraje por cualquiera de las partes será definitiva y obligatoria para la otra. ENTIENDE QUE CON ESTA CLÁUSULA, USTED Y EA RENUNCIAN AL DERECHO DE DEMANDAR EN LOS TRIBUNALES Y DE TENER UN JUICIO CON JURADO.  El arbitraje comenzará y se llevará a cabo conforme a los Reglamentos de Arbitraje Comercial de la Asociación Americana de Arbitraje (AAA) y, en su caso, a los Procedimientos Adicionales para Disputas Relacionadas con el Consumidor de la AAA (Reglamento del Consumidor de la AAA), los cuales se encuentran en el sitio web de la AAA en www.adr.org. Sus tasas de arbitraje y su parte de la compensación al árbitro estarán regidas por los Reglamentos de la AAA y, en su caso, limitadas por el Reglamento del Consumidor de la AAA. Si el árbitro determina que dichos gastos son excesivos, o si usted envía a EA un aviso a la dirección de Avisos de Disputa en el que indica que no puede pagar las tasas necesarias para iniciar el arbitraje, entonces EA inmediatamente pagará todas las tasas y gastos por el arbitraje. El arbitraje podrá llevarse a cabo en persona, mediante la presentación de documentos o por teléfono o Internet. El árbitro presentará su decisión por escrito, y proporcionará una declaración de las razones si así lo solicita cualquiera de las partes. El árbitro deberá aplicar la legislación vigente y cualquier laudo podrá ser recusado si el árbitro no lo cumple. Usted y EA podrán litigar en tribunales para hacer cumplir el arbitraje, para suspender el procedimiento de arbitraje pendiente, o para confirmar, modificar, anular o dictar sentencia sobre la adjudicación formulada por el árbitro.
+
+C.    Restricciones.  Usted y EA acuerdan que cualquier arbitraje estará limitado a la Disputa entre EA y usted personalmente. En la máxima medida que permita la ley: (1) ningún arbitraje podrá unirse con otro; (2) no hay ningún derecho o autorización para que una Disputa sea arbitrada con fundamentos de acción en grupo ni para utilizar procedimientos de acción de grupo; y (3) no hay ningún derecho o autorización para que una Disputa sea presentada en una supuesta calidad representativa en nombre del público en general o de otras personas. USTED Y EA COINCIDEN EN QUE CADA UNO PODRÁ PRESENTAR RECLAMACIONES CONTRA EL OTRO EN SU CALIDAD INDIVIDUAL, Y NO COMO DEMANDANTE O MIEMBRO DE UN GRUPO EN CUALQUIER ACCIÓN O PROCEDIMIENTO REPRESENTATIVO. Además, a menos que tanto usted como EA acuerden lo contrario, el árbitro no podrá fusionar más de una reclamación de una persona, y no podrá presidir de ninguna manera en cualquier procedimiento representativo o de grupo. Si esta cláusula en concreto resulta ser inaplicable, entonces la totalidad de esta cláusula de arbitraje será nula y sin efecto.
+
+D.    Ubicación. Si usted es residente de los Estados Unidos, el arbitraje se llevará a cabo en cualquier lugar razonablemente conveniente para usted. Para los residentes fuera de los EE. UU., el arbitraje deberá iniciarse en el Condado de San Mateo, Estado de California, Estados Unidos de América, y usted y EA acuerdan someterse a la jurisdicción personal de dicho tribunal, con el fin de recurrir al arbitraje, para suspender el procedimiento de arbitraje pendiente, o para confirmar, modificar, anular o dictar sentencia sobre la adjudicación formulada por el árbitro.
+
+E.    Recuperación y Honorarios. Si el árbitro dictamina a su favor con base en los fundamentos de la reclamación que haya presentado en contra de EA y adjudica un laudo mayor en valor pecuniario que el último acuerdo ofrecido por escrito por EA antes de que se presentara por escrito al árbitro, entonces EA:
+
+- Le pagará a usted el 150% del laudo arbitral, hasta $5,000 sobre su laudo arbitral; y
+- Pagará a su abogado, si lo hay, la cantidad por sus honorarios y reembolsará cualquier gasto (incluyendo tasas y gastos de testigos expertos) al que usted o su abogado hayan razonablemente incurrido para la investigación, preparación y tramitación de su reclamación en arbitraje ("el pago adicional del abogado").
+
+
+El árbitro podrá fallar y resolver disputas sobre el pago y reembolso de los honorarios, gastos y pagos alternativos y del pago adicional del abogado en cualquier momento durante el procedimiento y a petición de cualquiera de las partes, realizada dentro de los 14 días del fallo del árbitro sobre los fundamentos.
+
+El derecho a los honorarios y gastos discutido anteriormente complementa cualquier derecho a honorarios y gastos que pudiera tener según la legislación aplicable, aunque no recibirá laudos por duplicado de los honorarios o gastos. EA renuncia a cualquier derecho que pudiera tener de buscar un laudo de honorarios y gastos con relación a cualquier arbitraje entre nosotros.
+
+F.    Limitación de la Autoridad del Árbitro. El árbitro podrá conceder una medida cautelar o precautoria únicamente a favor de la parte individual que busque dicha suspensión y únicamente hasta la medida necesaria para proporcionar el desagravio garantizado por la reclamación individual de dicha parte.
+
+G.    Cambios a esta cláusula.  No obstante lo que diga cualquier cláusula de este Contrato en contra, acordamos que si EA cambia en el futuro esta cláusula de arbitraje (que no sea un cambio en el domicilio para envío de avisos), podrá rechazar dicho cambio al enviarnos un aviso por escrito en los 30 días después del cambio de domicilio de envío de avisos que se proporcionó más arriba. Al rechazar cualquier cambio futuro, usted acuerda que arbitrará cualquier disputa entre nosotros, de acuerdo con el texto de esta cláusula.
+
+
+Versión 54402_11
+
+Política de Privacidad y Cookies anterior: 
+Fecha efectiva: 26 de enero de 2016
+Fecha efectiva: 13 de septiembre de 2012
+Fecha efectiva: 5 de diciembre de 2011

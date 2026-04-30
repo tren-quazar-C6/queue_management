@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Mode mode="BUILD">
+		<Arg string="C:/Users/Negro/Documents/Path of Building/Builds/Golems.xml"/>
+		<Arg string="Golems"/>
+	</Mode>
+	<Accounts/>
+	<SharedItems/>
+	<Misc betaTest="nil" connectionProtocol="nil" colorNegative="^xDD0022" thousandsSeparator="," showThousandsSeparators="true" colorPositive="^x33FF77" buildSortMode="NAME" showPublicBuilds="true" edgeSearchHighlight="true" POESESSID="" showTitlebarName="true" invertSliderScrollDirection="nil" disableDevAutoSave="nil" colorHighlight="^xFF0000" slotOnlyTooltips="true" defaultCharLevel="1" showWarnings="true" decimalSeparator="." defaultGemQuality="0" defaultItemAffixQuality="0.5" nodePowerTheme="RED/BLUE"/>
+</PathOfBuilding>
