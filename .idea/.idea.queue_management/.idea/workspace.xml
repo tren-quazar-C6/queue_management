@@ -9,22 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e866ca2a-febd-478f-955f-984c7c74ce61" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/queue_management/obj/Debug/net9.0/queue_management.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/obj/Debug/net9.0/queue_management.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue_management/obj/Debug/net9.0/queue_management.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/obj/Debug/net9.0/queue_management.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue_management/obj/Debug/net9.0/queue_management.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/obj/Debug/net9.0/queue_management.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue_management/obj/Debug/net9.0/queue_management.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/obj/Debug/net9.0/queue_management.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue_management/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue_management/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue_management/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue_management/obj/queue_management.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/obj/queue_management.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue_management/obj/queue_management.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/obj/queue_management.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue_management/obj/queue_management.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/obj/queue_management.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue_management/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.queue_management/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.queue_management/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue_management/wwwroot/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/queue_management/wwwroot/js/site.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +35,9 @@
     "accountId": "75343dfe-6aa4-4dd2-86fb-ca7bf4ca326e"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -111,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1777545781480</updated>
       <workItem from="1777545785913" duration="18000" />
-      <workItem from="1777545883264" duration="1918000" />
+      <workItem from="1777545883264" duration="2612000" />
     </task>
     <servers />
   </component>
