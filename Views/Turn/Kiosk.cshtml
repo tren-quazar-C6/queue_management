@@ -1,0 +1,43 @@
+@{
+    ViewData["Title"] = "Nuevo Turno";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/new-turn.css" asp-append-version="true" />
+}
+
+<section class="new-turn-page">
+    <div class="new-turn-form-panel">
+        <div>
+            <h1 class="panel-heading">Solicitar <em>nuevo turno</em></h1>
+            <p class="panel-subtitle">Registra o identifica al usuario y genera un ticket unico.</p>
+        </div>
+
+        <form class="new-turn-form-card" asp-controller="Turn" asp-action="RequestTurn" method="post">
+            <div class="form-step-bar">
+                <div class="form-step active"><div class="form-step-dot">1</div><div class="form-step-label">Usuario</div></div>
+                <div class="form-step-line"></div>
+                <div class="form-step"><div class="form-step-dot">2</div><div class="form-step-label">Ticket</div></div>
+            </div>
+
+            <label class="field-label" for="fullName">Nombre completo</label>
+            <input class="input" id="fullName" name="fullName" required placeholder="Ej: Daniela Martinez" />
+
+            <label class="field-label" for="documentNumber">Documento</label>
+            <input class="input" id="documentNumber" name="documentNumber" required placeholder="Ej: 7823014" />
+
+            <button class="btn btn--primary btn--lg" type="submit">Generar Turno</button>
+        </form>
+    </div>
+
+    <aside class="ticket-panel">
+        <article class="ticket-card">
+            <p class="card-title">Reglas del sistema</p>
+            <ul style="padding-left:18px;color:var(--color-text-secondary);display:flex;flex-direction:column;gap:8px;">
+                <li>Un usuario no puede tener multiples turnos activos.</li>
+                <li>FIFO para llamados desde asesor.</li>
+                <li>Trazabilidad con historial de estados.</li>
+                <li>Estados: Pendiente, En espera, En atencion y Finalizado.</li>
+            </ul>
+        </article>
+    </aside>
+</section>

@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Ticket";
+    var ticket = TempData["ticket"]?.ToString() ?? "N/A";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/new-turn.css" asp-append-version="true" />
+}
+
+<section class="new-turn-page">
+    <div class="new-turn-form-panel">
+        <div>
+            <h1 class="panel-heading">Turno generado</h1>
+            <p class="panel-subtitle">Conserva este numero y espera tu llamado en sala.</p>
+        </div>
+        <div class="new-turn-form-card">
+            <a class="btn btn--secondary" asp-controller="Turn" asp-action="Kiosk">Generar otro turno</a>
+            <a class="btn btn--ghost" asp-controller="Turn" asp-action="WaitingRoom">Ir a sala de espera</a>
+        </div>
+    </div>
+
+    <aside class="ticket-panel">
+        <article class="ticket-card" style="text-align:center;">
+            <p class="card-title">Tu ticket</p>
+            <div style="font-family:var(--font-mono);font-size:5rem;line-height:1;color:var(--color-teal);">@ticket</div>
+            <span class="badge badge--pending" style="margin-top:1rem;">Pendiente</span>
+        </article>
+    </aside>
+</section>

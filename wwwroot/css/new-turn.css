@@ -1,0 +1,423 @@
+/* ============================================================
+   MÓDULO 1 — Nueva Vista de Turno
+   Genera y muestra el ticket del usuario
+   ============================================================ */
+
+/* ── Page Layout ─────────────────────────────────────────── */
+.new-turn-page {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 2rem;
+  align-items: start;
+  padding: 2.5rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  min-height: calc(100vh - 64px);
+}
+
+@media (max-width: 900px) {
+  .new-turn-page {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Registration Form Panel ─────────────────────────────── */
+.new-turn-form-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.new-turn-form-panel .panel-heading {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.new-turn-form-panel .panel-heading em {
+  font-style: normal;
+  color: var(--color-teal);
+}
+
+.new-turn-form-panel .panel-subtitle {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  margin-top: 0.35rem;
+  line-height: 1.5;
+}
+
+/* Form Card */
+.new-turn-form-card {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Step indicator */
+.form-step-bar {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 0.5rem;
+}
+
+.form-step {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.form-step-dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-border-strong);
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+  transition: var(--transition);
+}
+
+.form-step.active .form-step-dot {
+  background: var(--color-teal-glow);
+  border-color: var(--color-teal);
+  color: var(--color-teal);
+}
+
+.form-step.done .form-step-dot {
+  background: var(--color-green-glow);
+  border-color: var(--color-green);
+  color: var(--color-green);
+}
+
+.form-step-label {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.form-step.active .form-step-label {
+  color: var(--color-text-secondary);
+}
+
+.form-step-line {
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
+  margin: 0 8px;
+}
+
+/* Service selector */
+.service-selector-title {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 10px;
+}
+
+.service-option {
+  border: 1.5px solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  padding: 1rem 0.75rem;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background: var(--color-bg);
+  text-align: center;
+}
+
+.service-option:hover {
+  border-color: var(--color-teal-border);
+  background: var(--color-teal-glow);
+}
+
+.service-option.selected {
+  border-color: var(--color-teal);
+  background: var(--color-teal-glow);
+}
+
+.service-option-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.service-option-label {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  line-height: 1.3;
+}
+
+.service-option.selected .service-option-label {
+  color: var(--color-teal);
+}
+
+/* Priority toggle */
+.priority-toggle-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.priority-toggle-label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.priority-toggle-label strong {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.priority-toggle-label small {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.toggle-switch {
+  position: relative;
+  width: 40px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.toggle-track {
+  position: absolute;
+  inset: 0;
+  background: var(--color-border-strong);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.toggle-track::after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  transition: var(--transition);
+}
+
+.toggle-switch input:checked + .toggle-track {
+  background: var(--color-amber);
+}
+
+.toggle-switch input:checked + .toggle-track::after {
+  transform: translateX(18px);
+}
+
+/* ── Ticket Display Panel ─────────────────────────────────── */
+.ticket-panel {
+  position: sticky;
+  top: 80px;
+}
+
+.ticket-card {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+}
+
+.ticket-header {
+  background: var(--color-bg-raised);
+  border-bottom: 1px solid var(--color-border);
+  padding: 1.1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ticket-header-logo {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  letter-spacing: -0.01em;
+}
+
+.ticket-header-date {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+}
+
+.ticket-body {
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.ticket-number-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.ticket-number-label {
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-text-muted);
+}
+
+.ticket-number {
+  font-family: var(--font-mono);
+  font-size: 5rem;
+  font-weight: 500;
+  color: var(--color-teal);
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.ticket-number--vip {
+  color: var(--color-amber);
+}
+
+.ticket-meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+}
+
+.ticket-meta-item {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.ticket-meta-key {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+}
+
+.ticket-meta-value {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.ticket-queue-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.6rem 1rem;
+  background: var(--color-amber-glow);
+  border: 1px solid var(--color-amber-border);
+  border-radius: var(--radius-md);
+  width: 100%;
+}
+
+.ticket-queue-info-text {
+  font-size: 0.82rem;
+  color: var(--color-amber);
+}
+
+.ticket-queue-info-text strong {
+  font-weight: 600;
+}
+
+.ticket-footer {
+  border-top: 1px dashed var(--color-border-strong);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* New ticket placeholder (empty state) */
+.ticket-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.ticket-placeholder-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1.5px dashed var(--color-border-strong);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+  font-size: 1.4rem;
+}
+
+.ticket-placeholder-text {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  max-width: 200px;
+}
+
+/* ── Success / Confirmation state ────────────────────────── */
+.turn-success-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0.85rem 1.25rem;
+  background: var(--color-green-glow);
+  border: 1px solid var(--color-green-border);
+  border-radius: var(--radius-md);
+  font-size: 0.88rem;
+  color: var(--color-green);
+}

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - Sistema de Turnos</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/css/main.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/queue_management.styles.css" asp-append-version="true"/>
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+<body>
+<header class="module-header">
+    <div class="module-logo">Turnos <span>Flow</span></div>
+    <nav style="display:flex; gap:10px; flex-wrap:wrap;">
+        <a class="btn btn--ghost" asp-controller="Turn" asp-action="Kiosk">Nuevo Turno</a>
+        <a class="btn btn--ghost" asp-controller="Turn" asp-action="WaitingRoom">Cola de Turnos</a>
+        <a class="btn btn--ghost" asp-controller="Turn" asp-action="Advisor">Panel Asesor</a>
+        <a class="btn btn--ghost" asp-controller="User" asp-action="Index">Usuarios</a>
+    </nav>
+</header>
+<div class="module-wrapper">
+    <main role="main">
+        @if (TempData["message"] != null)
+        {
+            <div style="max-width:1200px;margin:12px auto 0;padding:10px 14px;border-radius:10px;border:1px solid var(--color-teal-border);background:var(--color-teal-glow);color:var(--color-text-primary);">
+                @TempData["message"]
+            </div>
+        }
+        @RenderBody()
+    </main>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

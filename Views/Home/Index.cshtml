@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Inicio";
+}
+<section class="module-content">
+    <div class="card" style="display:flex;flex-direction:column;gap:16px;">
+        <h1 style="font-family:var(--font-display)">Sistema de Gestion de Turnos</h1>
+        <p style="color:var(--color-text-secondary)">Selecciona un modulo para operar el flujo completo de atencion.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;">
+            <a class="btn btn--primary" asp-controller="Turn" asp-action="Kiosk">Nuevo Turno</a>
+            <a class="btn btn--secondary" asp-controller="Turn" asp-action="WaitingRoom">Cola de Turnos</a>
+            <a class="btn btn--ghost" asp-controller="Turn" asp-action="Advisor">Panel Asesor</a>
+        </div>
+    </div>
+</section>

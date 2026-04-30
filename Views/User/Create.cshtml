@@ -1,0 +1,12 @@
+@model queue_management.Models.User
+@{ ViewData["Title"] = "Crear Usuario"; }
+<section class="module-content">
+    <form class="card" asp-action="Store" method="post" style="max-width:560px;display:flex;flex-direction:column;gap:12px;">
+        <h1 style="font-family:var(--font-display)">Registrar usuario</h1>
+        <label>Documento</label>
+        <input class="input" asp-for="DocumentNumber" required />
+        <label>Nombre completo</label>
+        <input class="input" asp-for="FullName" required />
+        <button class="btn btn--primary" type="submit">Guardar</button>
+    </form>
+</section>
