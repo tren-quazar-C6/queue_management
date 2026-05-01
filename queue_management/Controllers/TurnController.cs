@@ -107,9 +107,16 @@ public class TurnController : Controller
         TempData["message"] = result.Message;
         return RedirectToAction("Advisor");
     }
-    
-   
-    
-    
-    
+
+    // 4 — Parte 4: Marcar turno como ausente desde el panel del asesor (vista MVC)
+    // El asesor usa este action cuando el usuario no se presentó al ser llamado.
+    // El turno se cierra con estado Finished y un comentario de ausencia,
+    // liberando el flujo para que se pueda llamar al siguiente turno.
+    [HttpPost]
+    public IActionResult MarkAbsent(int id, string? comment)
+    {
+        var result = _turnService.MarkAbsent(id, comment ?? "Usuario ausente");
+        TempData["message"] = result.Message;
+        return RedirectToAction("Advisor");
+    }
 }

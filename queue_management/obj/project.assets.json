@@ -2795,19 +2795,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Negro\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Negro\\Desktop\\queue_management\\queue_management\\queue_management.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\Riwi\\C#\\queue_management\\queue_management.csproj",
       "projectName": "queue_management",
-      "projectPath": "C:\\Users\\Negro\\Desktop\\queue_management\\queue_management\\queue_management.csproj",
-      "packagesPath": "C:\\Users\\Negro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Negro\\Desktop\\queue_management\\queue_management\\obj\\",
+      "projectPath": "C:\\Users\\PC\\Desktop\\Riwi\\C#\\queue_management\\queue_management.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\Riwi\\C#\\queue_management\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Negro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -2871,7 +2871,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\PC\\.dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

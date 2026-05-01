@@ -8,8 +8,18 @@ var builder = WebApplication.CreateBuilder(args);
 // SERVICES
 // ========================
 
-// MVC
+// MVC + API Controllers
+// AddControllersWithViews registra MVC (TurnController, UserController, HomeController)
+// AddControllers agrega soporte para [ApiController] (AttendanceController, QueueController - Parte 4)
 builder.Services.AddControllersWithViews();
+builder.Services.AddControllers()
+    .AddJsonOptions(opts =>
+    {
+        opts.JsonSerializerOptions.ReferenceHandler =
+            System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+        opts.JsonSerializerOptions.PropertyNamingPolicy =
+            System.Text.Json.JsonNamingPolicy.CamelCase;
+    });
 
 // DB CONTEXT
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -37,19 +47,23 @@ if (!app.Environment.IsDevelopment())
 
 // HTTPS + static files
 app.UseHttpsRedirection();
-app.UseStaticFiles(); // 🔥 ESTO ES CRÍTICO
+app.UseStaticFiles();
 
 // Routing
 app.UseRouting();
 
-// Auth (aunque no lo uses aún, debe ir aquí)
+// Auth (aunque no lo uses aun, debe ir aqui)
 app.UseAuthorization();
 
-// Routes
+// Routes MVC tradicionales (vistas Razor)
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}"
 );
+
+// Routes API REST - Parte 4: AttendanceController y QueueController
+// Usan atributo [Route("api/...")] definido directamente en cada controller
+app.MapControllers();
 
 // Run app
 app.Run();
