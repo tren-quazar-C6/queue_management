@@ -14,14 +14,52 @@ public class TurnController : Controller
         _turnService = turnService;
         _userService = userService;
     }
-    
+
+    private void PrintReceipt(string fullName, string documentNumber, string ticketCode)
+    {
+        var content = "==================\n" +
+                      "      HELLO       \n" +
+                      "==================\n" +
+                      $"Name:  {fullName}\n" +
+                      $"Doc #: {documentNumber}\n" +
+                      $"Ticket:{ticketCode}\n" +
+                      "==================\n" +
+                      "Please wait for\n     your turn    \n" +
+                      "==================\n" +
+                      "\n\n\n";
+
+        var tempFile = "/tmp/receipt.txt";
+        System.IO.File.WriteAllText(tempFile, content);
+
+        var process = new System.Diagnostics.Process
+        {
+            StartInfo = new System.Diagnostics.ProcessStartInfo
+            {
+                FileName = "lp",
+                Arguments = $"-d Printer_USB_Printer_Port {tempFile}",
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+                UseShellExecute = false
+            }
+        };
+
+        process.Start();
+        process.WaitForExit();
+    }
+
+    public IActionResult Privacy()
+    {
+        return View();
+    }
+
     public IActionResult Kiosk()
     {
         return View();
     }
-    
+
     [HttpPost]
-    public IActionResult RequestTurn(string documentNumber, string fullName)
+
+public IActionResult RequestTurn(string documentNumber, string fullName)
     {
         var userResult = _userService.GetUserByDocument(documentNumber);
 
@@ -41,13 +79,17 @@ public class TurnController : Controller
 
             userResult = createResult;
         }
-        
+    
         var result = _turnService.SaveTurn(userResult.Data!.Id);
         TempData["message"] = result.Message;
 
         if (result.Success)
         {
             TempData["ticket"] = result.Data!.TicketCode;
+        
+            
+            PrintReceipt(fullName, documentNumber, result.Data!.TicketCode);
+        
             return RedirectToAction("Ticket");
         }
 
