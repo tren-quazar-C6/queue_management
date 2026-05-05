@@ -64,8 +64,31 @@ Ticket: @ticketCode
     </pre>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/qz-tray/qz-tray.min.js"></script>
+
 <script>
-    window.onload = function () {
-        window.print();
+    window.onload = async function () {
+        await qz.websocket.connect();
+
+        var config = qz.configs.create("Printer USB Printer Port");
+
+        var data = [{
+            type: 'raw',
+            format: 'plain',
+            data: '==================\n' +
+                  '      TURNO       \n' +
+                  '==================\n' +
+                  'Nombre: @fullName\n' +
+                  'Doc:    @documentNumber\n' +
+                  'Ticket: @ticketCode\n' +
+                  '==================\n' +
+                  ' Por favor espere \n' +
+                  '     su turno     \n' +
+                  '==================\n' +
+                  '\n\n\n'
+        }];
+
+        await qz.print(config, data);
+        await qz.websocket.disconnect();
     };
 </script>
