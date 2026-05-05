@@ -10,15 +10,23 @@
     @await RenderSectionAsync("Styles", required: false)
 </head>
 <body>
-<header class="module-header">
-    <div class="module-logo">Turnos <span>Flow</span></div>
-    <nav style="display:flex; gap:10px; flex-wrap:wrap;">
-        <a class="btn btn--ghost" asp-controller="Turn" asp-action="Kiosk">Nuevo Turno</a>
-        <a class="btn btn--ghost" asp-controller="Turn" asp-action="WaitingRoom">Cola de Turnos</a>
-        <a class="btn btn--ghost" asp-controller="Turn" asp-action="Advisor">Panel Asesor</a>
-        <a class="btn btn--ghost" asp-controller="User" asp-action="Index">Usuarios</a>
-    </nav>
-</header>
+@{
+    var hideNav = new[] { "Kiosk", "WaitingRoom", "Ticket" };
+    var action = ViewContext.RouteData.Values["action"]?.ToString();
+}
+
+@if (!hideNav.Contains(action))
+{
+    <header class="module-header">
+        <div class="module-logo">Turnos <span>Flow</span></div>
+        <nav style="display:flex; gap:10px; flex-wrap:wrap;">
+            <a class="btn btn--ghost" asp-controller="Turn" asp-action="Kiosk">Nuevo Turno</a>
+            <a class="btn btn--ghost" asp-controller="Turn" asp-action="WaitingRoom">Cola de Turnos</a>
+            <a class="btn btn--ghost" asp-controller="Turn" asp-action="Advisor">Panel Asesor</a>
+            <a class="btn btn--ghost" asp-controller="User" asp-action="Index">Usuarios</a>
+        </nav>
+    </header>
+}
 <div class="module-wrapper">
     <main role="main">
         @if (TempData["message"] != null)

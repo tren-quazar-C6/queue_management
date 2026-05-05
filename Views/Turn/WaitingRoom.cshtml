@@ -74,36 +74,29 @@
 
             <aside class="queue-list-panel">
                 <div class="queue-list-header">
-                    <p class="queue-section-label">Turnos en cola</p>
-                    <span class="queue-list-count" id="queue-count">
-                        @(pending.Count + waiting.Count) pendientes
-                    </span>
+                    <p class="queue-section-label">Próximo turno</p>
                 </div>
-                <div class="queue-list-scroll" id="queue-list">
-                    @foreach (var turn in pending.Concat(waiting))
-                    {
-                        <div class="queue-item">
-                            <strong class="queue-item-number">@turn.TicketCode</strong>
-                            <span class="queue-item-service">@turn.User?.FullName</span>
-                            <span class="badge @(turn.Status == TurnStatus.Pending ? "badge--pending" : "badge--waiting")">
-                                @turn.Status
-                            </span>
-                        </div>
-                    }
+                <div id="next-ticket-display" style="font-size:3rem; font-weight:800; text-align:center; padding: 2rem;">
+                    @(pending.Concat(waiting).Skip(0).FirstOrDefault()?.TicketCode ?? "---")
                 </div>
             </aside>
         </section>
+        
+        <div class="turn-overlay" id="turn-overlay">
+            <div class="turn-overlay-label">Turno actual</div>
+            <div class="turn-overlay-number" id="overlay-ticket">---</div>
+            <div class="turn-overlay-name" id="overlay-name"></div>
+        </div>
 
         <aside class="waiting-media-panel">
-            <video class="waiting-room-video"
-                   autoplay
-                   muted
-                   loop
-                   playsinline
-                   preload="auto"
-                   poster="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80">
-                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
-            </video>
+            <iframe 
+                width="100%" 
+                height="100%"
+                src="https://www.youtube.com/embed/BHACKCNDMW8?autoplay=1&mute=1&loop=1&cc_load_policy=1&cc_lang_pref=es&playlist=BHACKCNDMW8"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+            </iframe>
         </aside>
 
     </main>
@@ -142,8 +135,8 @@
     // ── Referencias DOM ───────────────────────────────────────────
     const currentTicketEl = document.getElementById("current-ticket");
     const currentNameEl   = document.getElementById("current-name");
-    const queueCountEl    = document.getElementById("queue-count");
-    const queueListEl     = document.getElementById("queue-list");
+    const queueCountEl    = null;
+    const queueListEl     = null;
     const statusEl        = document.getElementById("signalr-status");
     const soundStatusEl   = document.getElementById("sound-status");
     const enableSoundBtn  = document.getElementById("enable-sound");
@@ -173,23 +166,41 @@
         if (!soundEnabled || !audioContext) return;
 
         const now = audioContext.currentTime;
-        const notes = [880, 1174.66, 1567.98];
+
+        // Chime principal — 3 notas ascendentes más fuertes
+        const notes = [523.25, 659.25, 783.99]; // Do, Mi, Sol
         notes.forEach((frequency, index) => {
             const oscillator = audioContext.createOscillator();
             const gain = audioContext.createGain();
-            const start = now + index * 0.16;
+            const start = now + index * 0.22;
 
-            oscillator.type = "sine";
+            oscillator.type = "triangle"; // más cálido que sine
             oscillator.frequency.setValueAtTime(frequency, start);
             gain.gain.setValueAtTime(0.0001, start);
-            gain.gain.exponentialRampToValueAtTime(0.22, start + 0.02);
-            gain.gain.exponentialRampToValueAtTime(0.0001, start + 0.14);
+            gain.gain.exponentialRampToValueAtTime(0.5, start + 0.03); // más fuerte
+            gain.gain.exponentialRampToValueAtTime(0.0001, start + 0.35);
 
             oscillator.connect(gain);
             gain.connect(audioContext.destination);
             oscillator.start(start);
-            oscillator.stop(start + 0.16);
+            oscillator.stop(start + 0.4);
         });
+
+        // Nota final larga para dar peso
+        const finalOsc = audioContext.createOscillator();
+        const finalGain = audioContext.createGain();
+        const finalStart = now + 0.66;
+
+        finalOsc.type = "sine";
+        finalOsc.frequency.setValueAtTime(1046.5, finalStart); // Do alto
+        finalGain.gain.setValueAtTime(0.0001, finalStart);
+        finalGain.gain.exponentialRampToValueAtTime(0.4, finalStart + 0.03);
+        finalGain.gain.exponentialRampToValueAtTime(0.0001, finalStart + 0.8);
+
+        finalOsc.connect(finalGain);
+        finalGain.connect(audioContext.destination);
+        finalOsc.start(finalStart);
+        finalOsc.stop(finalStart + 0.9);
     }
 
     enableSoundBtn.addEventListener("click", ensureAudio);
@@ -213,24 +224,30 @@
                 currentNameEl.textContent   = newName;
                 playTurnSound();
 
-                // ← Clase "pulse" agrega animación CSS por 3 pulsos
+                // Próximo turno
+                const nextEl = document.getElementById("next-ticket-display");
+                if (nextEl) {
+                    nextEl.textContent = data.waiting[0]?.ticketCode ?? "---";
+                }
+
+                // Overlay fullscreen
+                const overlay = document.getElementById("turn-overlay");
+                const overlayTicket = document.getElementById("overlay-ticket");
+                const overlayName = document.getElementById("overlay-name");
+                if (overlay) {
+                    overlayTicket.textContent = newTicket;
+                    overlayName.textContent = newName;
+                    overlay.classList.add("visible");
+                    setTimeout(() => overlay.classList.remove("visible"), 4000);
+                }
+
+                // Pulse animation
                 currentTicketEl.classList.remove("pulse");
-                void currentTicketEl.offsetWidth; // reflow para reiniciar animación
+                void currentTicketEl.offsetWidth;
                 currentTicketEl.classList.add("pulse");
             }
 
-            // Lista de espera
-            const total = data.totalWaiting;
-            queueCountEl.textContent = total + " pendiente" + (total !== 1 ? "s" : "");
 
-            // Reconstruir lista de turnos en espera
-            queueListEl.innerHTML = data.waiting.map(t => `
-                <div class="queue-item">
-                    <strong class="queue-item-number">${t.ticketCode}</strong>
-                    <span class="queue-item-service">${t.user?.fullName ?? ""}</span>
-                    <span class="badge ${t.status === "Pending" ? "badge--pending" : "badge--waiting"}">${t.status}</span>
-                </div>
-            `).join("");
 
         } catch (err) {
             console.warn("Error al actualizar cola:", err);

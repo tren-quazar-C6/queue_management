@@ -484,3 +484,57 @@
   font-size: 0.85rem;
   color: var(--color-text-muted);
 }
+
+/* ── Labels más grandes ──────────────────────────────────── */
+.queue-section-label {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+  margin-bottom: 1rem;
+}
+
+/* ── Overlay fullscreen al cambiar turno ─────────────────── */
+.turn-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.turn-overlay.visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.turn-overlay-label {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--color-text-muted);
+}
+
+.turn-overlay-number {
+  font-family: var(--font-mono);
+  font-size: clamp(8rem, 20vw, 16rem);
+  font-weight: 700;
+  color: var(--color-teal);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  animation: pulse-ticket .6s ease-in-out infinite;
+}
+
+.turn-overlay-name {
+  font-size: 2rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
