@@ -19,37 +19,37 @@ public class TurnController : Controller
         _hub = hub;
     }
 
-    private void PrintReceipt(string fullName, string documentNumber, string ticketCode)
-    {
-        var content = "==================\n" +
-                      "      HELLO       \n" +
-                      "==================\n" +
-                      $"Name:  {fullName}\n" +
-                      $"Doc #: {documentNumber}\n" +
-                      $"Ticket:{ticketCode}\n" +
-                      "==================\n" +
-                      " Please wait for  \n     your turn    \n" +
-                      "==================\n" +
-                      "\n\n\n";
-
-        var tempFile = "/tmp/receipt.txt";
-        System.IO.File.WriteAllText(tempFile, content);
-
-        var process = new System.Diagnostics.Process
-        {
-            StartInfo = new System.Diagnostics.ProcessStartInfo
-            {
-                FileName = "lp",
-                Arguments = $"-d Printer_USB_Printer_Port {tempFile}",
-                RedirectStandardOutput = true,
-                RedirectStandardError = true,
-                UseShellExecute = false
-            }
-        };
-
-        process.Start();
-        process.WaitForExit();
-    }
+    // private void PrintReceipt(string fullName, string documentNumber, string ticketCode)
+    // {
+    //     var content = "==================\n" +
+    //                   "      HELLO       \n" +
+    //                   "==================\n" +
+    //                   $"Name:  {fullName}\n" +
+    //                   $"Doc #: {documentNumber}\n" +
+    //                   $"Ticket:{ticketCode}\n" +
+    //                   "==================\n" +
+    //                   " Please wait for  \n     your turn    \n" +
+    //                   "==================\n" +
+    //                   "\n\n\n";
+    //
+    //     var tempFile = "/tmp/receipt.txt";
+    //     System.IO.File.WriteAllText(tempFile, content);
+    //
+    //     var process = new System.Diagnostics.Process
+    //     {
+    //         StartInfo = new System.Diagnostics.ProcessStartInfo
+    //         {
+    //             FileName = "lp",
+    //             Arguments = $"-d Printer_USB_Printer_Port {tempFile}",
+    //             RedirectStandardOutput = true,
+    //             RedirectStandardError = true,
+    //             UseShellExecute = false
+    //         }
+    //     };
+    //
+    //     process.Start();
+    //     process.WaitForExit();
+    // }
 
     public IActionResult Privacy()
     {
@@ -89,10 +89,10 @@ public class TurnController : Controller
         if (result.Success)
         {
             TempData["ticket"] = result.Data!.TicketCode;
-        
-            
-            PrintReceipt(fullName, documentNumber, result.Data!.TicketCode);
-        
+            TempData["FullName"] = fullName;
+            TempData["DocumentNumber"] = documentNumber;
+            TempData["TicketCode"] = result.Data!.TicketCode;
+
             await _hub.Clients.All.SendAsync("QueueUpdated");
             return RedirectToAction("Ticket");
         }

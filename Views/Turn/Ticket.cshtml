@@ -1,10 +1,23 @@
+@* @{ *@
+@*     ViewData["Title"] = "Ticket"; *@
+@*     var ticket = TempData["ticket"]?.ToString() ?? "N/A"; *@
+@* } *@
+
 @{
     ViewData["Title"] = "Ticket";
-    var ticket = TempData["ticket"]?.ToString() ?? "N/A";
+    var fullName = TempData["FullName"]?.ToString() ?? "N/A";
+    var documentNumber = TempData["DocumentNumber"]?.ToString() ?? "N/A";
+    var ticketCode = TempData["TicketCode"]?.ToString() ?? "N/A";
 }
 @section Styles {
     <link rel="stylesheet" href="~/css/new-turn.css" asp-append-version="true" />
 }
+
+@* @{ *@
+@*     var fullName = TempData["FullName"]; *@
+@*     var documentNumber = TempData["DocumentNumber"]; *@
+@*     var ticketCode = TempData["TicketCode"]; *@
+@* } *@
 
 <section class="new-turn-page ticket-result-page">
     <div class="new-turn-form-panel">
@@ -22,8 +35,37 @@
     <aside class="ticket-panel">
         <article class="ticket-card ticket-result-card">
             <p class="card-title">Tu ticket</p>
-            <div class="ticket-number">@ticket</div>
+            <div class="ticket-number">@ticketCode</div>
             <span class="badge badge--pending">Pendiente</span>
         </article>
     </aside>
 </section>
+
+<style>
+    @@media print {
+        body * { visibility: hidden; }
+        #ticket, #ticket * { visibility: visible; }
+        #ticket { position: absolute; left: 0; top: 0; }
+    }
+</style>
+
+<div id="ticket">
+    <pre>
+==================
+      TURNO       
+==================
+Nombre: @fullName
+Doc:    @documentNumber
+Ticket: @ticketCode
+==================
+ Por favor espere 
+     su turno     
+==================
+    </pre>
+</div>
+
+<script>
+    window.onload = function () {
+        window.print();
+    };
+</script>
