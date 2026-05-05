@@ -64,44 +64,16 @@ Ticket: @ticketCode
     </pre>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/qz-tray/qz-tray.min.js"></script>
-
 <script>
     window.onload = async function () {
-        qz.security.setCertificatePromise(function(resolve, reject) {
-            fetch("/digital-certificate.pem")
-                .then(function(data) { resolve(data.text()); })
-                .catch(reject);
+        await fetch('http://localhost:9100/print', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                fullName: '@fullName',
+                documentNumber: '@documentNumber',
+                ticketCode: '@ticketCode'
+            })
         });
-
-        qz.security.setSignatureAlgorithm("SHA512");
-        qz.security.setSignaturePromise(function(toSign) {
-            return function(resolve, reject) {
-                resolve();
-            };
-        });
-
-        await qz.websocket.connect();
-
-        var config = qz.configs.create("Printer USB Printer Port");
-
-        var data = [{
-            type: 'raw',
-            format: 'plain',
-            data: '==================\n' +
-                  '      TURNO       \n' +
-                  '==================\n' +
-                  'Nombre: @fullName\n' +
-                  'Doc:    @documentNumber\n' +
-                  'Ticket: @ticketCode\n' +
-                  '==================\n' +
-                  ' Por favor espere \n' +
-                  '     su turno     \n' +
-                  '==================\n' +
-                  '\n\n\n'
-        }];
-
-        await qz.print(config, data);
-        await qz.websocket.disconnect();
     };
 </script>
