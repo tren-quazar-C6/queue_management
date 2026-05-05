@@ -1,35 +1,104 @@
 @model IEnumerable<queue_management.Models.Turn>
 @using queue_management.Models
 @{
-    ViewData["Title"] = "Cola de Turnos";
-    var current = Model.FirstOrDefault(t => t.Status == TurnStatus.InService);
-    var pending = Model.Where(t => t.Status == TurnStatus.Pending).OrderBy(t => t.CreatedAt).ToList();
-    var waiting = Model.Where(t => t.Status == TurnStatus.Waiting).OrderBy(t => t.CreatedAt).ToList();
+ViewData["Title"] = "Cola de Turnos";
+var current = Model.FirstOrDefault(t => t.Status == TurnStatus.InService);
+var pending = Model.Where(t => t.Status == TurnStatus.Pending).OrderBy(t => t.CreatedAt).ToList();
+var waiting = Model.Where(t => t.Status == TurnStatus.Waiting).OrderBy(t => t.CreatedAt).ToList();
 }
 @section Styles {
-    <link rel="stylesheet" href="~/css/turn-queue.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/turn-queue.css" asp-append-version="true" />
+<style>
+    /* ── Media de distracción ── */
+    .waiting-media-wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 520px;
+        margin: 0 auto 1.5rem;
+        border-radius: 16px;
+        overflow: hidden;
+        aspect-ratio: 16/9;
+        background: #000;
+        box-shadow: 0 4px 24px rgba(0,0,0,.35);
+    }
+    .waiting-media-wrapper video,
+    .waiting-media-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* Barra de estado SignalR */
+    .signalr-status {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 12px;
+        border-radius: 999px;
+        font-size: .75rem;
+        font-weight: 600;
+    }
+    .signalr-connected    { background: #d1fae5; color: #065f46; }
+    .signalr-connecting   { background: #fef3c7; color: #92400e; }
+    .signalr-disconnected { background: #fee2e2; color: #991b1b; }
+
+    /* Animación de turno llamado */
+    @@keyframes pulse-ticket {
+        0%, 100% { transform: scale(1); }
+        50%       { transform: scale(1.06); }
+    }
+    .queue-current-number.pulse {
+        animation: pulse-ticket .6s ease-in-out 3;
+    }
+</style>
 }
 
 <section class="queue-page">
+
     <header class="queue-topbar">
         <div class="queue-topbar-brand">Sistema <span>de turnos</span></div>
-        <div class="queue-topbar-clock">@DateTime.Now.ToString("HH:mm:ss")</div>
-        <div class="queue-topbar-status"><span class="queue-live-dot"></span><span class="queue-live-label">En vivo</span></div>
+        <div class="queue-topbar-clock" id="live-clock">@DateTime.Now.ToString("HH:mm:ss")</div>
+        <div class="queue-topbar-status">
+            <span class="signalr-status signalr-connecting" id="signalr-status">⬤ Conectando…</span>
+        </div>
     </header>
 
     <main class="queue-main">
+
         <div class="queue-now-serving">
             <p class="queue-section-label">Turno actual</p>
+
             <div class="queue-current-card">
-                <div class="queue-current-number">@(current?.TicketCode ?? "---")</div>
+                <div class="queue-current-number" id="current-ticket">
+                    @(current?.TicketCode ?? "---")
+                </div>
                 <div class="queue-current-meta">
-                    <div class="queue-current-service">@(current?.User?.FullName ?? "Esperando llamado")</div>
+                    <div class="queue-current-service" id="current-name">
+                        @(current?.User?.FullName ?? "Esperando llamado")
+                    </div>
                     <div class="queue-current-module">Modulo asesor</div>
                 </div>
                 <div class="queue-current-highlight">En atencion</div>
             </div>
+
+            <div class="waiting-media-wrapper">
+                <div style="width:100%;height:100%;background:linear-gradient(135deg,#1e3a5f,#0d7377);
+                            display:flex;flex-direction:column;align-items:center;justify-content:center;
+                            color:#fff;gap:12px;font-family:var(--font-sans,sans-serif);">
+                    <div style="font-size:3rem;animation:pulse-ticket 2s infinite;">📺</div>
+                    <div style="font-size:1.1rem;font-weight:600;">Zona de entretenimiento</div>
+                    <div style="font-size:.85rem;opacity:.75;text-align:center;padding:0 1rem;">
+                        Coloca un video o GIF en<br>
+                        <code style="background:rgba(255,255,255,.15);padding:2px 6px;border-radius:4px;">wwwroot/media/waiting-loop.mp4</code>
+                    </div>
+                </div>
+            </div>
+
             <div class="queue-announce-bar">
-                <div class="queue-announce-waves"><span></span><span></span><span></span><span></span><span></span></div>
+                <div class="queue-announce-waves">
+                    <span></span><span></span><span></span><span></span><span></span>
+                </div>
                 <div class="queue-announce-text">Llamado por voz/sonido activo (demo visual).</div>
             </div>
         </div>
@@ -37,18 +106,107 @@
         <aside class="queue-list-panel">
             <div class="queue-list-header">
                 <p class="queue-section-label">Turnos en cola</p>
-                <span class="queue-list-count">@(pending.Count + waiting.Count) pendientes</span>
+                <span class="queue-list-count" id="queue-count">
+                    @(pending.Count + waiting.Count) pendientes
+                </span>
             </div>
-            <div class="queue-list-scroll">
+            <div class="queue-list-scroll" id="queue-list">
                 @foreach (var turn in pending.Concat(waiting))
                 {
-                    <div class="queue-item">
-                        <strong style="font-family:var(--font-mono);font-size:1.2rem;">@turn.TicketCode</strong>
-                        <span style="color:var(--color-text-secondary);">@turn.User?.FullName</span>
-                        <span class="badge @(turn.Status == TurnStatus.Pending ? "badge--pending" : "badge--waiting")">@turn.Status</span>
-                    </div>
+                <div class="queue-item">
+                    <strong style="font-family:var(--font-mono);font-size:1.2rem;">@turn.TicketCode</strong>
+                    <span style="color:var(--color-text-secondary);">@turn.User?.FullName</span>
+                    <span class="badge @(turn.Status == TurnStatus.Pending ? "badge--pending" : "badge--waiting")">
+                            @turn.Status
+                        </span>
+                </div>
                 }
             </div>
         </aside>
+
     </main>
 </section>
+
+@section Scripts {
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+<script>
+    (function () {
+        const clockEl = document.getElementById("live-clock");
+        function updateClock() {
+            const now = new Date();
+            clockEl.textContent = now.toLocaleTimeString("es-CO", { hour12: false });
+        }
+        updateClock();
+        setInterval(updateClock, 1000);
+
+        const currentTicketEl = document.getElementById("current-ticket");
+        const currentNameEl   = document.getElementById("current-name");
+        const queueCountEl    = document.getElementById("queue-count");
+        const queueListEl     = document.getElementById("queue-list");
+        const statusEl        = document.getElementById("signalr-status");
+
+        function setStatus(state) {
+            statusEl.className = "signalr-status signalr-" + state;
+            const labels = { connected: "⬤ En vivo", connecting: "⬤ Conectando…", disconnected: "⬤ Sin conexión" };
+            statusEl.textContent = labels[state] ?? state;
+        }
+
+        async function refreshQueue() {
+            try {
+                const res  = await fetch("/api/queue");
+                if (!res.ok) return;
+                const data = await res.json();
+
+                const newTicket = data.current?.ticketCode ?? "---";
+                const newName   = data.current?.user?.fullName ?? "Esperando llamado";
+
+                if (currentTicketEl.textContent.trim() !== newTicket) {
+                    currentTicketEl.textContent = newTicket;
+                    currentNameEl.textContent   = newName;
+
+                    currentTicketEl.classList.remove("pulse");
+                    void currentTicketEl.offsetWidth;
+                    currentTicketEl.classList.add("pulse");
+                }
+
+                const total = data.totalWaiting;
+                queueCountEl.textContent = total + " pendiente" + (total !== 1 ? "s" : "");
+
+                queueListEl.innerHTML = data.waiting.map(t => `
+                <div class="queue-item">
+                    <strong style="font-family:var(--font-mono);font-size:1.2rem;">${t.ticketCode}</strong>
+                    <span style="color:var(--color-text-secondary);">${t.user?.fullName ?? ""}</span>
+                    <span class="badge badge--waiting">Waiting</span>
+                </div>
+            `).join("");
+
+            } catch (err) {
+                console.warn("Error al actualizar cola:", err);
+            }
+        }
+
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/queueHub")
+            .withAutomaticReconnect([0, 2000, 10000, 30000])
+            .build();
+
+        connection.on("QueueUpdated", () => refreshQueue());
+        connection.onreconnecting(() => setStatus("connecting"));
+        connection.onreconnected(()  => { setStatus("connected"); refreshQueue(); });
+        connection.onclose(()        => setStatus("disconnected"));
+
+        connection.start()
+            .then(() => {
+                setStatus("connected");
+                return connection.invoke("JoinGroup", "waitingRoom");
+            })
+            .catch(err => {
+                setStatus("disconnected");
+                console.error("SignalR error:", err);
+                setInterval(refreshQueue, 8000);
+            });
+    })();
+</script>
+}

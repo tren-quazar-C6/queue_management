@@ -15,4 +15,8 @@
       <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include="wwwroot\css\signalr-status.css" />
+    </ItemGroup>
+
 </Project>
