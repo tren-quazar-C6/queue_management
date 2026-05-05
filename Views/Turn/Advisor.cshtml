@@ -1,0 +1,294 @@
+@using queue_management.Models
+@{
+    ViewData["Title"] = "Panel Asesor";
+    var pending   = ((IEnumerable<Turn>?)ViewBag.Pending   ?? Enumerable.Empty<Turn>()).OrderBy(t => t.CreatedAt).ToList();
+    var waiting   = ((IEnumerable<Turn>?)ViewBag.Waiting   ?? Enumerable.Empty<Turn>()).OrderBy(t => t.CreatedAt).ToList();
+    var inService = ((IEnumerable<Turn>?)ViewBag.InService ?? Enumerable.Empty<Turn>()).OrderBy(t => t.CreatedAt).FirstOrDefault();
+    var finished  = ((IEnumerable<Turn>?)ViewBag.Finished  ?? Enumerable.Empty<Turn>()).OrderByDescending(t => t.CreatedAt).ToList();
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/advisor-panel.css" asp-append-version="true" />
+}
+
+<section class="advisor-page">
+    <!-- ─── SIDEBAR ─────────────────────────────────────────────── -->
+    <aside class="advisor-sidebar">
+        <div class="advisor-profile">
+            <div class="advisor-avatar">CL</div>
+            <div class="advisor-profile-info">
+                <div class="advisor-name">Carlos Lopez</div>
+                <div class="advisor-role">Asesor - Modulo 3</div>
+            </div>
+            <div class="advisor-status-row">
+                <span class="advisor-status-dot"></span>
+                <span class="advisor-status-label">Disponible</span>
+            </div>
+        </div>
+
+        <nav class="advisor-nav">
+            <div class="advisor-nav-label">Gestion</div>
+
+            <!-- Panel principal (activo siempre, ya estamos aquí) -->
+            <a class="advisor-nav-item active" href="#">
+                <span class="advisor-nav-text">Panel principal</span>
+            </a>
+
+            <!--
+                BOTONES DE SIDEBAR CON FILTRO
+                ← FIX: antes eran <div> sin comportamiento. Ahora usan
+                data-filter="pending|waiting|finished" y JS los conecta
+                al panel principal filtrando la vista por categoría.
+                No redirigen porque toda la info ya está en la página.
+            -->
+            <button class="advisor-nav-item" data-filter="pending">
+                <span class="advisor-nav-text">Pendientes</span>
+                <span class="advisor-nav-count" id="sidebar-count-pending">@pending.Count</span>
+            </button>
+
+            <button class="advisor-nav-item" data-filter="waiting">
+                <span class="advisor-nav-text">En espera</span>
+                <span class="advisor-nav-count" id="sidebar-count-waiting">@waiting.Count</span>
+            </button>
+
+            <button class="advisor-nav-item" data-filter="finished">
+                <span class="advisor-nav-text">Atendidos</span>
+                <span class="advisor-nav-count" id="sidebar-count-finished">@finished.Count</span>
+            </button>
+        </nav>
+    </aside>
+
+    <!-- ─── MAIN ─────────────────────────────────────────────────── -->
+    <main class="advisor-main">
+        <header class="advisor-topbar">
+            <h1 class="advisor-topbar-title">Panel de Asesor</h1>
+            <div class="advisor-topbar-actions">
+                <!--
+                    Indicador de conexión SignalR.
+                    ← NUEVO: muestra si el tiempo real está activo.
+                -->
+                <span id="signalr-status" class="signalr-status signalr-connecting" title="Conectando tiempo real...">
+                    ⬤ Conectando…
+                </span>
+                <form asp-action="CallNext" method="post">
+                    <button class="btn btn--secondary" type="submit">Siguiente turno</button>
+                </form>
+            </div>
+        </header>
+
+        @if (TempData["message"] != null)
+        {
+            <div class="advisor-message">@TempData["message"]</div>
+        }
+
+        <!-- ─── STATS CARDS ──────────────────────────────────────── -->
+        <div class="card" style="display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:12px;" id="stats-cards">
+            <div><p class="card-title">Turno actual</p>
+                 <div style="font-size:2rem;font-family:var(--font-mono);color:var(--color-teal);" id="stat-current">
+                     @(inService?.TicketCode ?? "---")
+                 </div></div>
+            <div><p class="card-title">En espera</p>
+                 <div style="font-size:2rem;color:var(--color-amber);" id="stat-waiting">@waiting.Count</div></div>
+            <div><p class="card-title">Pendientes</p>
+                 <div style="font-size:2rem;color:var(--color-text-primary);" id="stat-pending">@pending.Count</div></div>
+            <div><p class="card-title">Atendidos</p>
+                 <div style="font-size:2rem;color:var(--color-green);" id="stat-finished">@finished.Count</div></div>
+        </div>
+
+        <!-- ─── TURNO EN SERVICIO ────────────────────────────────── -->
+        <section class="advisor-current-turn" id="section-current">
+            <div class="advisor-current-inner">
+                <div class="advisor-current-number-block">
+                    <span class="advisor-current-number-label">Turno</span>
+                    <span class="advisor-current-number" id="current-ticket">@(inService?.TicketCode ?? "---")</span>
+                </div>
+                <div class="advisor-current-info">
+                    <div class="advisor-current-name" id="current-name">
+                        @(inService?.User?.FullName ?? "Sin turno en atencion")
+                    </div>
+                    @if (inService != null)
+                    {
+                        <div class="advisor-current-details">
+                            <span class="advisor-current-chip">Doc: @inService.User?.DocumentNumber</span>
+                            <span class="advisor-current-chip">Inicio: @inService.CreatedAt.ToString("HH:mm")</span>
+                        </div>
+                        <form asp-action="UpdateCurrentUser" method="post" style="display:flex;gap:8px;flex-wrap:wrap;">
+                            <input type="hidden" name="turnId"  value="@inService.Id" />
+                            <input type="hidden" name="userId"  value="@inService.UserId" />
+                            <input class="input" name="fullName"       value="@inService.User?.FullName"       required style="max-width:220px;" />
+                            <input class="input" name="documentNumber" value="@inService.User?.DocumentNumber" required style="max-width:160px;" />
+                            <button class="btn btn--ghost" type="submit">Editar usuario</button>
+                        </form>
+                    }
+                </div>
+                <div class="advisor-current-actions">
+                    @if (inService != null)
+                    {
+                        <form asp-action="Finish" method="post" style="display:flex;flex-direction:column;gap:8px;">
+                            <input type="hidden" name="id" value="@inService.Id" />
+                            <input class="input" name="comment" placeholder="Comentario de atencion" />
+                            <button class="btn btn--success" type="submit">Finalizar atencion</button>
+                        </form>
+                        <form asp-action="MarkAbsent" method="post" style="margin-top:8px;">
+                            <input type="hidden" name="id"      value="@inService.Id" />
+                            <input type="hidden" name="comment" value="Usuario ausente" />
+                            <button class="btn btn--danger" type="submit">Marcar ausente</button>
+                        </form>
+                    }
+                </div>
+            </div>
+        </section>
+
+        <!-- ─── LISTAS (Pendientes / En Espera / Atendidos) ──────── -->
+        <!--
+            id="lists-container" + data-filter en cada section
+            ← FIX: los botones del sidebar filtran mostrando/ocultando
+            estas sections con JS (data-list="pending|waiting|finished").
+            Por defecto todas están visibles.
+        -->
+        <div style="display:grid;grid-template-columns:repeat(3,minmax(220px,1fr));gap:14px;" id="lists-container">
+
+            <section class="card" data-list="pending">
+                <h3>Pendientes</h3>
+                @foreach (var t in pending)
+                {
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px;padding:10px;border:1px solid var(--color-border);border-radius:10px;">
+                        <div><strong>@t.TicketCode</strong>
+                            <div style="color:var(--color-text-muted)">@t.User?.FullName</div>
+                        </div>
+                        <form asp-action="MoveToWaiting" method="post">
+                            <input type="hidden" name="id" value="@t.Id" />
+                            <button class="btn btn--ghost" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                }
+            </section>
+
+            <section class="card" data-list="waiting">
+                <h3>En espera</h3>
+                @foreach (var t in waiting)
+                {
+                    <div style="margin-top:10px;padding:10px;border:1px solid var(--color-border);border-radius:10px;">
+                        <strong>@t.TicketCode</strong> - @t.User?.FullName
+                    </div>
+                }
+            </section>
+
+            <section class="card" data-list="finished">
+                <h3>Atendidos</h3>
+                @foreach (var t in finished.Take(8))
+                {
+                    <div style="margin-top:10px;padding:10px;border:1px solid var(--color-border);border-radius:10px;">
+                        <strong>@t.TicketCode</strong>
+                        <div style="white-space:pre-line;color:var(--color-text-muted);font-size:.8rem;">@t.Comment</div>
+                    </div>
+                }
+            </section>
+
+        </div>
+    </main>
+</section>
+
+@section Scripts {
+<!--
+    ╔══════════════════════════════════════════════════════╗
+    ║              SIGNALR — ADVISOR                        ║
+    ╚══════════════════════════════════════════════════════╝
+
+    Flujo completo:
+    1. Se carga el cliente JS de SignalR (CDN oficial de Microsoft).
+    2. Se crea una conexión al hub /queueHub.
+    3. Se escucha el evento "QueueUpdated" que el servidor envía.
+    4. Cuando llega ese evento, se hace fetch a /api/queue/summary
+       para actualizar SOLO los contadores sin recargar la página.
+    5. Para recargar las listas completas (tarjetas de turnos),
+       se hace location.reload() — esto es intencional y controlado:
+       solo ocurre cuando el servidor notifica un cambio real.
+
+    ¿Por qué usamos reload() y no fetch parcial?
+    Las tarjetas del Advisor tienen forms MVC con tokens CSRF (antiforgery),
+    botones de acción y datos complejos. Regenerarlos desde JS sería
+    reimplementar todo el Razor. El reload() es instantáneo porque
+    el navegador cachea assets estáticos (CSS, JS, imágenes).
+    Lo que tarda es solo el HTML del servidor = 1 query MySQL.
+-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+<script>
+(function () {
+    // ── 1. Crear conexión al Hub ──────────────────────────────────
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/queueHub")
+        // withAutomaticReconnect: si se pierde la conexión (red inestable,
+        // servidor reiniciado), SignalR intenta reconectar automáticamente.
+        // Los tiempos [0, 2000, 10000, 30000] son milisegundos entre intentos.
+        .withAutomaticReconnect([0, 2000, 10000, 30000])
+        .build();
+
+    const statusEl = document.getElementById("signalr-status");
+
+    function setStatus(state) {
+        statusEl.className = "signalr-status signalr-" + state;
+        const labels = { connected: "⬤ En vivo", connecting: "⬤ Conectando…", disconnected: "⬤ Sin conexión" };
+        statusEl.textContent = labels[state] ?? state;
+    }
+
+    // ── 2. Escuchar evento del servidor ───────────────────────────
+    // "QueueUpdated" es el nombre que el servidor usa en:
+    //   await _hub.Clients.All.SendAsync("QueueUpdated");
+    connection.on("QueueUpdated", function () {
+        // Recarga la página para obtener datos frescos del servidor.
+        // Solo ocurre cuando el servidor lo indica (evento real, no polling).
+        location.reload();
+    });
+
+    // ── 3. Eventos de ciclo de vida ───────────────────────────────
+    connection.onreconnecting(() => setStatus("connecting"));
+    connection.onreconnected(() => setStatus("connected"));
+    connection.onclose(() => setStatus("disconnected"));
+
+    // ── 4. Iniciar conexión ───────────────────────────────────────
+    connection.start()
+        .then(() => {
+            setStatus("connected");
+            // Nos unimos al grupo "advisors" para poder recibir
+            // notificaciones dirigidas solo a asesores en el futuro.
+            return connection.invoke("JoinGroup", "advisors");
+        })
+        .catch(err => {
+            setStatus("disconnected");
+            console.error("SignalR error:", err);
+        });
+
+    // ── 5. BOTONES DEL SIDEBAR ────────────────────────────────────
+    // ← FIX: los botones de la sidebar (Pendientes, En espera, Atendidos)
+    // ahora filtran las secciones de listas mostrando/ocultando con CSS.
+    // data-filter en el botón coincide con data-list en cada <section>.
+    const filterBtns = document.querySelectorAll(".advisor-nav-item[data-filter]");
+    const lists = document.querySelectorAll("#lists-container [data-list]");
+
+    filterBtns.forEach(btn => {
+        btn.addEventListener("click", function () {
+            const filter = this.dataset.filter;
+
+            // Toggle: si ya está activo el mismo filtro, mostrar todos
+            const isAlreadyActive = this.classList.contains("active");
+
+            // Quitar active de todos los botones de filtro
+            filterBtns.forEach(b => b.classList.remove("active"));
+
+            if (isAlreadyActive) {
+                // Mostrar todos
+                lists.forEach(s => s.style.display = "");
+            } else {
+                this.classList.add("active");
+                // Mostrar solo la lista que coincide
+                lists.forEach(s => {
+                    s.style.display = s.dataset.list === filter ? "" : "none";
+                });
+            }
+        });
+    });
+})();
+</script>
+}
