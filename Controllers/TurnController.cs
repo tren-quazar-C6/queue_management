@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
+using queue_management.Hubs;
 using queue_management.Models;
 using queue_management.Services;
 
@@ -8,11 +10,13 @@ public class TurnController : Controller
 {
     private readonly TurnService _turnService;
     private readonly UserService _userService;
+    private readonly IHubContext<QueueHub> _hub;
 
-    public TurnController(TurnService turnService, UserService userService)
+    public TurnController(TurnService turnService, UserService userService, IHubContext<QueueHub> hub)
     {
         _turnService = turnService;
         _userService = userService;
+        _hub = hub;
     }
 
     private void PrintReceipt(string fullName, string documentNumber, string ticketCode)
@@ -24,7 +28,7 @@ public class TurnController : Controller
                       $"Doc #: {documentNumber}\n" +
                       $"Ticket:{ticketCode}\n" +
                       "==================\n" +
-                      "Please wait for\n     your turn    \n" +
+                      " Please wait for  \n     your turn    \n" +
                       "==================\n" +
                       "\n\n\n";
 
@@ -58,8 +62,7 @@ public class TurnController : Controller
     }
 
     [HttpPost]
-
-public IActionResult RequestTurn(string documentNumber, string fullName)
+    public async Task<IActionResult> RequestTurn(string documentNumber, string fullName)
     {
         var userResult = _userService.GetUserByDocument(documentNumber);
 
@@ -90,6 +93,7 @@ public IActionResult RequestTurn(string documentNumber, string fullName)
             
             PrintReceipt(fullName, documentNumber, result.Data!.TicketCode);
         
+            await _hub.Clients.All.SendAsync("QueueUpdated");
             return RedirectToAction("Ticket");
         }
 
@@ -109,6 +113,7 @@ public IActionResult RequestTurn(string documentNumber, string fullName)
     
     public IActionResult Advisor()
     {
+        ViewBag.Pending   = _turnService.GetTurnsByStatus(TurnStatus.Pending).Data;
         ViewBag.Waiting   = _turnService.GetTurnsByStatus(TurnStatus.Waiting).Data;
         ViewBag.InService = _turnService.GetTurnsByStatus(TurnStatus.InService).Data;
         ViewBag.Finished  = _turnService.GetTurnsByStatus(TurnStatus.Finished).Data;
@@ -117,39 +122,43 @@ public IActionResult RequestTurn(string documentNumber, string fullName)
     }
     
     [HttpPost]
-    public IActionResult CallNext()
+    public async Task<IActionResult> CallNext()
     {
         var result = _turnService.CallNext();
         TempData["message"] = result.Message;
+        await _hub.Clients.All.SendAsync("QueueUpdated");
         return RedirectToAction("Advisor");
     }
 
     [HttpPost]
-    public IActionResult MoveToWaiting(int id)
+    public async Task<IActionResult> MoveToWaiting(int id)
     {
         var result = _turnService.MoveToWaiting(id);
         TempData["message"] = result.Message;
+        await _hub.Clients.All.SendAsync("QueueUpdated");
         return RedirectToAction("Advisor");
     }
     
     [HttpPost]
-    public IActionResult Finish(int id, string? comment)
+    public async Task<IActionResult> Finish(int id, string? comment)
     {
         var result = _turnService.FinishTurn(id, comment);
         TempData["message"] = result.Message;
+        await _hub.Clients.All.SendAsync("QueueUpdated");
         return RedirectToAction("Advisor");
     }
 
     [HttpPost]
-    public IActionResult MarkAbsent(int id, string? comment)
+    public async Task<IActionResult> MarkAbsent(int id, string? comment)
     {
-        var result = _turnService.MarkAbsent(id, comment);
+        var result = _turnService.MarkAbsent(id, comment ?? "Usuario ausente");
         TempData["message"] = result.Message;
+        await _hub.Clients.All.SendAsync("QueueUpdated");
         return RedirectToAction("Advisor");
     }
 
     [HttpPost]
-    public IActionResult UpdateCurrentUser(int turnId, int userId, string fullName, string documentNumber)
+    public async Task<IActionResult> UpdateCurrentUser(int turnId, int userId, string fullName, string documentNumber)
     {
         _ = turnId;
         var result = _userService.UpdateUser(new User
@@ -159,6 +168,7 @@ public IActionResult RequestTurn(string documentNumber, string fullName)
             DocumentNumber = documentNumber
         });
         TempData["message"] = result.Message;
+        await _hub.Clients.All.SendAsync("QueueUpdated");
         return RedirectToAction("Advisor");
     }
 }

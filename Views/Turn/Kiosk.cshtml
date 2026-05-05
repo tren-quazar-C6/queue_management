@@ -7,9 +7,10 @@
 
 <section class="new-turn-page">
     <div class="new-turn-form-panel">
-        <div>
+        <div class="new-turn-hero">
+            <div class="new-turn-kicker">Autoservicio</div>
             <h1 class="panel-heading">Solicitar <em>nuevo turno</em></h1>
-            <p class="panel-subtitle">Registra o identifica al usuario y genera un ticket unico.</p>
+            <p class="panel-subtitle">Ingresa tus datos y recibe tu ticket al instante.</p>
         </div>
 
         <form class="new-turn-form-card" asp-controller="Turn" asp-action="RequestTurn" method="post">
@@ -27,17 +28,20 @@
 
             <button class="btn btn--primary btn--lg" type="submit">Generar Turno</button>
         </form>
-    </div>
 
-    <aside class="ticket-panel">
-        <article class="ticket-card">
-            <p class="card-title">Reglas del sistema</p>
-            <ul style="padding-left:18px;color:var(--color-text-secondary);display:flex;flex-direction:column;gap:8px;">
-                <li>Un usuario no puede tener multiples turnos activos.</li>
-                <li>FIFO para llamados desde asesor.</li>
-                <li>Trazabilidad con historial de estados.</li>
-                <li>Estados: Pendiente, En espera, En atencion y Finalizado.</li>
-            </ul>
-        </article>
-    </aside>
+        <div class="new-turn-helper-row" aria-label="Informacion de ayuda">
+            <div class="new-turn-helper-item">
+                <strong>1</strong>
+                <span>Registra tus datos</span>
+            </div>
+            <div class="new-turn-helper-item">
+                <strong>2</strong>
+                <span>Recibe tu ticket</span>
+            </div>
+            <div class="new-turn-helper-item">
+                <strong>3</strong>
+                <span>Espera tu llamado</span>
+            </div>
+        </div>
+    </div>
 </section>
