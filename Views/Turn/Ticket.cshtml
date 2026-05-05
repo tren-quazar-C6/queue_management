@@ -68,6 +68,19 @@ Ticket: @ticketCode
 
 <script>
     window.onload = async function () {
+        qz.security.setCertificatePromise(function(resolve, reject) {
+            fetch("/digital-certificate.pem")
+                .then(function(data) { resolve(data.text()); })
+                .catch(reject);
+        });
+
+        qz.security.setSignatureAlgorithm("SHA512");
+        qz.security.setSignaturePromise(function(toSign) {
+            return function(resolve, reject) {
+                resolve();
+            };
+        });
+
         await qz.websocket.connect();
 
         var config = qz.configs.create("Printer USB Printer Port");
