@@ -214,21 +214,24 @@
             if (!res.ok) return;
             const data = await res.json();
 
-            // Turno actual
             const newTicket = data.current?.ticketCode ?? "---";
             const newName   = data.current?.user?.fullName ?? "Esperando llamado";
+            const oldTicket = currentTicketEl.textContent.trim();
 
-            // Si el turno cambió, animar para llamar la atención
-            if (currentTicketEl.textContent.trim() !== newTicket) {
-                currentTicketEl.textContent = newTicket;
-                currentNameEl.textContent   = newName;
+            // Solo animar si el turno cambió a uno NUEVO (no si desapareció)
+            const turnoLlamado = newTicket !== "---" && newTicket !== oldTicket;
+
+            currentTicketEl.textContent = newTicket;
+            currentNameEl.textContent   = newName;
+
+            // Próximo turno
+            const nextEl = document.getElementById("next-ticket-display");
+            if (nextEl) {
+                nextEl.textContent = data.waiting[0]?.ticketCode ?? "---";
+            }
+
+            if (turnoLlamado) {
                 playTurnSound();
-
-                // Próximo turno
-                const nextEl = document.getElementById("next-ticket-display");
-                if (nextEl) {
-                    nextEl.textContent = data.waiting[0]?.ticketCode ?? "---";
-                }
 
                 // Overlay fullscreen
                 const overlay = document.getElementById("turn-overlay");
@@ -247,12 +250,10 @@
                 currentTicketEl.classList.add("pulse");
             }
 
-
-
         } catch (err) {
             console.warn("Error al actualizar cola:", err);
         }
-    }
+}
 
     // ── Conexión SignalR ──────────────────────────────────────────
     const connection = new signalR.HubConnectionBuilder()

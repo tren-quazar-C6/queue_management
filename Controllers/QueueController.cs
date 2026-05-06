@@ -22,7 +22,8 @@ public class QueueController : ControllerBase
         var current = turns.FirstOrDefault(t => t.Status == TurnStatus.InService);
         var waiting = turns
             .Where(t => t.Status == TurnStatus.Pending || t.Status == TurnStatus.Waiting)
-            .OrderBy(t => t.CreatedAt)
+            .OrderBy(t => t.Status == TurnStatus.Waiting ? 0 : 1)
+            .ThenBy(t => t.CreatedAt)
             .Select(t => new
             {
                 t.TicketCode,
